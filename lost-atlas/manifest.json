@@ -3,6 +3,7 @@
   "short_name": "Lost Atlas",
   "description": "RPG d'exploration culturelle de Marrakech",
   "lang": "fr",
+  "id": "./index.html",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

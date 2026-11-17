@@ -5,11 +5,11 @@
     await Data.load();
     Game.init();
     await PhotoStore.init();
-    V3.init(); Explore.init(); Photo.init(); Diag.init();
+    V3.init(); Explore.init(); Photo.init(); Diag.init(); Trace.init(); Quotidien.init(); Immersion.init(); Session.init();
     document.querySelectorAll('[data-ico]').forEach(el => { el.innerHTML = V3.icon(el.dataset.ico) || Art.icon(el.dataset.ico); });
     [['fab-gps', 'gps'], ['fab-pin', 'pin'], ['fab-list', 'list'], ['fab-layers', 'layers']].forEach(([id, k]) => { document.getElementById(id).innerHTML = Art.icon(k); });
     UI.bind();
-    AtlasMap.init();
+    AtlasMap.init(); Quotidien.draw();
     UI.chrome(); Explore.refresh();
     const h = location.hash.slice(1);
     if (h && h !== 'atlas' && document.getElementById('v-' + h)) UI.show(h);

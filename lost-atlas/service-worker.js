@@ -1,7 +1,7 @@
 /* Hors ligne : l'application et ses contenus sont mis en cache ; les tuiles OpenStreetMap déjà vues aussi. */
-const VERSION = 'lost-atlas-v5-0';
+const VERSION = 'lost-atlas-v6-0';
 const SHELL = ['./', 'index.html', 'manifest.json', 'css/style.css', 'css/v3.css', 'css/v5.css', 'vendor/leaflet.css', 'vendor/leaflet.js',
-  'js/art.js', 'js/storage.js', 'js/data.js', 'js/game.js', 'js/basemap.js', 'js/map.js', 'js/ui.js', 'js/views.js', 'js/v3.js', 'js/sound.js', 'js/explore.js', 'js/photo.js', 'js/photostore.js', 'js/diag.js', 'js/app.js',
+  'js/art.js', 'js/storage.js', 'js/data.js', 'js/game.js', 'js/basemap.js', 'js/map.js', 'js/ui.js', 'js/views.js', 'js/v3.js', 'js/sound.js', 'js/explore.js', 'js/photo.js', 'js/photostore.js', 'js/diag.js', 'js/trace.js', 'js/quotidien.js', 'js/immersion.js', 'js/session.js', 'data/quotidien.js', 'js/app.js',
   'data/bundle.js', 'data/basemap.js', 'data/v3.js', 'data/territories.json', 'data/places.json', 'data/fiches.json', 'data/codex.json', 'data/quests.json', 'data/artifacts.json', 'data/progression.json',
   'assets/icon-180.png', 'assets/icon-192.png', 'assets/icon-512.png'];
 const TILES = 'lost-atlas-tiles', MAX_TILES = 800;

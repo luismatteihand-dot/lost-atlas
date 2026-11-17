@@ -292,6 +292,7 @@ const V3 = (() => {
   function derive() { return D.derives[st().derive % D.derives.length]; }
   function aventuresView() {
     let h = `<header class="vh"><div class="eyebrow">Rien n'est obligatoire</div><h1>Aventures</h1><p class="lead">Des invitations. Tu peux t'en écarter, y revenir dans une heure ou dans un mois.</p></header>`;
+    if (typeof Session !== 'undefined') h += Session.bannerHTML();
     h += `<section class="derive"><div class="eyebrow">Dérive</div><p class="hand big">${esc(derive())}</p><p class="src">${esc(D.deriveRules)}</p><button class="btn ghost" data-act="derive-next">Une autre</button></section>`;
     for (const a of D.adventures) {
       const s = st().adv[a.id], n = roomsDone(a), t = Data.T[a.t];
@@ -401,6 +402,7 @@ const V3 = (() => {
     const s = st(), e = echoReady(), done = D.echoes.filter(x => s.echo[x.id] && s.echo[x.id].txt);
     let h = `<header class="cover"><div class="cover-av">${avatar()}</div><div><div class="eyebrow">Carnet de</div><h1>${esc(s.hero.name || 'l\'arpenteur')}</h1><p class="lead">${esc(title())}</p></div></header>
       <div class="btn-row"><button class="btn primary" data-act="keep">Garder quelque chose</button><button class="btn" data-act="tab" data-v="codex">Savoir</button></div>`;
+    if (typeof Session !== 'undefined') h += Session.carnetHTML();
     if (e) h += '<h3>Deux pages se répondent</h3>' + echoHTML(e, true);
     // pages datées : ce qui a été gardé + lieux trouvés ce jour-là
     const days = {};
@@ -425,7 +427,7 @@ const V3 = (() => {
 
   /* ---------- Sac ---------- */
   function sacView() {
-    const s = st(), tabs = [['cartes', 'Cartes'], ['objets', 'Objets'], ['tenues', 'Tenues']];
+    const s = st(), tabs = [['cartes', 'Cartes'], ['adresses', 'Adresses'], ['objets', 'Objets'], ['tenues', 'Tenues']];
     let h = `<header class="vh"><div class="eyebrow">Ce que tu rapportes</div><h1>Sac</h1></header><div class="seg">${tabs.map(t => `<button class="${sacTab === t[0] ? 'on' : ''}" data-act="sac-tab" data-v="${t[0]}">${t[1]}</button>`).join('')}</div>`;
     if (sacTab === 'cartes') {
       const all = placeCards(), n = ownedCount();
@@ -436,6 +438,8 @@ const V3 = (() => {
         const cs = all.filter(p => p.t === t.id).map(p => cardData(p.id)), got = cs.filter(c => c.owned);
         h += `<h3>${t.num} · ${esc(t.name)}</h3><div class="tcs">${got.map(c => cardHTML(c)).join('')}${got.length < cs.length ? cardHTML({ id: cs.find(c => !c.owned).id, owned: false }) + `<span class="tc-more">${cs.length - got.length} à trouver</span>` : ''}</div>`;
       }
+    } else if (sacTab === 'adresses') {
+      h += typeof Quotidien !== 'undefined' ? Quotidien.sacHTML() : '';
     } else if (sacTab === 'objets') {
       h += base.collection().replace(/<header[\s\S]*?<\/header>/, '');
     } else {
@@ -453,8 +457,8 @@ const V3 = (() => {
     let h = `<header class="hero"><div class="hero-av">${avatar()}</div><div class="hero-t"><div class="eyebrow">${esc(title())}</div>
       <input class="hero-name" data-hero-name="1" maxlength="24" value="${esc(s.hero.name)}" placeholder="Ton nom d'arpenteur" aria-label="Ton nom d'arpenteur">
       <button class="btn" data-act="open-sac" data-id="tenues">Changer de tenue</button></div></header>
-      <div class="rows"><button class="row" data-act="x-open"><span class="rt"><b>Mode exploration et sons</b><small>GPS, signaux, volume, mode silencieux</small></span><span class="chev">›</span></button><button class="row" data-act="diag-open"><span class="rt"><b>Diagnostic iPhone</b><small>Ce que cet appareil permet réellement</small></span><span class="chev">›</span></button></div>
-      <div class="stats">${[['Cartes', ownedCount()], ['Secrets révélés', Photo.count()], ['Lieux trouvés', Game.count('discovered')], ['Donjons', advs + ' / ' + D.adventures.length], ['Choses gardées', s.kept.length], ['Territoires foulés', Game.count('territories') + ' / ' + Data.territories.length]].map(x => `<div><b>${x[1]}</b><small>${x[0]}</small></div>`).join('')}</div>
+      <div class="rows"><button class="row" data-act="x-open"><span class="rt"><b>Mode exploration et sons</b><small>GPS, signaux, volume, mode silencieux</small></span><span class="chev">›</span></button><button class="row" data-act="diag-open"><span class="rt"><b>Diagnostic iPhone</b><small>Ce que cet appareil permet réellement</small></span><span class="chev">›</span></button>${typeof Immersion !== 'undefined' ? Immersion.row() : ''}<button class="row" data-act="places"><span class="rt"><b>Les territoires</b><small>Rangs, lieux, adresses, quêtes et secrets de chaque zone</small></span><span class="chev">›</span></button></div>
+      <div class="stats">${[['Cartes', ownedCount()], ['Secrets révélés', Photo.count()], ['Lieux trouvés', Game.count('discovered')], ['Donjons', advs + ' / ' + D.adventures.length], ['Choses gardées', s.kept.length], ['Territoires foulés', Game.count('territories') + ' / ' + Data.territories.length], ...(typeof Trace !== 'undefined' && Trace.distance() >= 50 ? [['À pied, relevés par GPS', (Trace.distance() / 1000).toFixed(1).replace('.', ',') + ' km']] : [])].map(x => `<div><b>${x[1]}</b><small>${x[0]}</small></div>`).join('')}</div>
       <h3>Compagnons</h3><p class="note">Rencontres, guildes et contributions des joueurs ne sont pas dans ce prototype : elles demandent un serveur, qui n'existe pas encore. Rien ici ne fait semblant.</p>`;
     return h + base.profil();
   }

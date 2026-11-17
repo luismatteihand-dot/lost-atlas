@@ -2,6 +2,14 @@
    Rien n'est envoyé ; le rapport se copie pour être collé où l'on veut. */
 const Diag = (() => {
   const { $, esc } = UI; let rows = null;
+  /* Journal des erreurs de la session : sert au test sur iPhone réel. Rien n'est envoyé ; il apparaît dans le rapport à copier. */
+  const errors = [];
+  function note(err, ctx) {
+    errors.push({ at: new Date().toTimeString().slice(0, 8), ctx: ctx || '', msg: String(err && (err.message || err)).slice(0, 160) });
+    if (errors.length > 20) errors.shift();
+  }
+  window.addEventListener('error', e => note(e.error || e.message, 'page'));
+  window.addEventListener('unhandledrejection', e => note(e.reason, 'promesse'));
   const mb = n => (n / 1048576).toFixed(n > 10485760 ? 0 : 1).replace('.', ',') + ' Mo';
   async function run() {
     const r = [], add = (k, st, t) => r.push({ k, st, t });
@@ -23,6 +31,7 @@ const Diag = (() => {
     try { if ('serviceWorker' in navigator) { const g = await navigator.serviceWorker.getRegistration(); sw = g ? (navigator.serviceWorker.controller ? 'actif : le jeu s\'ouvre sans réseau' : 'installé, actif au prochain lancement') : 'non installé (normal hors https ou dans un affichage intégré)'; } } catch (e2) { sw = 'indisponible ici'; }
     add('Fonctionnement hors ligne', sw.startsWith('actif') ? 'ok' : 'weak', 'Service worker ' + sw + '. Réseau : ' + (navigator.onLine === false ? 'absent' : 'présent') + '.');
     add('Appareil photo', 'weak', 'Ne peut pas être vérifié automatiquement : ouvre « Garder » et touche « Prendre une photo ».');
+    add('Erreurs pendant cette session', errors.length ? 'denied' : 'ok', errors.length ? errors.slice(-3).map(x => x.at + ' ' + (x.ctx ? '[' + x.ctx + '] ' : '') + x.msg).join(' · ') + (errors.length > 3 ? ' (et ' + (errors.length - 3) + ' autres)' : '') : 'Aucune.');
     add('Appareil', 'off', navigator.userAgent.replace(/\s+/g, ' ').slice(0, 140) + ' · écran ' + screen.width + '×' + screen.height);
     rows = r; return r;
   }
@@ -42,5 +51,5 @@ const Diag = (() => {
     'diag-copy'() { const ta = $('#diag-txt'), m = $('#diag-msg'); ta.focus(); ta.select(); const done = ok => { m.textContent = ok ? 'Rapport copié.' : 'Copie refusée : le texte est sélectionné, copie-le à la main.'; };
       try { navigator.clipboard.writeText(ta.value).then(() => done(true), () => done(false)); } catch (e) { done(false); } }
   };
-  return { init() { Object.assign(Views.actions, actions); }, run, report, html };
+  return { init() { Object.assign(Views.actions, actions); }, run, report, html, note, errors: () => errors.slice() };
 })();

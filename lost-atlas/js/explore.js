@@ -109,7 +109,10 @@ const Explore = (() => {
   function noteDiscovery() { if (on) lastSignal = Date.now(); }
 
   /* ---------- États, démarrage, arrêt ---------- */
-  const TXT = { off: 'GPS inactif', search: 'Recherche GPS…', ok: 'GPS', weak: 'GPS imprécis', lost: 'Signal GPS perdu', timeout: 'GPS : délai dépassé', denied: 'GPS refusé', unavail: 'GPS indisponible', insecure: 'HTTPS requis', far: 'Hors de Marrakech' };
+  const TXT = { off: 'GPS inactif', search: 'Recherche GPS…', ok: 'GPS', weak: 'GPS imprécis', lost: 'Signal GPS perdu', timeout: 'GPS : délai dépassé', denied: 'GPS refusé', unavail: 'GPS indisponible', insecure: 'HTTPS requis', framed: 'GPS bloqué ici', far: 'Hors de Marrakech' };
+  /* Page affichée dans le cadre d'une autre (l'aperçu Claude) : ce cadre interdit la localisation, quoi que fasse le jeu. */
+  const FRAMED = (() => { try { return window.self !== window.top; } catch (e) { return true; } })();
+  const gpsLink = () => window.ATLAS_GPS_URL ? `<a class="lk" href="${window.ATLAS_GPS_URL}" target="_blank" rel="noopener">${window.ATLAS_GPS_URL.replace(/^https:\/\//, '')}</a>` : 'son adresse https publiée';
   const clock = t => new Date(t).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
   function setState(s) { if (s !== state) { state = s; pill(); if (UI.sheetIs && UI.sheetIs(sheetHTML)) UI.draw(false); } else pill(); }
   function pill() {
@@ -123,8 +126,8 @@ const Explore = (() => {
   }
   /* La carte signale que le suivi GPS démarre, s'arrête, ou change de mode (suivi automatique / carte libre). */
   function gpsChanged(following) {
-    if (following) { if (['off', 'denied', 'unavail', 'insecure', 'timeout', 'lost'].includes(state)) setState('search'); else pill(); }
-    else { if (!document.hidden && !['denied', 'unavail', 'insecure'].includes(state)) { lastFix = null; setState('off'); } else pill(); }
+    if (following) { if (['off', 'denied', 'unavail', 'insecure', 'timeout', 'lost', 'framed'].includes(state)) setState('search'); else pill(); }
+    else { if (!document.hidden && !['denied', 'unavail', 'insecure', 'framed'].includes(state)) { lastFix = null; setState('off'); } else pill(); }
     if (UI.sheetIs && UI.sheetIs(sheetHTML)) UI.draw(false);
   }
   async function lock() {
@@ -143,6 +146,7 @@ const Explore = (() => {
   /* Erreurs du GPS. Renvoie true quand l'état affiché suffit (pas de message supplémentaire). */
   function onGpsError(err) {
     const c = err && err.code;
+    if (FRAMED && c !== 2 && c !== 3) { on = false; owns = false; P().on = false; setState('framed'); UI.toast('Claude bloque la localisation dans cet aperçu. Touche ici : l\'adresse du jeu avec GPS.', 'x-open'); return true; }
     if (c === 1) { on = false; owns = false; P().on = false; setState('denied'); return false; }
     if (c === -1) { on = false; owns = false; setState('insecure'); return false; }
     if (c === 3) { setState(lastFix ? 'lost' : 'timeout'); return true; }      // le suivi continue : nouvelle tentative automatique
@@ -161,7 +165,7 @@ const Explore = (() => {
     const gps = { off: 'Inactif. Rien n\'est localisé tant que tu ne le demandes pas.', search: 'Recherche de ta position…', ok: 'Position disponible, précision ± ' + acc + ' m.', weak: 'Position reçue mais imprécise (± ' + acc + ' m) : aucun signal ni découverte automatique tant qu\'elle ne s\'améliore pas.',
       lost: 'Signal perdu : plus de position récente. Le suivi continue et reprendra seul, à ciel ouvert.', timeout: 'Le GPS met trop de temps à répondre. Nouvelle tentative en cours ; essaie à ciel ouvert.',
       denied: 'Autorisation refusée. Sur iPhone : Réglages → Confidentialité et sécurité → Service de localisation (activé) → Sites web Safari → « Lorsque l\'app est active », avec Position exacte. Puis recharge la page et touche à nouveau « Me localiser ». Les intitulés peuvent varier selon la version d\'iOS.',
-      unavail: 'La localisation n\'est pas disponible sur cet appareil ou dans cet affichage.', insecure: 'La localisation exige une adresse sécurisée (https://). Ouvre le jeu depuis son adresse en https.', far: 'Ton GPS te situe loin de Marrakech : la position s\'affiche, les signaux sont suspendus.' }[state];
+      unavail: 'La localisation n\'est pas disponible sur cet appareil ou dans cet affichage.', insecure: 'La localisation exige une adresse sécurisée (https://). Ouvre le jeu depuis son adresse en https.', framed: 'Cette page est affichée à l\'intérieur de Claude, qui interdit la localisation aux pages qu\'il héberge. Le jeu marche, mais sans position. Pour le GPS en temps réel, ouvre le jeu à son adresse : ' + gpsLink() + '.', far: 'Ton GPS te situe loin de Marrakech : la position s\'affiche, les signaux sont suspendus.' }[state];
     let h = `<div class="eyebrow">Monde</div><h2>GPS et exploration</h2>
       <div class="xstat st-${state}"><i></i><p><b>GPS.</b> ${gps}${lastFix && f ? ' Dernière position à ' + clock(lastFix.t) + '.' : ''}</p></div>
       <div class="btn-row">${!f ? '<button class="btn primary" data-act="gps">Me localiser</button>' : (au ? '<span class="chip st-mastered">Suivi automatique</span>' : '<button class="btn primary" data-act="gps">Recentrer sur moi</button>') + '<button class="btn" data-act="gps-stop">Arrêter le GPS</button>'}</div>

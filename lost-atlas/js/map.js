@@ -42,22 +42,38 @@ const AtlasMap = (() => {
     return L.divIcon({ className: '', iconSize: [36, 36], iconAnchor: [18, 18],
       html: `<div class="mk ${p.kind === 'culture' ? 'mk-c' : 'mk-p'} st-${st} q-${po.q}${p.num > 99 ? ' n3' : ''}"><b>${label}</b></div>` });
   }
-  function refresh() {
+  /* La carte n'est reconstruite que si son état a changé : statut des lieux, calques, marqueurs, brume.
+     Avant, chaque geste reconstruisait ~190 marqueurs et leurs étiquettes ; sur iPhone, c'était le poste le plus coûteux. */
+  let lastSig = '', rebuilds = 0;
+  function signature() {
+    const lay = Game.S.settings.layers, v = typeof V3 !== 'undefined' ? V3.st() : {};
+    let s = JSON.stringify(lay) + '|' + Game.S.pins.map(p => p.id + p.icon + p.label).join(',') + '|' + ((v.kept || []).length) + '|';
+    for (const p of Data.places) { const st = Game.status(p.id); s += st[0] + st[1] + (Game.pos(p.id) ? '1' : '0'); }
+    if (typeof Trace !== 'undefined') s += '|' + Data.territories.map(t => Trace.known(t.id) ? 1 : 0).join('');
+    return s;
+  }
+  function refresh(force) {
     if (!map) return;
+    if (typeof Trace !== 'undefined') Trace.draw();
+    const sig = signature(); if (!force && sig === lastSig) return; lastSig = sig; rebuilds++;
     const lay = Game.S.settings.layers;
     zoneLayer.clearLayers(); placeLayer.clearLayers(); pinLayer.clearLayers();
     if (lay.zones) for (const t of Data.territories) {
-      L.polygon(t.polygon, { color: t.color, weight: 1.6, dashArray: '3 7', fillColor: t.color, fillOpacity: 0.07, interactive: false }).addTo(zoneLayer);
+      const fog = typeof Trace !== 'undefined' && !Trace.known(t.id);   // terra incognita : jamais foulé, rien trouvé
+      L.polygon(t.polygon, fog ? { color: t.color, weight: 1.4, dashArray: '2 6', fillColor: '#5F5647', fillOpacity: 0.3, interactive: false, className: 'fog' }
+        : { color: t.color, weight: 1.6, dashArray: '3 7', fillColor: t.color, fillOpacity: 0.07, interactive: false }).addTo(zoneLayer);
       L.marker(t.center, { interactive: true, keyboard: false, zIndexOffset: -500,
-        icon: L.divIcon({ className: '', iconSize: [120, 22], iconAnchor: [60, 46], html: `<div class="zone-lbl" style="color:${t.color}">${t.num} · ${t.name}</div>` }) })
+        icon: L.divIcon({ className: '', iconSize: [140, 34], iconAnchor: [70, 52], html: `<div class="zone-lbl${fog ? ' fog' : ''}" style="color:${t.color}">${t.num} · ${t.name}${fog ? '<small>terra incognita</small>' : ''}</div>` }) })
         .on('click', () => UI.openTerritory(t.id)).addTo(zoneLayer);
     }
     for (const p of Data.places) {
       if (p.ref !== p.id) continue;
       const po = Game.pos(p.id); if (!po) continue;
       if (p.kind === 'culture' ? !lay.culture : (!lay.pratique || (lay.cats && lay.cats[p.cat] === false))) continue;
+      if (lay.terr && p.t !== lay.terr) continue;   // filtre par territoire
       const m = L.marker(po.ll, { icon: icon(p), title: p.num + ' · ' + p.name, zIndexOffset: p.kind === 'culture' ? 200 : 0 }).on('click', () => UI.openPlace(p.id));
-      if (p.kind === 'culture') m.bindTooltip(p.name, { permanent: true, direction: 'bottom', offset: [0, 15], className: 'lbl' });
+      // lieu muet : tant qu'il n'est ni repéré ni découvert, la carte ne dit pas son nom
+      if (p.kind === 'culture' && Game.status(p.id) !== 'unknown') m.bindTooltip(p.name, { permanent: true, direction: 'bottom', offset: [0, 15], className: 'lbl' });
       m.addTo(placeLayer); markers[p.id] = m;
     }
     if (lay.pins) for (const pin of Game.S.pins) {
@@ -65,6 +81,7 @@ const AtlasMap = (() => {
         .on('click', () => UI.openPin(pin.id)).addTo(pinLayer);
     }
     if (lay.pins && typeof V3 !== 'undefined') V3.drawKept(pinLayer);
+    if (typeof Quotidien !== 'undefined') Quotidien.draw();
   }
 
   /* ---- GPS ---- */
@@ -127,6 +144,8 @@ const AtlasMap = (() => {
     resize: () => map && map.invalidateSize(),
     flyTo(ll, z) { map.setView(ll, z || Math.max(map.getZoom(), 17), { animate: true }); },
     showTerritory(t) { map.fitBounds(L.latLngBounds(t.polygon), { padding: [20, 20] }); },
+    leaflet: () => map, rebuilds: () => rebuilds,
+    fitTo(pts) { if (pts.length === 1) map.setView(pts[0], 18); else map.fitBounds(L.latLngBounds(pts), { padding: [60, 60], maxZoom: 18 }); auto = false; },
     center: () => map.getCenter(), noTiles: () => noTiles, hasBase: () => !!base, zoom: () => map.getZoom(), setZoom: z => map.setZoom(z, { animate: false })
   };
 })();

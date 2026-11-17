@@ -120,6 +120,10 @@ Dans `data/v3.js`, tableau `photoQuests` : `at` (identifiant d'un lieu positionn
 `python3 tools/test4.py` (46 tests v4), `tools/test3.py` (parcours v3), `tools/test_v2flows.py` (parcours v2), lancés depuis le dossier parent de `lost-atlas`, avec Playwright et Chrome.
 
 
+## Version 6 — la carte se dessine
+
+Lieux muets, brume des territoires, tracé GPS, piste après chaque découverte. La carte est dix fois plus légère quand rien ne change, les erreurs sont isolées, et les sauvegardes migrent automatiquement. À lire : `docs/RAPPORT-V6.md`, `docs/ARCHITECTURE.md` et `docs/GUIDE-IPHONE.md` (installation et test sur iPhone). Ce qui a été fait depuis la v5 (aventures, lieux du quotidien, territoires, plein écran) est dans `CHANGELOG.md`.
+
 ## Version 5 — moteur de proximité, quêtes sans formulaire, nouvelle direction artistique
 
 Signal en deux temps pour tout contenu géolocalisé, révélation par le joueur, positions aberrantes écartées, quêtes signalées et guidées à vol d'oiseau, 8 quêtes nouvelles, feuille de style `css/v5.css`. Détail dans `docs/RAPPORT-V5.md`. Tests : `tools/test_v5.py` (40) en plus des précédents. Rien n'a été testé sur un iPhone.

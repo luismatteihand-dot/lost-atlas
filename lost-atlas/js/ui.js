@@ -115,6 +115,7 @@ const UI = (() => {
     } else {
       if (f.text) h += `<p class="p-text">${esc(f.text)}</p>`;
       if (f.tip) h += `<p class="tip">${esc(f.tip)}</p>`;
+      if (typeof Trace !== 'undefined' && p.kind === 'culture') h += Trace.leadHTML(id);
       const sk = f.skill || 'culture';
       if (f.observe) h += chBlock(Game.chKey(id, 'observe'), Object.assign({ kind: 'observe' }, f.observe), f.observe.skill || sk, p.name);
       if (f.enigma) h += chBlock(Game.chKey(id, 'enigma'), Object.assign({ kind: 'enigma' }, f.enigma), f.enigma.skill || sk, p.name);
@@ -148,9 +149,10 @@ const UI = (() => {
       <p class="p-text">${esc(t.intro)}</p>
       <div class="bar"><i style="width:${Math.round(100 * s.done / s.cul.length)}%"></i></div><p class="src">${s.done} / ${s.cul.length} lieux culturels découverts</p>
       <div class="btn-row"><button class="btn" data-act="terr-map" data-id="${tid}">Voir sur la carte</button><button class="btn" data-act="open-tq" data-id="${tid}">Quête du territoire</button></div>
-      <div class="seg"><button class="${tab === 'culture' ? 'on' : ''}" data-act="terr-tab" data-id="${tid}" data-tab="culture">À explorer (${s.cul.length})</button><button class="${tab === 'pratique' ? 'on' : ''}" data-act="terr-tab" data-id="${tid}" data-tab="pratique">Adresses du guide (${s.pra.length})</button></div>
-      <input class="search" type="search" placeholder="Chercher un lieu" data-filter="rows" aria-label="Chercher un lieu">
-      <div class="rows">${list.map(row).join('')}</div>
+      ${typeof Quotidien !== 'undefined' ? Quotidien.terrBlock(tid) : ''}
+      <div class="seg"><button class="${tab === 'culture' ? 'on' : ''}" data-act="terr-tab" data-id="${tid}" data-tab="culture">À explorer (${s.cul.length})</button><button class="${tab === 'pratique' ? 'on' : ''}" data-act="terr-tab" data-id="${tid}" data-tab="pratique">Guide (${s.pra.length})</button>${typeof Quotidien !== 'undefined' ? `<button class="${tab === 'quotidien' ? 'on' : ''}" data-act="terr-tab" data-id="${tid}" data-tab="quotidien">Quotidien (${Quotidien.list().filter(p => p.t === tid).length})</button>` : ''}</div>
+      ${tab === 'quotidien' ? Quotidien.terrQuotHTML(tid) : `<input class="search" type="search" placeholder="Chercher un lieu" data-filter="rows" aria-label="Chercher un lieu">
+      <div class="rows">${list.map(row).join('')}</div>`}
       <p class="note">Numéros d'atlas uniques ; catégories reprises de la légende de ton guide. Thèmes : ${t.themes.map(esc).join(', ')}.</p>`;
   }
 
@@ -160,6 +162,8 @@ const UI = (() => {
     const tog = (k, lab, sub) => `<button class="row tog${l[k] ? ' on' : ''}" data-act="layer" data-k="${k}"><span class="rt"><b>${lab}</b><small>${sub}</small></span><span class="sw"></span></button>`;
     return `<h2>Calques de la carte</h2>${tog('culture', 'Lieux à explorer', 'Monuments, musées, places, portes')}${tog('pratique', 'Adresses du guide', 'Se loger, se restaurer, prendre un verre, shopping')}${tog('pins', 'Mes marqueurs', 'Les repères que tu poses')}${tog('zones', 'Territoires', 'Zones de jeu indicatives, pas des limites administratives')}
       ${l.pratique ? `<div class="links">${['manger', 'verre', 'shop', 'loger', 'act'].map(c => `<button class="lk${l.cats[c] !== false ? ' on' : ''}" data-act="layer-cat" data-k="${c}">${Data.CAT[c]}</button>`).join('')}</div>` : ''}
+      ${typeof Trace !== 'undefined' ? Trace.layersHTML() : ''}
+      ${typeof Quotidien !== 'undefined' ? Quotidien.layersHTML() : ''}
       <h3>Fond de carte</h3><div class="seg"><button class="${st !== 'net' ? 'on' : ''}" data-act="map-style" data-v="atlas">Atlas dessiné (hors ligne)</button><button class="${st === 'net' ? 'on' : ''}" data-act="map-style" data-v="net">OpenStreetMap en ligne</button></div>
       <p class="note">L'atlas dessiné est embarqué dans l'application : rues, derbs et noms viennent d'OpenStreetMap et s'affichent sans réseau.</p>
       <h3>Légende</h3><div class="legend"><span><i class="mk mk-c st-unknown q-v"><b>3</b></i>Non découvert</span><span><i class="mk mk-c st-spotted q-v"><b>3</b></i>Repéré</span><span><i class="mk mk-c st-discovered q-v"><b>3</b></i>Découvert</span><span><i class="mk mk-c st-mastered q-v"><b>★</b></i>Maîtrisé</span><span><i class="mk mk-c st-unknown q-e"><b>3</b></i>Position estimée ou indicative</span><span><i class="mk mk-p st-unknown q-a"><b>12</b></i>Adresse du guide</span></div>`;
@@ -225,7 +229,7 @@ const UI = (() => {
     'pick-ok'() { AtlasMap.endPick(true); }, 'pick-cancel'() { AtlasMap.endPick(false); },
     'pin-icon'(d) { Game.updatePin(d.id, { icon: d.v }); after(); },
     'pin-del'(d) { Game.removePin(d.id); closeSheet(); after(); },
-    places() { openSheet(territoryHTML, Game.S.settings.territory || 't1', 'culture'); },
+    places() { if (typeof Quotidien !== 'undefined') openSheet(Quotidien.overviewHTML); else openSheet(territoryHTML, Game.S.settings.territory || 't1', 'culture'); },
     layers() { openSheet(layersHTML); },
     layer(d) { const l = Game.S.settings.layers; l[d.k] = !l[d.k]; Game.save(); after(); },
     'layer-cat'(d) { const c = Game.S.settings.layers.cats; c[d.k] = c[d.k] === false; Game.save(); after(); },
@@ -263,7 +267,10 @@ const UI = (() => {
   function bind() {
     document.addEventListener('click', e => {
       const el = e.target.closest('[data-act]'); if (!el) return;
-      const fn = A[el.dataset.act] || Views.actions[el.dataset.act]; if (fn) { if (el.tagName !== 'A') e.preventDefault(); fn(el.dataset, el); }
+      const fn = A[el.dataset.act] || Views.actions[el.dataset.act]; if (!fn) return;
+      if (el.tagName !== 'A') e.preventDefault();
+      // un geste qui échoue ne casse plus l'application : l'erreur est notée (Diagnostic) et le jeu continue
+      try { fn(el.dataset, el); } catch (err) { if (typeof Diag !== 'undefined' && Diag.note) Diag.note(err, el.dataset.act); console.error(err); toast('Ce geste n\'a pas abouti. Ta partie est sauvegardée, le jeu continue.'); }
     });
     document.addEventListener('change', e => {
       const t = e.target;
@@ -293,7 +300,9 @@ const UI = (() => {
       const r = Game.proximity(fix, true); r.here.sort((x, y) => x.d - y.d); lastNear = r.here.length ? Object.assign({ here: true }, r.here[0]) : r.nearest;
       if (typeof Explore !== 'undefined') { if (r.discovered.length) Explore.noteDiscovery(); }
       if (r.discovered.length || r.spotted.length) after(); else radar();
+      if (typeof Trace !== 'undefined') Trace.record(fix);      // d'abord le tracé : un signal de proximité doit rester le message le plus visible
       if (typeof Explore !== 'undefined') Explore.onFix(fix);
+      if (typeof Session !== 'undefined') Session.tick(fix);
     },
     onGpsError(err) {
       if (typeof Explore !== 'undefined' && Explore.onGpsError(err)) return;

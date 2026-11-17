@@ -65,6 +65,13 @@ window.ATLAS_V3 = {
     { id: 'c-pq-cigognes', name: 'Les locataires du Badi', art: 'plume', rarity: 'legendaire', t: 't4', line: 'Elles ont choisi les ruines.', how: 'Un secret à photographier, quelque part dans ce territoire.' },
     { id: 'c-q-portes', name: 'Trois façons d\'entrer', art: 'porte', rarity: 'rare', t: null, line: 'Pierre, coude, métier : trois portes, trois idées d\'une ville.', how: 'Une quête qui traverse plusieurs territoires.' },
     { id: 'c-q-saadien', name: 'Un siècle bâtisseur', art: 'coupole', rarity: 'rare', t: null, line: 'La même main, d\'un quartier à l\'autre.', how: 'Une quête qui traverse plusieurs territoires.' },
+    { id: 'c-depart', name: 'Le premier départ', art: 'compas', rarity: 'rare', t: null, line: 'Une sortie ordinaire, devenue une partie.', how: 'Terminer une première aventure.' },
+    { id: 'c-rencontre', name: 'Le seuil franchi', art: 'caravane', rarity: 'rare', t: null, line: 'La ville répond à qui lui parle.', how: 'Vivre trois rencontres au fil de tes aventures.' },
+    { id: 'c-voyageur', name: 'Le grand voyageur', art: 'lanterne', rarity: 'legendaire', t: null, line: 'Cinq départs, cinq retours, cinq récits.', how: 'Terminer cinq aventures.' },
+    { id: 'c-habitue', name: 'L\'habitué', art: 'coupe', rarity: 'commune', t: null, line: 'Cinq cafés, et déjà une table préférée.', how: 'Visiter cinq cafés ou salons de thé du quotidien.' },
+    { id: 'c-mains', name: 'Les mains de la ville', art: 'pot', rarity: 'rare', t: null, line: 'Ce qui se fabrique et se vend encore à la main.', how: 'Visiter cinq ateliers, épiceries ou marchés du quotidien.' },
+    { id: 'c-adresses', name: 'Le carnet d\'adresses', art: 'manuscrit', rarity: 'rare', t: null, line: 'Vingt-cinq lieux ordinaires, qui ne le sont plus pour toi.', how: 'Visiter vingt-cinq lieux du quotidien.' },
+    { id: 'c-six', name: 'Le flâneur des six territoires', art: 'porte', rarity: 'rare', t: null, line: 'Une adresse à toi dans chaque quartier.', how: 'Visiter un lieu du quotidien dans chacun des six territoires.' },
     { id: 'c-arpenteur', name: 'La page blanche', art: 'atlas', rarity: 'rare', t: null, line: 'Un lieu que la carte ignorait, et que tu as posé de ta main.', how: 'Placer toi-même un lieu non cartographié.' }
   ],
 

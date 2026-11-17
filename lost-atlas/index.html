@@ -9,6 +9,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Lost Atlas">
+<script>window.ATLAS_GPS_URL = 'https://luismatteihand-dot.github.io/lost-atlas/';   /* adresse https où le GPS fonctionne (GitHub Pages) */</script>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="assets/icon-180.png">
 <link rel="icon" type="image/png" href="assets/icon-192.png">
@@ -30,6 +31,7 @@
         <button class="fab" id="fab-list" data-act="places" aria-label="Liste des lieux"></button>
         <button class="fab" id="fab-layers" data-act="layers" aria-label="Calques de la carte"></button>
       </div>
+      <button id="sessbtn" data-act="sess-new" aria-label="Commencer une aventure"></button>
       <button id="xpill" data-act="x-open" aria-label="Mode exploration"></button>
       <button id="keepfab" data-act="keep" aria-label="Garder quelque chose dans le carnet"><i data-ico="garder"></i><span>Garder</span></button>
       <button id="radar" hidden data-act="open-place"></button>
@@ -63,6 +65,7 @@
 <script src="data/bundle.js"></script>
 <script src="data/basemap.js"></script>
 <script src="data/v3.js"></script>
+<script src="data/quotidien.js"></script>
 <script src="js/art.js"></script>
 <script src="js/storage.js"></script>
 <script src="js/data.js"></script>
@@ -77,6 +80,10 @@
 <script src="js/explore.js"></script>
 <script src="js/photo.js"></script>
 <script src="js/diag.js"></script>
+<script src="js/trace.js"></script>
+<script src="js/quotidien.js"></script>
+<script src="js/immersion.js"></script>
+<script src="js/session.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

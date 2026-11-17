@@ -2,6 +2,27 @@
 
 Tout ce guide se fait dans Safari et l'app Fichiers, sans ordinateur. Je n'ai pas pu exécuter ces étapes sur un iPhone : elles viennent de la documentation des services et sont marquées quand un point reste à confirmer sur ton appareil.
 
+## Ton installation actuelle (v6)
+
+- **Adresse du jeu, avec GPS :** https://luismatteihand-dot.github.io/lost-atlas/ (dépôt `luismatteihand-dot/lost-atlas`, les sources sont dans le dossier `lost-atlas/`).
+- **Mettre à jour :** sur github.com, dans le dépôt, Add file → Upload files. Glisse le dossier `lost-atlas` de la nouvelle version (depuis un Mac), ou choisis ses fichiers (depuis l'iPhone), puis Commit changes. Les joueurs reçoivent la mise à jour au prochain lancement. Il faut parfois fermer et rouvrir l'app.
+- **Installer en plein écran :** Safari → Partager → « Sur l'écran d'accueil », puis ouvrir le jeu depuis l'icône. Selon la version d'iOS, l'app installée peut démarrer avec une partie vierge : si tu as joué dans Safari, exporte d'abord ta sauvegarde (Héros), puis importe-la dans l'app.
+- **Page Claude :** https://claude.ai/artifact/VkMrRGd6TDF8RFJKSbQ5Zy. On y voit tout le jeu, mais Claude y bloque la localisation.
+
+## Tester la v6 sur un vrai iPhone (15 minutes de marche)
+
+Je n'ai rien testé sur iPhone. Chaque point se vérifie à l'œil ; Héros → Diagnostic iPhone → Copier le rapport te donne aussi les erreurs de la session, à me recoller.
+
+1. **Plein écran :** depuis l'icône, aucune barre d'adresse, et l'invitation « Joue en plein écran » ne s'affiche plus.
+2. **GPS :** « Me localiser », accepter avec Position exacte. Le point bleu apparaît et te suit.
+3. **Tracé :** marche 200 m. Une ligne pointillée brune se dessine derrière toi (Calques → Mon tracé). Héros affiche les kilomètres.
+4. **Brume :** au premier pas dans un territoire, le message « Premier pas en … » s'affiche, et le voile gris et la mention *terra incognita* disparaissent de ce territoire.
+5. **Signaux :** en approchant d'un lieu numéroté, un premier son vers 75 à 150 m, puis un second, différent, vers 30 à 40 m. Le radar dit « Tu y es ». Note si le son passe avec le bouton silencieux.
+6. **Découverte et piste :** révèle le lieu. Son nom apparaît sur la carte, la carte à collectionner se retourne, et la fiche propose « Une piste ». « Suivre la piste » dessine une flèche à l'encre.
+7. **Quotidien :** zoome au maximum près d'un café. Ouvre sa pastille, puis « J'y suis » à moins de 45 m.
+8. **Aventure :** « Commencer une aventure », 1 heure, « C'est parti ». Laisse tourner 10 minutes : un imprévu peut arriver.
+9. **Fluidité :** glisse la carte et zoome dans la médina. Note toute saccade.
+
 ## Ce que tu publies
 
 Le fichier `lost-atlas-publier.zip` contient six fichiers, sans aucun dossier :

@@ -93,7 +93,7 @@ const Trace = (() => {
   }
   function leadHTML(fromId) {
     const l = nextLead(fromId); if (!l) return '';
-    return `<div class="lead"><span class="lead-a" style="--b:${Math.round(l.b)}deg">➜</span><div><div class="eyebrow">Une piste</div>
+    return `<div class="piste"><span class="lead-a" style="--b:${Math.round(l.b)}deg">➜</span><div><div class="eyebrow">Une piste</div>
       <p>Une autre page blanche de l'atlas, ${l.approx}, vers ${l.dir}.</p><button class="btn" data-act="lead-follow" data-id="${fromId}">Suivre la piste</button></div></div>`;
   }
   function showLead(fromId) {

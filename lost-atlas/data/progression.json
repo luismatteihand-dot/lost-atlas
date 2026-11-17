@@ -1,0 +1,35 @@
+{
+ "levels":[0,80,200,360,560,800,1100,1450,1850,2300,2800],
+ "ranks":["Voyageur sans carte","Flâneur de la médina","Arpenteur des derbs","Explorateur de la médina","Lecteur de murs","Compagnon des souks","Érudit de la ville rouge","Cartographe de Marrakech","Gardien de l'Atlas","Mémoire de la ville","Maître de l'Atlas"],
+ "skillLevels":[0,60,150,280,450,660,900,1200],
+ "skills":[
+  {"id":"exploration","name":"Exploration","desc":"Trouver, repérer, cartographier."},
+  {"id":"histoire","name":"Histoire","desc":"Dynasties, commerce, enchaînements de causes."},
+  {"id":"architecture","name":"Architecture","desc":"Lire les formes, les matières, les plans."},
+  {"id":"culture","name":"Culture","desc":"Usages, métiers, traditions vivantes."}],
+ "xp":{"discoverCulture":25,"discoverOther":10,"observe":30,"hypothesis":10,"enigma":50,"enigmaRevealed":10,"hintPenalty":0.15,"chart":15,"codex":10,"codexMaster":20,"chain":150,"classify":50,"confirm":15},
+ "titles":[
+  {"id":"ti-explorateur","name":"Explorateur de la médina","unlock":{"count":"discovered","kind":"culture","min":8},"hint":"Découvre 8 lieux culturels."},
+  {"id":"ti-souks","name":"Connaisseur des souks","unlock":{"chain":"s-commerce"},"hint":"Réussis la synthèse « La route de l'or »."},
+  {"id":"ti-observateur","name":"Observateur architectural","unlock":{"count":"observed","min":6},"hint":"Mène à bien 6 observations."},
+  {"id":"ti-dynasties","name":"Maître des dynasties","unlock":{"chain":"s-dynasties"},"hint":"Réussis la synthèse « Quatre dynasties, une capitale »."},
+  {"id":"ti-sourcier","name":"Sourcier du Haouz","unlock":{"chain":"s-eau"},"hint":"Réussis la synthèse « L'eau cachée »."},
+  {"id":"ti-hlaiqi","name":"Hlaïqi d'honneur","unlock":{"chain":"s-place"},"hint":"Réussis la synthèse « La place et la parole »."},
+  {"id":"ti-cartographe","name":"Cartographe de Marrakech","unlock":{"all":[{"count":"territories","min":6},{"count":"charted","min":3}]},"hint":"Découvre un lieu dans chacun des six territoires et cartographie 3 lieux non placés."}],
+ "badges":[
+  {"id":"b-pas","name":"Premier pas","desc":"Un premier lieu découvert.","unlock":{"count":"discovered","min":1}},
+  {"id":"b-oeil","name":"Œil ouvert","desc":"Trois observations menées à bien.","unlock":{"count":"observed","min":3}},
+  {"id":"b-lynx","name":"Œil de lynx","desc":"Dix observations menées à bien.","unlock":{"count":"observed","min":10}},
+  {"id":"b-filet","name":"Sans filet","desc":"Trois énigmes résolues sans indice.","unlock":{"count":"nohint","min":3}},
+  {"id":"b-carnet","name":"Carnet noirci","desc":"Cinq notes personnelles rédigées.","unlock":{"count":"notes","min":5}},
+  {"id":"b-reperes","name":"Poseur de repères","desc":"Trois marqueurs posés sur la carte.","unlock":{"count":"pins","min":3}},
+  {"id":"b-geometre","name":"Géomètre","desc":"Trois lieux du guide placés par toi sur la carte.","unlock":{"count":"charted","min":3}},
+  {"id":"b-liens","name":"Tisseur de liens","desc":"Cinq savoirs maîtrisés.","unlock":{"count":"codexMastered","min":5}},
+  {"id":"b-t1","name":"Sceau de Jemaa el-Fna","desc":"Cinq lieux culturels du territoire I.","unlock":{"count":"discovered","kind":"culture","territory":"t1","min":5}},
+  {"id":"b-t2","name":"Sceau de Mouassine","desc":"Quatre lieux culturels du territoire II.","unlock":{"count":"discovered","kind":"culture","territory":"t2","min":4}},
+  {"id":"b-t3","name":"Sceau de Kaat Benahid","desc":"Quatre lieux culturels du territoire III.","unlock":{"count":"discovered","kind":"culture","territory":"t3","min":4}},
+  {"id":"b-t4","name":"Sceau de la Casbah","desc":"Cinq lieux culturels du territoire IV.","unlock":{"count":"discovered","kind":"culture","territory":"t4","min":5}},
+  {"id":"b-t5","name":"Sceau de Bab Doukkala","desc":"Trois lieux culturels du territoire V.","unlock":{"count":"discovered","kind":"culture","territory":"t5","min":3}},
+  {"id":"b-t6","name":"Sceau de Guéliz","desc":"Trois lieux culturels du territoire VI.","unlock":{"count":"discovered","kind":"culture","territory":"t6","min":3}},
+  {"id":"b-six","name":"Six territoires","desc":"Un lieu découvert dans chaque territoire.","unlock":{"count":"territories","min":6}}]
+}

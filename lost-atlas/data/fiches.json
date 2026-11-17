@@ -1,0 +1,544 @@
+{
+ "t1-x-place": {
+  "teaser": "Une esplanade sans monument, et pourtant le centre de tout.",
+  "text": "Marché au pied de la forteresse almoravide dès le XIe siècle, la place a servi aux parades, à la justice et aux fêtes. Elle change de visage d'heure en heure : jus d'orange et porteurs d'eau le jour, cercles de conteurs et de musiciens en fin d'après-midi, cuisines fumantes à la nuit.",
+  "skill": "culture",
+  "observe": {
+   "q": "Poste-toi au bord de la place et regarde comment le public se dispose autour d'un musicien ou d'un bonimenteur. Quelle forme dessine-t-il — et que permet cette forme qu'une scène ne permettrait pas ?",
+   "reveal": "Le public forme un cercle : la halqa. Pas d'estrade ni de coulisses ; chacun voit l'artiste et voit les autres réagir. L'artiste tourne, interpelle, désigne — et peut faire le tour pour la quête. Le cercle se resserre quand le récit prend et se défait dès qu'il faiblit : c'est un baromètre immédiat, et toute l'économie du spectacle en dépend."
+  },
+  "enigma": {
+   "q": "Je me monte chaque soir et je disparais chaque nuit. Je porte un numéro, mais je n'ai pas d'adresse. Qui suis-je ?",
+   "a": [
+    "etal",
+    "etals",
+    "stand",
+    "stands",
+    "gargote",
+    "gargotes",
+    "cuisine",
+    "cuisines",
+    "restaurant",
+    "restaurants",
+    "echoppe",
+    "echoppes",
+    "stand culinaire",
+    "stands culinaires",
+    "etal de nourriture",
+    "cantine",
+    "cantines"
+   ],
+   "hints": [
+    "Cherche du côté de ce qui se mange.",
+    "Compare la place à midi et à la nuit tombée : qu'est-ce qui a poussé au centre ?",
+    "Chacun affiche un grand numéro sur son enseigne et sert grillades, soupe ou escargots."
+   ],
+   "explain": "Les stands culinaires : numérotés, montés en fin d'après-midi au centre de la place et démontés dans la nuit."
+  }
+ },
+ "t1-x-koutoubia": {
+  "teaser": "Le minaret qui sert de boussole à toute la ville.",
+  "text": "Fondée en 1147 par le calife almohade Abd al-Moumen, doublée vers 1158 d'une seconde mosquée — celle qui subsiste —, coiffée de son minaret vers 1195. La salle de prière est réservée aux musulmans ; l'esplanade et les jardins sont libres. Ton guide la situe à 400 m à l'ouest de la carte.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Fais le tour du minaret et compare ses quatre faces. Sont-elles identiques ? Qu'est-ce qui change, et pourquoi un bâtisseur ferait-il cela ?",
+   "reveal": "Elles ne sont pas identiques : la position des baies et le dessin des arcs décoratifs varient d'une face à l'autre. L'intérieur est occupé par une rampe qui monte en tournant autour d'un noyau de salles ; les ouvertures suivent la montée et ne tombent donc pas à la même hauteur sur chaque face. Les décorateurs en ont tiré parti : chaque face compose son propre réseau d'arcs."
+  },
+  "enigma": {
+   "q": "Mon nom vient d'un métier qui ne bâtit rien, ne vend ni épices ni tapis, et qui tenait boutique à mes pieds. Lequel ?",
+   "a": [
+    "libraire",
+    "libraires",
+    "bouquiniste",
+    "bouquinistes",
+    "marchand de livres",
+    "marchands de livres",
+    "vendeur de livres",
+    "vendeurs de livres",
+    "kutubiyyin",
+    "livres",
+    "livre",
+    "copiste",
+    "copistes",
+    "les libraires"
+   ],
+   "hints": [
+    "Pense à ce qui se vend près d'une grande mosquée où l'on étudie.",
+    "En arabe, kitab signifie « livre » ; au pluriel, kutub.",
+    "Koutoubia vient de kutubiyyin : ceux qui vendent des kutub."
+   ],
+   "explain": "Les libraires (kutubiyyin) : la Koutoubia est la « mosquée des libraires », du nom du souk aux livres installé à son pied."
+  }
+ },
+ "t1-01": {
+  "teaser": "Le palais du frère : plus intime que la Bahia, tout aussi orné.",
+  "text": "Bâti de 1894 à 1900 pour Si Saïd ibn Moussa, ministre de la Guerre et frère du grand vizir Ba Ahmed. Siège de l'administration régionale sous le protectorat, puis musée dès les années 1930 — le plus ancien de la ville —, aujourd'hui consacré au tissage et au tapis.",
+  "tip": "Endommagé par le séisme de septembre 2023 : vérifie sur place qu'il est ouvert.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Dans la cour ou le jardin, regarde où donnent les pièces. Pourquoi tout s'organise-t-il autour d'un espace central plutôt que vers la rue ?",
+   "reveal": "Trois logiques se superposent. L'intimité : rien du foyer ne se montre à la rue. Le climat : la cour est un puits de lumière et de fraîcheur, les murs extérieurs épais et aveugles tiennent le soleil à distance, l'eau et les plantes rafraîchissent l'air. Et la discrétion : de dehors, rien ne distingue la maison riche de la modeste. Quand la cour est plantée, on parle de riad — le mot signifie d'abord « jardin »."
+  },
+  "enigma": {
+   "q": "Deux frères, deux palais à quelques rues d'écart. Quel palais voisin le frère de Si Saïd, le grand vizir Ba Ahmed, a-t-il agrandi ?",
+   "a": [
+    "bahia",
+    "la bahia",
+    "palais de la bahia",
+    "palais bahia",
+    "le palais de la bahia"
+   ],
+   "hints": [
+    "Il figure sur la même carte de ton guide.",
+    "Son nom signifie « la Belle », « la Brillante ».",
+    "N° 4 de ta carte Jemaa el-Fna, n° 2 de la carte Casbah et Mellah."
+   ],
+   "explain": "Le palais de la Bahia, commencé par leur père Si Moussa dans les années 1860 et agrandi par Ba Ahmed de 1894 à 1900."
+  }
+ },
+ "t1-02": {
+  "teaser": "L'ancienne banque de la place raconte ce qui ne tient pas dans une vitrine.",
+  "text": "Inauguré en février 2023 dans l'ancien bâtiment de Bank Al-Maghrib, il est consacré aux arts de la place — conteurs, musiciens, acrobates — et à sa reconnaissance par l'UNESCO.",
+  "skill": "culture",
+  "observe": {
+   "q": "Avant d'entrer, demande-toi : comment exposer un conte, un boniment, un cercle de spectateurs ? Que montrerais-tu, toi ?",
+   "reveal": "Un musée conserve d'ordinaire des objets. Ici l'essentiel est une voix, un geste, une relation avec un public : on n'en montre que des traces — instruments, costumes, enregistrements, portraits. C'est le paradoxe du patrimoine immatériel : le protéger, c'est faire en sorte qu'il continue d'être pratiqué dehors, pas seulement l'archiver dedans."
+  }
+ },
+ "t1-03": {
+  "teaser": "Une maison où l'on voyage de Marrakech à Tombouctou sans quitter la cour.",
+  "text": "Fondé par l'anthropologue néerlandais Bert Flint, installé à Marrakech depuis 1957, qui a légué sa collection à l'université Cadi Ayyad en 2006. Le parcours suit, salle après salle, les étapes d'une route caravanière à travers le Sahara.",
+  "tip": "Parfois fermé pour travaux : renseigne-toi avant d'y aller.",
+  "skill": "culture",
+  "observe": {
+   "q": "Parcours les salles dans l'ordre. Qu'est-ce qui change d'une étape à l'autre — matières, couleurs, formes — et qu'est-ce qui reste ?",
+   "reveal": "En descendant vers le sud, la laine et le bois de l'Atlas cèdent la place au cuir, aux fibres, aux perles. Mais des motifs voyagent : losanges, triangles, croix se retrouvent de part et d'autre du désert. C'est la thèse de Bert Flint : le Sahara n'est pas une barrière mais un espace d'échanges, et l'art marocain a aussi des racines africaines."
+  }
+ },
+ "t1-05": {
+  "teaser": "Un grand riad pour comprendre ce qu'il y a dans ton assiette.",
+  "text": "Ouvert fin 2019 dans une vaste demeure proche de la Bahia, le musée présente les cuisines du Maroc, région par région.",
+  "skill": "culture"
+ },
+ "t1-17": {
+  "teaser": "Le restaurant le plus éphémère de la ville.",
+  "text": "Des dizaines d'étals numérotés occupent le centre de la place à la nuit : brochettes, harira, têtes de mouton, escargots au bouillon épicé. Les prix sont affichés ; les rabatteurs font partie du folklore.",
+  "skill": "culture",
+  "observe": {
+   "q": "Viens deux fois : en plein après-midi, puis à la nuit. Qu'est-ce qui a changé au centre de la place ? Qui a fait le travail, et en combien de temps ?",
+   "reveal": "En une à deux heures, des équipes montent tables, bancs, braseros, lampes et auvents sur un sol resté nu toute la journée — et tout repart avant l'aube. La place ne possède presque aucun bâtiment : elle est reconstruite chaque soir par ceux qui y travaillent. C'est exactement ce que l'UNESCO a reconnu : des usages, pas des murs."
+  }
+ },
+ "t1-22": {
+  "teaser": "Une ruelle où l'agneau cuit sous terre.",
+  "text": "Juste au nord de la place, les rôtisseurs sortent l'agneau entier de fours creusés dans le sol et le vendent au poids, surtout en fin de matinée. C'est aussi l'adresse classique pour goûter la tanjia.",
+  "skill": "culture"
+ },
+ "t1-37": {
+  "teaser": "L'artère couverte par laquelle on entre dans les souks.",
+  "text": "Axe principal des souks depuis la place, abrité par un treillage qui tamise le soleil. Plus on avance vers le nord, plus les métiers se spécialisent, ruelle par ruelle.",
+  "skill": "histoire",
+  "observe": {
+   "q": "Remonte l'allée sur cent mètres en notant ce que vendent les boutiques voisines. Pourquoi des concurrents s'installent-ils côte à côte ?",
+   "reveal": "Le regroupement arrange tout le monde. Le client compare prix et qualité sans courir la ville. Les artisans partagent fournisseurs, apprentis et réputation. Et l'autorité du marché — l'amine de la corporation, le mohtasseb — contrôle plus facilement poids, mesures et qualité. La concurrence est rude, mais elle se fait sous le regard des pairs."
+  }
+ },
+ "t2-x-mouassine": {
+  "teaser": "Un quartier « modèle » du XVIe siècle, fontaine comprise.",
+  "text": "Le sultan saadien Abdallah al-Ghalib fait bâtir ici, entre 1562 et 1573, un ensemble complet : mosquée du vendredi, médersa, bibliothèque, école, hammam, salle d'ablutions et fontaine. La mosquée est réservée aux musulmans ; la fontaine donne sur la placette.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Avant de lire quoi que ce soit, compte les ouvertures de la fontaine. Sont-elles toutes pareilles ? À qui chacune pouvait-elle servir ?",
+   "reveal": "Fait établi : une grande baie servait aux habitants, sous un linteau de bois sculpté, et des abreuvoirs voûtés servaient aux bêtes, surtout aux ânes. Interprétation : séparer les usages gardait propre l'eau que l'on boit et évitait que porteurs d'eau, muletiers et voisins se gênent. Reste une question que cette fontaine ne résout pas : que faisaient tant de bêtes de somme dans ce quartier ?"
+  },
+  "enigma": {
+   "q": "Mosquée, école, bain, fontaine, bibliothèque : le sultan offre tout d'un coup à ce quartier. Quelques années plus tôt, il avait regroupé ailleurs les familles juives qui vivaient notamment ici. Dans quel quartier ?",
+   "a": [
+    "mellah",
+    "le mellah",
+    "au mellah"
+   ],
+   "hints": [
+    "C'est un autre territoire de ton atlas.",
+    "Il jouxte la casbah royale, au sud.",
+    "Son nom évoque le sel."
+   ],
+   "explain": "Le Mellah, créé en 1557-1558 contre la casbah."
+  }
+ },
+ "t2-01": {
+  "teaser": "Une maison saadienne devenue café littéraire.",
+  "text": "Demeure de l'époque saadienne restaurée, organisée autour d'un patio ; elle accueille expositions et lectures.",
+  "skill": "architecture"
+ },
+ "t2-03": {
+  "teaser": "Un bain du XVIe siècle où l'on se lave toujours.",
+  "text": "D'après ton guide, le hammam Mouassine remonte à 1562 et à Abdallah al-Ghalib ; il fait partie du complexe de la mosquée. Entrées séparées pour les hommes et les femmes.",
+  "skill": "culture"
+ },
+ "t2-05": {
+  "teaser": "Deux jardins derrière un mur aveugle de la rue Mouassine.",
+  "text": "Un ancien palais et ses deux jardins : l'un « exotique », l'autre restitué selon le plan islamique à quatre parterres. Le site, loti à l'époque saadienne, a été rebâti au XIXe siècle par un caïd ; il a ouvert au public en 2016 après restauration.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Suis l'eau. D'où arrive-t-elle, où va-t-elle, et par quoi circule-t-elle ?",
+   "reveal": "Elle entre par un point haut, court dans des rigoles au ras du sol, remplit les bassins puis irrigue les parterres par débordement : tout fonctionne par gravité, sans pompe. À l'origine elle venait d'une khettara, galerie souterraine qui captait la nappe au sud de la ville. Le plan en croix du jardin n'est pas qu'un symbole : c'est un réseau d'irrigation."
+  }
+ },
+ "t2-07": {
+  "teaser": "Des instruments dans une demeure du XVIe siècle.",
+  "text": "D'après ton guide, le musée de la Musique occupe une maison du XVIe siècle, près du hammam Mouassine.",
+  "skill": "culture"
+ },
+ "t2-08": {
+  "teaser": "Le palais de l'homme qui tenait le Sud.",
+  "text": "Résidence édifiée en 1910 pour Thami El Glaoui, pacha de Marrakech de 1912 à 1956 et allié du protectorat. Il y reçut Churchill, Chaplin, Colette ou Ravel. Musée des Confluences depuis 2017.",
+  "skill": "histoire",
+  "observe": {
+   "q": "Dans la cour, cherche ce qui est fait pour impressionner un invité. Que dit un tel palais du pouvoir d'un « simple » pacha ?",
+   "reveal": "Colonnes, zelliges, plafonds peints, salons en enfilade : tout est décor de réception. Le Glaoui n'était pas sultan, mais il gouvernait le Sud avec l'appui de la France ; recevoir fastueusement les Européens célèbres faisait partie de sa politique. Le palais est un outil diplomatique autant qu'une maison."
+  }
+ },
+ "t2-09": {
+  "teaser": "« L'ancienne place » : épices, vanneries, et une mémoire plus sombre.",
+  "text": "Place triangulaire du cœur des souks, tenue par les herboristes et les vannières. D'après ton guide, le souk des tapis, sur son côté nord, occupe l'ancien marché aux esclaves — l'aboutissement le plus sombre du commerce transsaharien.",
+  "skill": "culture",
+  "observe": {
+   "q": "Regarde ce que vendent les étals : poudres, racines, peaux, minéraux. À quoi tout cela sert-il ?",
+   "reveal": "Ce sont les apothicaires du souk : remèdes, cosmétiques (khôl, henné, savon noir), encens, ingrédients de protection contre le mauvais œil. Beaucoup de ces produits — gommes, ambre, épices, plantes sahariennes — arrivaient autrefois par caravane : la place garde, en miniature, la carte des anciennes routes."
+  }
+ },
+ "t2-10": {
+  "teaser": "Des écheveaux de laine suspendus au-dessus de la ruelle.",
+  "text": "Les teinturiers (sebbaghine) font sécher laines et étoffes en travers du passage. Le spectacle varie selon les jours : viens plutôt le matin.",
+  "skill": "culture",
+  "observe": {
+   "q": "Regarde ce qu'il reste du métier aujourd'hui. Puis demande-toi : pourquoi les teinturiers se seraient-ils installés précisément ici ?",
+   "reveal": "Teindre, c'est faire bouillir, tremper, rincer : le métier consomme beaucoup d'eau, c'est un fait. Qu'il se soit installé ici à cause de la fontaine Mouassine toute proche est une hypothèse séduisante, mais aucune source consultée ne l'établit. D'autres raisons sont possibles : les nuisances, la clientèle, le rang du métier. Garde la question : le dédale de Mouassine la reprend."
+  }
+ },
+ "t2-12": {
+  "teaser": "Une auberge de caravanes au milieu des boutiques.",
+  "text": "Un fondouk : cour entourée de galeries, où logeaient marchands, bêtes et marchandises. Beaucoup abritent aujourd'hui des ateliers.",
+  "skill": "histoire",
+  "observe": {
+   "q": "Si la porte est ouverte, entre dans la cour. Que trouve-t-on au rez-de-chaussée, et à l'étage ? Pourquoi une seule grande porte ?",
+   "reveal": "En bas, écuries et entrepôts ouvrent directement sur la cour ; à l'étage, une galerie dessert les chambres des marchands. Une seule porte, haute comme une bête chargée, ferme le tout la nuit : le fondouk est à la fois hôtel, entrepôt et coffre-fort. C'est là que se concluaient les ventes en gros, avant que la marchandise ne rejoigne les souks."
+  }
+ },
+ "t2-13": {
+  "teaser": "Le fondouk de la balance.",
+  "text": "Autre caravansérail du quartier. El-Mizen évoque la balance : on pesait dans les fondouks les marchandises vendues en gros.",
+  "skill": "histoire"
+ },
+ "t3-01": {
+  "teaser": "Le plus grand collège du Maghreb, au cœur du souk.",
+  "text": "Commandée par Abdallah al-Ghalib et achevée en 1564-65 sur le site d'une première médersa mérinide du XIVe siècle. 130 cellules pour 800 à 900 étudiants selon les sources. Fermée comme école en 1960, ouverte aux visiteurs en 1982, rouverte en 2022 après une longue restauration.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Dans la cour, lève les yeux du sol jusqu'au toit. Quels matériaux se succèdent, et dans quel ordre ? Pourquoi cet ordre ?",
+   "reveal": "En bas, le zellige ; à hauteur des yeux, un bandeau de calligraphie ; au-dessus, le plâtre ciselé ; tout en haut, le cèdre sculpté des linteaux et des auvents. Chaque matière est placée là où elle résiste le mieux : la céramique à portée de main et d'éclaboussures, le plâtre hors d'atteinte, le bois à l'abri de la pluie. Tu retrouveras cet ordre dans presque tous les monuments de la ville."
+  },
+  "enigma": {
+   "q": "Monte voir une cellule d'étudiant, puis reviens dans la cour : tant de faste en bas, tant de dénuement en haut. Où se donnaient donc la plupart des cours ?",
+   "a": [
+    "mosquee",
+    "a la mosquee",
+    "la mosquee",
+    "dans la mosquee",
+    "mosquee ben youssef",
+    "mosquee voisine",
+    "a la mosquee ben youssef",
+    "la mosquee ben youssef",
+    "la mosquee voisine"
+   ],
+   "hints": [
+    "La médersa est d'abord une résidence.",
+    "Elle porte le nom d'un bâtiment voisin, plus ancien qu'elle.",
+    "Ce voisin est un lieu de prière fondé par l'Almoravide Ali ibn Youssef."
+   ],
+   "explain": "À la mosquée Ben Youssef voisine. La médersa loge et encadre les étudiants ; le faste de sa cour célèbre le savoir — et le sultan qui le finance."
+  }
+ },
+ "t3-02": {
+  "teaser": "La maison qui porte le nom d'un oiseau.",
+  "text": "Centre culturel installé dans une grande demeure. Selon la fondation qui l'anime, le lieu était autrefois un refuge où l'on soignait les oiseaux blessés.",
+  "skill": "culture",
+  "enigma": {
+   "q": "Oiseau de bon augure, je niche sur les remparts et les palais en ruine. Cette maison porte mon nom en arabe : bellarj. Qui suis-je ?",
+   "a": [
+    "cigogne",
+    "cigognes",
+    "la cigogne",
+    "les cigognes",
+    "une cigogne"
+   ],
+   "hints": [
+    "Lève la tête vers le haut des murs du palais El-Badi.",
+    "Grand oiseau blanc et noir, long bec rouge.",
+    "En Alsace aussi, on la dit porte-bonheur."
+   ],
+   "explain": "La cigogne : Dar Bellarj est « la maison des cigognes »."
+  }
+ },
+ "t3-03": {
+  "teaser": "Le seul témoin debout des fondateurs de la ville.",
+  "text": "Pavillon d'ablutions de la grande mosquée almoravide, bâti en 1117 ou plus probablement en 1125 sous Ali ibn Youssef. Haute de 12 m, la coupole cache un décor foisonnant : arcs lobés, coquilles, palmes. À côté, les vestiges d'une fontaine et d'une citerne.",
+  "skill": "histoire",
+  "observe": {
+   "q": "Avant de descendre, compare le niveau de la rue et celui du monument. Pourquoi faut-il descendre pour atteindre un édifice de 1125 ?",
+   "reveal": "En neuf siècles, le sol de la ville a monté de plusieurs mètres : maisons de terre effondrées puis rebâties sur leurs gravats, remblais, déchets. La koubba, restée à son niveau d'origine, a fini ensevelie — ce qui l'a protégée. Dégagée au XXe siècle, elle montre à quelle hauteur marchaient les premiers Marrakchis."
+  },
+  "enigma": {
+   "q": "Je suis la seule œuvre de ma dynastie à tenir encore debout dans cette ville, que mes maîtres ont pourtant fondée. Quelle dynastie ?",
+   "a": [
+    "almoravide",
+    "almoravides",
+    "les almoravides",
+    "dynastie almoravide",
+    "la dynastie almoravide"
+   ],
+   "hints": [
+    "Elle venait du Sahara.",
+    "Les Almohades ont presque tout effacé de son œuvre.",
+    "Son nom commence comme « almohade »… mais ce n'est pas elle."
+   ],
+   "explain": "Les Almoravides, fondateurs de Marrakech vers 1070."
+  }
+ },
+ "t3-04": {
+  "teaser": "Le Maroc d'avant, tirage par tirage.",
+  "text": "Une collection de photographies anciennes du Maroc présentée dans une maison de la médina ; terrasse avec vue sur les toits.",
+  "skill": "histoire",
+  "observe": {
+   "q": "Choisis la photo ancienne d'un lieu que tu as déjà découvert. Qu'est-ce qui a changé ? Qu'est-ce qui est exactement pareil ?",
+   "reveal": "Tu viens de faire le geste de base de l'historien : comparer deux états d'un même lieu. Souvent les murs changent moins que les usages — vêtements, véhicules, enseignes, foule. Note ce que tu as vu dans ton carnet : c'est une source, et elle t'appartient."
+  }
+ },
+ "t3-05": {
+  "teaser": "Le palais d'un ministre de la Guerre devenu musée.",
+  "text": "Palais Dar Mnebhi, bâti au début du XXe siècle pour Mehdi al-Mnebhi, ministre de la Guerre du sultan Moulay Abdelaziz. Restauré par la fondation Omar Benjelloun, musée depuis 1997.",
+  "skill": "architecture",
+  "observe": {
+   "q": "La grande cour est aujourd'hui couverte. Imagine-la à ciel ouvert : qu'est-ce que cela change à la lumière, à la température, aux sons ?",
+   "reveal": "À ciel ouvert, la cour est le poumon de la maison : la lumière y tombe d'en haut, l'air chaud s'échappe, la pluie alimente bassin et plantes, on entend le ciel plus que la rue. Couverte, elle devient une salle. La comparaison montre ce qu'est vraiment un patio : non un décor, mais la machine climatique de la maison."
+  }
+ },
+ "t3-x-debbagh": {
+  "teaser": "Le métier qu'on a mis à la porte.",
+  "text": "Les tanneurs travaillent à l'extrémité est de la médina, près de la porte qui porte leur nom. Ton guide situe les tanneries à environ 500 m à l'est de sa carte.",
+  "tip": "Des rabatteurs proposent des « visites » : refuse poliment, ou fixe le prix avant.",
+  "skill": "culture",
+  "observe": {
+   "q": "Tu es au bout de la médina. Pourquoi ce métier est-il installé ici, contre une porte, plutôt qu'au centre avec les autres souks ?",
+   "reveal": "Trois raisons s'additionnent : l'eau, dont le tannage a un besoin constant (l'oued Issil coule juste derrière le rempart) ; l'odeur des cuves, qu'on tient loin des mosquées et des beaux quartiers ; et la place, car les peaux sèchent étalées. Les métiers salissants ou bruyants — tanneurs, potiers, forgerons — finissent presque toujours en périphérie."
+  }
+ },
+ "t4-01": {
+  "teaser": "« L'Incomparable » : un palais dont il ne reste que la taille.",
+  "text": "Palais de réception élevé de 1578 à 1593 par le sultan saadien Ahmad al-Mansour après sa victoire à la bataille des Trois Rois. Dépouillé à la fin du XVIIe siècle. Le minbar de la Koutoubia, chef-d'œuvre du XIIe siècle, y est exposé.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Depuis la cour, repère les jardins. Sont-ils au niveau où tu marches ? Pourquoi les avoir creusés ?",
+   "reveal": "Les quatre jardins sont en contrebas des allées. Plantés d'orangers, ils affleuraient ainsi à hauteur du regard, comme un tapis de feuillage et de parfum ; l'eau des bassins les irriguait par simple gravité. Le grand bassin central, long d'environ 90 m, faisait miroir aux pavillons. Même en ruine, le plan dit l'essentiel : c'était un décor pour recevoir."
+  },
+  "enigma": {
+   "q": "Le palais « incomparable » est nu : ni marbre, ni or, ni cèdre. Dans quelle ville un sultan a-t-il fait emporter ses dépouilles pour bâtir sa propre capitale ?",
+   "a": [
+    "meknes",
+    "a meknes",
+    "meknes maroc"
+   ],
+   "hints": [
+    "Le sultan s'appelle Moulay Ismaïl.",
+    "C'est l'une des quatre villes impériales du Maroc.",
+    "Elle se trouve près de Fès et son nom commence par M."
+   ],
+   "explain": "Meknès, capitale de l'Alaouite Moulay Ismaïl."
+  }
+ },
+ "t4-02": {
+  "teaser": "Le palais d'un vizir plus puissant que son sultan.",
+  "text": "Commencé dans les années 1860 par le grand vizir Si Moussa, agrandi de 1894 à 1900 par son fils Ba Ahmed, véritable maître du pays sous le jeune sultan Abdelaziz ; l'architecte est Muhammad ibn Makki al-Misfiwi. D'après ton guide, il sert encore à des réceptions officielles.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Promène-toi sans plan. Le palais te semble-t-il dessiné d'un seul jet ? Cherche les indices d'une construction par ajouts.",
+   "reveal": "Aucun axe d'ensemble : cours, riads et appartements s'enchaînent en baïonnette, à des niveaux et des échelles différents. Le palais a grandi parcelle après parcelle, au gré des maisons que le vizir rachetait à ses voisins. C'est une ascension sociale racontée en plan."
+  },
+  "enigma": {
+   "q": "Regarde les trois matières du décor, du sol au plafond. Laquelle est toujours en bas, à portée de main ?",
+   "a": [
+    "zellige",
+    "zelliges",
+    "zellij",
+    "le zellige",
+    "les zelliges",
+    "mosaique",
+    "faience",
+    "carreaux",
+    "ceramique",
+    "carrelage"
+   ],
+   "hints": [
+    "Elle ne craint ni l'eau ni les coups.",
+    "Ce sont de petites pièces de terre cuite émaillée, taillées au marteau.",
+    "Son nom commence par Z."
+   ],
+   "explain": "Le zellige, en bas ; le plâtre ciselé au milieu ; le cèdre en haut."
+  }
+ },
+ "t4-03": {
+  "teaser": "Une synagogue cachée dans une maison.",
+  "text": "Slat al-Azama est l'une des dernières synagogues actives du Mellah. La tradition la dit fondée par des Juifs expulsés d'Espagne en 1492 — date non vérifiée, antérieure à la création du quartier (1557-1558).",
+  "skill": "culture",
+  "observe": {
+   "q": "De la rue, rien n'annonce une synagogue. Une fois dans la cour, à quoi ressemble le bâtiment ?",
+   "reveal": "À une maison : cour centrale, galerie à l'étage, zelliges. Comme la plupart des synagogues du Mellah, elle est intégrée à une demeure à patio. Le lieu de culte adopte la forme de l'habitat local et la même discrétion sur la rue : ici, l'architecture ne dit pas la religion, elle dit la ville."
+  }
+ },
+ "t4-04": {
+  "teaser": "Des centaines de tombes blanches au pied du rempart.",
+  "text": "La Miaara est le plus grand cimetière juif du Maroc ; il s'étend à l'est du Mellah.",
+  "tip": "Tenue correcte ; un don au gardien est d'usage.",
+  "skill": "culture"
+ },
+ "t4-05": {
+  "teaser": "La mosquée du calife, restée debout depuis 1190.",
+  "text": "Bâtie de 1185 à 1190 par l'Almohade Yaqub al-Mansour avec sa casbah, réparée par les Saadiens après une explosion de poudre. Réservée aux musulmans ; le minaret se lit depuis la place.",
+  "skill": "histoire"
+ },
+ "t4-07": {
+  "teaser": "Le métal qu'on découpe pour laisser passer la lumière.",
+  "text": "Ancienne entrée du Mellah (Bab el-Mellah). D'après ton guide, la place abritait autrefois les travailleurs du fer-blanc ; on y fabrique toujours lanternes et luminaires.",
+  "skill": "culture",
+  "observe": {
+   "q": "Regarde un artisan travailler une lanterne. De quoi part-il, et avec quels outils ?",
+   "reveal": "D'une simple feuille de métal : tracée, découpée à la cisaille, percée au poinçon selon un motif, puis pliée et soudée. Le décor n'est pas ajouté, il est retiré — c'est le vide qui dessine. Regarde la même lanterne allumée à la nuit : le motif se projette sur les murs."
+  }
+ },
+ "t4-08": {
+  "teaser": "Une nécropole royale restée invisible pendant deux siècles.",
+  "text": "Nécropole de la dynastie saadienne, adossée à la mosquée de la Casbah. Commencée sous Abdallah al-Ghalib (1557-1574), magnifiée par Ahmad al-Mansour, dont le mausolée est la salle des Douze Colonnes. Rouverte aux visiteurs à partir de 1917.",
+  "skill": "histoire",
+  "observe": {
+   "q": "Tu es entré par un passage étroit. Par où entrait-on à l'origine, à ton avis — et comment une nécropole royale a-t-elle pu « disparaître » deux siècles ?",
+   "reveal": "On y accédait par la mosquée de la Casbah, dont la nécropole longe le mur. Quand les autres accès sont condamnés à la fin du XVIIe siècle, sous les Alaouites, les tombeaux ne sont plus visibles que des fidèles. Le service des Beaux-Arts du protectorat les « redécouvre » en 1917 et fait percer le passage que tu viens d'emprunter."
+  }
+ },
+ "t4-x-agnaou": {
+  "teaser": "Une porte de pierre dans une ville de terre.",
+  "text": "Porte d'apparat de la casbah almohade, achevée vers 1188-1190 sous Yaqub al-Mansour. Les chroniques l'appellent aussi Bab al-Qasr, « porte du Palais ».",
+  "skill": "architecture",
+  "observe": {
+   "q": "Compare cette porte aux remparts qui l'entourent : matériau, couleur, décor. Que cherchait-on à signifier ?",
+   "reveal": "Les murailles sont en pisé, la porte en grès sculpté : arcs emboîtés, coquilles aux angles, bandeau d'inscription. Ce n'est pas la porte la mieux défendue de la ville, c'est la plus soignée : elle marquait l'entrée du quartier du calife. La pierre dit la permanence du pouvoir au milieu d'une ville d'argile."
+  }
+ },
+ "t5-01": {
+  "teaser": "Une porte de 1126 où l'on ne passe pas tout droit.",
+  "text": "Principale porte du nord-ouest, l'une des portes d'origine de l'enceinte almoravide. Une percée moderne, à côté, laisse passer la circulation.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Traverse l'ancienne porte à pied en comptant tes changements de direction. Pourquoi ne pas avoir fait un passage droit ?",
+   "reveal": "Le passage est coudé : il faut tourner deux fois. Un assaillant ne peut ni charger ni voir ce qui l'attend, et il présente son flanc aux défenseurs. Ton guide ajoute une raison très civile : le goulot empêchait quiconque d'esquiver le péage. Une porte de ville est un filtre militaire et fiscal."
+  }
+ },
+ "t5-02": {
+  "teaser": "Une fontaine dont le nom est un ordre.",
+  "text": "Fontaine murale du règne d'Ahmad al-Mansour (1578-1603), près de la médersa Ben Youssef : un simple renfoncement abrité par un auvent de cèdre sculpté.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Lève la tête. De quoi est fait l'auvent, comment est-il travaillé — et que protège-t-il vraiment : l'eau, ou le passant ?",
+   "reveal": "L'auvent est en cèdre, sculpté d'arabesques et de muqarnas (ces alvéoles en nid d'abeilles), coiffé de tuiles vertes. Il abrite surtout le bois lui-même et celui qui boit. Une fontaine publique est un don : la soigner comme un monument, c'est signer sa générosité à l'endroit où tout le quartier passe chaque jour."
+  },
+  "enigma": {
+   "q": "Mon nom est un ordre en deux verbes. Le premier désaltère. Que demande le second ?",
+   "a": [
+    "regarde",
+    "regarder",
+    "chouf",
+    "admire",
+    "admirer",
+    "voir",
+    "vois",
+    "de regarder",
+    "contemple",
+    "contempler"
+   ],
+   "hints": [
+    "Ton guide traduit son nom entre parenthèses.",
+    "En darija, chouf est un mot que tu entends partout dans les souks.",
+    "« Bois et… » : ce que tu fais en ce moment même."
+   ],
+   "explain": "Chrob ou chouf : « bois et regarde »."
+  }
+ },
+ "t5-03": {
+  "teaser": "Dix siècles de terre battue.",
+  "text": "L'enceinte de pisé élevée vers 1126-1127 sous l'Almoravide Ali ibn Youssef. Ton guide marque ici le tronçon nord de Bab Doukkala.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Approche-toi du mur : il est criblé de trous alignés en rangées. À quoi servaient-ils ?",
+   "reveal": "Ce sont des trous de boulin. Le pisé se monte par couches : on dame la terre mêlée de chaux entre deux coffrages de bois, portés par des traverses qui passent à travers le mur. On retire les traverses, les trous restent — et les oiseaux s'y installent. Tu lis donc dans le mur sa propre méthode de fabrication, banche après banche."
+  }
+ },
+ "t5-05": {
+  "teaser": "Un petit musée qui se visite avec le nez.",
+  "text": "D'après ton guide, il occupe un riad du XIXe siècle à Riad Laârous et raconte la parfumerie marocaine.",
+  "skill": "culture"
+ },
+ "t5-x-mosquee": {
+  "teaser": "Le quartier offert par la mère d'un sultan.",
+  "text": "Fondée en 1557-58 par Lalla Massouda, mère d'Ahmad al-Mansour, achevée en 1570-71. Comme à Mouassine, la mosquée vient avec ses annexes. Réservée aux musulmans.",
+  "skill": "culture",
+  "observe": {
+   "q": "Fais le tour du complexe et dresse la liste de ce qu'il offre au quartier, en dehors de la prière.",
+   "reveal": "Une fontaine, une salle d'ablutions, un hammam, une école : avec le four à pain, ce sont les équipements qui font un quartier (houma). Les historiens y voient un plan d'urbanisme : en bâtissant d'un bloc tout ce dont un voisinage a besoin, les Saadiens ont attiré des habitants vers un secteur peu loti."
+  }
+ },
+ "t5-x-belabbes": {
+  "teaser": "Le saint patron de la ville, au nord des murs d'origine.",
+  "text": "Zaouïa élevée autour du tombeau de Sidi Bel Abbès (mort en 1204), le plus vénéré des Sept Saints de Marrakech. Ton guide la signale à 250 m au nord de sa carte.",
+  "tip": "Le sanctuaire est réservé aux musulmans ; la place et les galeries se regardent de l'extérieur.",
+  "skill": "culture"
+ },
+ "t6-01": {
+  "teaser": "Le siège d'une compagnie minière devenu galerie.",
+  "text": "D'après ton guide, cet immeuble des années 1930 associe son architecture d'origine à l'art du XXIe siècle.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Devant la façade puis à l'intérieur, cherche trois détails qui signent les années 1930.",
+   "reveal": "Regarde les lignes : géométrie nette, angles arrondis, ferronneries à motifs répétés, cage d'escalier, sols à carreaux, luminaires. L'Art déco aime la symétrie, les matériaux modernes et l'ornement stylisé. À Guéliz, il emprunte aussi aux formes marocaines — arcs, zelliges, tons ocre."
+  }
+ },
+ "t6-02": {
+  "teaser": "Un jardin composé comme un tableau.",
+  "text": "Créé à partir de 1923 par le peintre Jacques Majorelle, ouvert au public en 1947, racheté en 1980 par Yves Saint Laurent et Pierre Bergé.",
+  "tip": "Très fréquenté : réserve ton créneau et viens à l'ouverture.",
+  "skill": "architecture",
+  "observe": {
+   "q": "Ce jardin ne ressemble à aucun de ceux de la médina. Qu'est-ce qui en fait un jardin « d'artiste » ?",
+   "reveal": "Un riad est un ordre : quatre parterres, un axe, une vasque. Majorelle compose en peintre : masses de cactus et de bambous, allées courbes, et surtout la couleur — ce bleu outremer qui porte son nom, posé en aplats contre le vert et le jaune. C'est un jardin de collectionneur, plantes des cinq continents, pas une oasis nourricière."
+  }
+ },
+ "t6-03": {
+  "teaser": "Le couturier qui disait devoir ses couleurs à Marrakech.",
+  "text": "Musée ouvert en 2017 à côté du Jardin Majorelle, consacré à l'œuvre d'Yves Saint Laurent.",
+  "skill": "culture"
+ },
+ "t6-08": {
+  "teaser": "Un passage commercial devenu rue de galeries.",
+  "text": "D'après ton guide, ce petit passage du 61 rue Yougoslavie regroupe galeries d'art et showrooms de designers. C'est le départ de la balade « Art et Art déco » (p. 123).",
+  "skill": "culture"
+ },
+ "t6-21": {
+  "teaser": "Le café où la ville nouvelle se donnait rendez-vous.",
+  "text": "Ton guide en fait un bel exemple des arts décoratifs des années 1920, façade et intérieur. C'est l'arrivée de la balade « Art et Art déco ».",
+  "skill": "architecture"
+ },
+ "t6-x-martyrs": {
+  "teaser": "Une église dans la ville du protectorat.",
+  "text": "Ton guide la situe rue Imam Ali et rapporte une étymologie populaire : Guéliz viendrait du mot « église ».",
+  "skill": "histoire"
+ }
+}

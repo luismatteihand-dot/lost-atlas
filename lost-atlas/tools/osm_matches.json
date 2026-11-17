@@ -1,0 +1,536 @@
+{
+"t1-02": [
+31.625085,
+-7.989183,
+"Musée Jamaâ el-Fna du patrimoine immatériel",
+"tourism=museum"
+],
+"t1-07": [
+31.624105,
+-7.986917,
+"Riad Hotel Sherazade",
+"tourism=hotel"
+],
+"t1-08": [
+31.623333,
+-7.988536,
+"Gallia",
+"tourism=hotel"
+],
+"t1-12": [
+31.626625,
+-7.988946,
+"Café Argana",
+"amenity=restaurant"
+],
+"t1-13": [
+31.623266,
+-7.984838,
+"Black&Chich",
+"amenity=restaurant"
+],
+"t1-14": [
+31.625926,
+-7.986203,
+"Le Cantine Des Gazelles",
+"amenity=cafe"
+],
+"t1-15": [
+31.626972,
+-7.987707,
+"Chez Lamine Hadj",
+"amenity=restaurant"
+],
+"t1-21": [
+31.623731,
+-7.987083,
+"Henna Art Cafe",
+"amenity=cafe"
+],
+"t1-22": [
+31.627028,
+-7.987693,
+"Mechoui Alley",
+"amenity=restaurant"
+],
+"t1-23": [
+31.624537,
+-7.985213,
+"Naranj Libanese",
+"amenity=restaurant"
+],
+"t1-25": [
+31.624041,
+-7.989158,
+"Patisserie des Princes",
+"shop=pastry"
+],
+"t1-26": [
+31.625463,
+-7.987768,
+"Taj'in Darna",
+"amenity=restaurant"
+],
+"t1-27": [
+31.626773,
+-7.987673,
+"Zeitoun Cafè",
+"amenity=cafe"
+],
+"t1-28": [
+31.626338,
+-7.987307,
+"Café de France",
+"amenity=cafe"
+],
+"t1-29": [
+31.625338,
+-7.988307,
+"Le Grand Balcon du Café Glacier",
+"amenity=cafe"
+],
+"t1-30": [
+31.624421,
+-7.986911,
+"La Pergola rooftop jazz bar",
+"amenity=restaurant"
+],
+"t1-31": [
+31.626268,
+-7.98675,
+"Le Salama",
+"amenity=restaurant"
+],
+"t1-32": [
+31.625814,
+-7.98627,
+"Aromatimri",
+"shop=cosmetics"
+],
+"t1-36": [
+31.627029,
+-7.987805,
+"Souk Ableuh",
+"amenity=marketplace"
+],
+"t2-01": [
+31.629188,
+-7.990286,
+"Dar Cherifa",
+"tourism=gallery"
+],
+"t2-02": [
+31.631655,
+-7.991533,
+"Hammam de la Rose",
+"shop=massage"
+],
+"t2-07": [
+31.629359,
+-7.988779,
+"Musée de la Musique",
+"tourism=museum"
+],
+"t2-09": [
+31.628937,
+-7.987081,
+"Rahba Kedima Square",
+"tourism=attraction"
+],
+"t2-10": [
+31.630366,
+-7.988577,
+"Souk des teinturiers",
+"tourism=attraction"
+],
+"t2-14": [
+31.629431,
+-7.988202,
+"Equity Point",
+"tourism=hostel"
+],
+"t2-16": [
+31.629186,
+-7.988046,
+"Riad Le J",
+"tourism=hotel"
+],
+"t2-17": [
+31.629784,
+-7.989861,
+"Riad l’orangeraie",
+"tourism=hotel"
+],
+"t2-19": [
+31.628849,
+-7.986969,
+"Ayaso",
+"amenity=restaurant"
+],
+"t2-20": [
+31.628115,
+-7.991835,
+"Ksar Essaoussan",
+"amenity=restaurant"
+],
+"t2-21": [
+31.632048,
+-7.988764,
+"Le Jardin",
+"amenity=restaurant"
+],
+"t2-22": [
+31.628678,
+-7.987438,
+"Nomad",
+"amenity=restaurant"
+],
+"t2-24": [
+31.632304,
+-7.988567,
+"Soul Food",
+"amenity=restaurant"
+],
+"t2-25": [
+31.631067,
+-7.988876,
+"La Terrasse Des Epices",
+"amenity=restaurant"
+],
+"t2-26": [
+31.631149,
+-7.986548,
+"1112",
+"amenity=cafe"
+],
+"t2-28": [
+31.630788,
+-7.989348,
+"Café Arabe",
+"amenity=restaurant"
+],
+"t2-29": [
+31.628937,
+-7.986637,
+"Maazouz",
+"amenity=cafe"
+],
+"t2-30": [
+31.629053,
+-7.987332,
+"Café des épices",
+"amenity=cafe"
+],
+"t2-31": [
+31.632832,
+-7.98874,
+"Le Jardin Ben Youssef",
+"amenity=restaurant"
+],
+"t2-32": [
+31.631017,
+-7.988871,
+"Arganino",
+"shop=cosmetics"
+],
+"t2-35": [
+31.63254,
+-7.988562,
+"Centre de la femme artisane",
+"craft=handicraft"
+],
+"t2-37": [
+31.629638,
+-7.990067,
+"Funky cool Medina",
+"shop=clothes"
+],
+"t3-02": [
+31.632183,
+-7.986557,
+"Dar Bellarj دار بلارج",
+"tourism=museum"
+],
+"t3-04": [
+31.631986,
+-7.984367,
+"Maison de la Photographie",
+"tourism=gallery"
+],
+"t3-06": [
+31.631857,
+-7.984907,
+"Storytelling Cafe",
+"amenity=restaurant"
+],
+"t3-07": [
+31.631913,
+-7.985074,
+"Farnatchi Spa",
+"shop=beauty"
+],
+"t3-09": [
+31.629137,
+-7.986102,
+"Rhiad Ecila",
+"tourism=hotel"
+],
+"t3-10": [
+31.631461,
+-7.985278,
+"Riad Star",
+"tourism=guest_house"
+],
+"t3-11": [
+31.632097,
+-7.985518,
+"Le Trou au Mur",
+"amenity=restaurant"
+],
+"t3-12": [
+31.629215,
+-7.986435,
+"L'Mida",
+"amenity=restaurant"
+],
+"t3-13": [
+31.630067,
+-7.98508,
+"Naima",
+"amenity=restaurant"
+],
+"t3-14": [
+31.632036,
+-7.985852,
+"Tradititonal Weaving by Faissal",
+"shop=clothes"
+],
+"t4-04": [
+31.620134,
+-7.979372,
+"Cimetière Juif Miaara",
+"tourism=attraction"
+],
+"t4-06": [
+31.618669,
+-7.987973,
+"Monde des Arts de la Parure (MAP)",
+"tourism=museum"
+],
+"t4-07": [
+31.61984,
+-7.984769,
+"Place des Ferblantiers",
+"place=square"
+],
+"t4-09": [
+31.613028,
+-7.987289,
+"Café Clock",
+"amenity=restaurant"
+],
+"t4-10": [
+31.622102,
+-7.984404,
+"Hammam Ziani",
+"shop=cosmetics"
+],
+"t4-12": [
+31.61197,
+-7.987269,
+"Les Jardins de la Medina Restaurant",
+"amenity=restaurant"
+],
+"t4-13": [
+31.613337,
+-7.986419,
+"Marrakech green wheels",
+"amenity=bicycle_rental"
+],
+"t4-14": [
+31.61197,
+-7.987269,
+"Les Jardins de la Medina Restaurant",
+"amenity=restaurant"
+],
+"t4-15": [
+31.619564,
+-7.983144,
+"Riad Azoulay",
+"tourism=guest_house"
+],
+"t4-21": [
+31.617125,
+-7.989508,
+"Kasbah Cafe",
+"amenity=cafe"
+],
+"t4-22": [
+31.617394,
+-7.990067,
+"La Table de la Kasbah",
+"amenity=restaurant"
+],
+"t4-24": [
+31.619659,
+-7.985019,
+"Mazel Cafe",
+"amenity=restaurant"
+],
+"t5-05": [
+31.633933,
+-7.988143,
+"Musée du Parfum",
+"tourism=museum"
+],
+"t5-06": [
+31.628967,
+-7.99451,
+"Dar Anis Yoga Studio",
+"leisure=sports_centre"
+],
+"t5-08": [
+31.633711,
+-7.992135,
+"Pikala Bikes",
+"amenity=bicycle_rental"
+],
+"t5-09": [
+31.632275,
+-7.99311,
+"Riad Dar Baraka and Karam",
+"tourism=guest_house"
+],
+"t5-11": [
+31.633426,
+-7.996191,
+"Riad Massarah",
+"tourism=guest_house"
+],
+"t5-13": [
+31.630898,
+-7.994828,
+"Riad Jardin Secret",
+"tourism=guest_house"
+],
+"t5-16": [
+31.631592,
+-7.994254,
+"Henna Cafe",
+"amenity=cafe"
+],
+"t5-17": [
+31.630574,
+-7.996126,
+"La Maison Arabe",
+"tourism=hotel"
+],
+"t5-20": [
+31.631559,
+-7.995,
+"Pikala Café",
+"amenity=cafe"
+],
+"t5-21": [
+31.631393,
+-7.99632,
+"Regue Jamaa",
+"amenity=cafe"
+],
+"t5-24": [
+31.631159,
+-7.989344,
+"Al Kawtar",
+"shop=gift"
+],
+"t5-25": [
+31.631672,
+-7.994347,
+"Mustapha Blaoui",
+"shop=furniture"
+],
+"t6-03": [
+31.642583,
+-8.003244,
+"Musée Yves Saint Laurent",
+"tourism=museum"
+],
+"t6-06": [
+31.634708,
+-8.014144,
+"MACMA - Musée de l'art et la culture de Marrakech",
+"tourism=museum"
+],
+"t6-11": [
+31.635162,
+-8.015502,
+"+61",
+"amenity=restaurant"
+],
+"t6-12": [
+31.639072,
+-8.013772,
+"Association Amal - Women Training Center and Moroccan Restaurant",
+"amenity=restaurant"
+],
+"t6-14": [
+31.632767,
+-8.007503,
+"16 cafe",
+"amenity=cafe"
+],
+"t6-16": [
+31.635786,
+-8.015242,
+"Le Colisee",
+"amenity=cinema"
+],
+"t6-19": [
+31.637083,
+-8.014039,
+"Baromètre Marrakech",
+"amenity=restaurant"
+],
+"t6-20": [
+31.635753,
+-8.014521,
+"Café Atlas",
+"amenity=cafe"
+],
+"t6-21": [
+31.63312,
+-8.010006,
+"Grand Café de la Poste",
+"amenity=restaurant"
+],
+"t6-24": [
+31.641048,
+-8.001804,
+"33 rue majorelle",
+"shop=clothes"
+],
+"t6-27": [
+31.632711,
+-8.014413,
+"Galerie des Tanneurs",
+"shop=clothes"
+],
+"t6-x-martyrs": [
+31.629652,
+-8.00672,
+"Eglise des Saints Martyrs",
+"amenity=place_of_worship"
+],
+"t3-x-debbagh": [
+31.634103,
+-7.978592,
+"Bab Debbagh",
+"historic=city_gate"
+],
+"t5-x-belabbes": [
+31.639097,
+-7.990818,
+"Zaouia de Sidi Bel Abbès زاوية أبو العباس السبتي",
+"amenity=place_of_worship"
+]
+}

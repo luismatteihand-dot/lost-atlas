@@ -1,0 +1,267 @@
+[
+ {
+  "id": "a-plume",
+  "name": "Plume de cigogne",
+  "art": "plume",
+  "rarity": "commun",
+  "desc": "Une rémige blanche bordée de noir.",
+  "story": "Les cigognes nichent sur les remparts et les palais en ruine ; on les dit de bon augure, et nul ne les dérange. Dar Bellarj, « la maison des cigognes », leur doit son nom.",
+  "unlock": {
+   "mastered": "t3-02"
+  },
+  "hint": "Résous l'énigme de Dar Bellarj."
+ },
+ {
+  "id": "a-coupe",
+  "name": "Coupe du porteur d'eau",
+  "art": "coupe",
+  "rarity": "commun",
+  "desc": "Une coupe de laiton bosselée, suspendue à une chaîne.",
+  "story": "Le guerrab vendait l'eau fraîche de son outre en peau de chèvre, annoncé par sa clochette. La place lui a gardé son costume ; les robinets lui ont pris son métier.",
+  "unlock": {
+   "mastered": "t1-17"
+  },
+  "hint": "Observe les stands culinaires de la place, de jour puis de nuit."
+ },
+ {
+  "id": "a-sceau",
+  "name": "Sceau de l'amine",
+  "art": "sceau",
+  "rarity": "commun",
+  "desc": "Un cachet de bronze gravé d'une étoile à huit branches.",
+  "story": "Chaque corporation avait son amine, élu par ses pairs pour arbitrer les litiges et garantir la qualité. Sa marque valait certificat : dans un souk sans étiquettes, la confiance était une institution.",
+  "unlock": {
+   "mastered": "t1-37"
+  },
+  "hint": "Comprends pourquoi les concurrents du souk Semmarine s'installent côte à côte."
+ },
+ {
+  "id": "a-bendir",
+  "name": "Tambour du conteur",
+  "art": "bendir",
+  "rarity": "commun",
+  "desc": "Un bendir : cadre de bois, peau tendue, timbre de boyau.",
+  "story": "Trois coups de tambour suffisent à ouvrir un cercle. Le conteur s'en sert pour appeler le public, ponctuer le récit — et couvrir la voix du cercle voisin.",
+  "unlock": {
+   "quest": "q-cercle"
+  },
+  "hint": "Termine la quête « Le cercle »."
+ },
+ {
+  "id": "a-tanjia",
+  "name": "Jarre à tanjia",
+  "art": "tanjia",
+  "rarity": "commun",
+  "desc": "Une amphore de terre cuite à deux anses, fermée d'un papier ficelé.",
+  "story": "On la remplit au souk, on la confie au chauffeur du hammam, on la reprend des heures plus tard : la tanjia est le seul plat qui exige une ville entière pour cuire.",
+  "unlock": {
+   "codex": "c-tanjia"
+  },
+  "hint": "Révèle le savoir « La tanjia, plat des artisans »."
+ },
+ {
+  "id": "a-lanterne",
+  "name": "Lanterne de ferblantier",
+  "art": "lanterne",
+  "rarity": "commun",
+  "desc": "Du fer-blanc découpé au poinçon, à six pans.",
+  "story": "Place des Ferblantiers, on découpe le métal pour laisser passer la lumière : le décor n'est pas ajouté, il est retiré. Allumée, la lanterne projette son motif sur les murs.",
+  "unlock": {
+   "quest": "q-balade-83"
+  },
+  "hint": "Termine la balade « La boucle des Ferblantiers »."
+ },
+ {
+  "id": "a-zellige",
+  "name": "Fragment de zellige",
+  "art": "zellige",
+  "rarity": "commun",
+  "desc": "Une étoile à huit pointes d'émail vert, taillée au marteau.",
+  "story": "Chaque pièce est dégrossie à la main dans un carreau émaillé, puis assemblée à l'envers, face contre terre : l'artisan ne voit son œuvre qu'une fois le panneau retourné.",
+  "unlock": {
+   "quest": "q-registres"
+  },
+  "hint": "Termine la quête « Du sol au ciel »."
+ },
+ {
+  "id": "a-cedre",
+  "name": "Motif de cèdre sculpté",
+  "art": "cedre",
+  "rarity": "commun",
+  "desc": "Un éclat de linteau aux alvéoles en nid d'abeilles.",
+  "story": "Le cèdre de l'Atlas résiste aux insectes et sent bon pendant des siècles. On le réserve au haut des murs — linteaux, auvents, plafonds — là où la pluie ne l'atteint pas.",
+  "unlock": {
+   "mastered": "t5-02"
+  },
+  "hint": "Maîtrise la fontaine Chrob ou Chouf."
+ },
+ {
+  "id": "a-porte",
+  "name": "Bab Agnaou en miniature",
+  "art": "porte",
+  "rarity": "commun",
+  "desc": "Une porte de grès aux arcs emboîtés.",
+  "story": "Dans une ville de terre, la pierre est une déclaration. La porte du calife n'était pas la mieux défendue de Marrakech : c'était la plus belle.",
+  "unlock": {
+   "mastered": "t4-x-agnaou"
+  },
+  "hint": "Observe Bab Agnaou et ses remparts."
+ },
+ {
+  "id": "a-bleu",
+  "name": "Pot bleu Majorelle",
+  "art": "pot",
+  "rarity": "commun",
+  "desc": "Une jarre peinte d'un outremer intense.",
+  "story": "Le peintre Jacques Majorelle a donné son nom à ce bleu, posé en aplats contre le vert des cactus. Un jardin composé comme un tableau, à mille lieues du riad.",
+  "unlock": {
+   "mastered": "t6-02"
+  },
+  "hint": "Observe le Jardin Majorelle."
+ },
+ {
+  "id": "a-jamour",
+  "name": "Flèche de la Koutoubia",
+  "art": "jamour",
+  "rarity": "rare",
+  "desc": "Des boules de cuivre de taille décroissante enfilées sur une hampe.",
+  "story": "Le jamour couronne les minarets du Maroc. La légende veut que celui de la Koutoubia ait été fondu dans l'or des bijoux d'une épouse du calife — une belle histoire, rangée ici à sa place : parmi les traditions.",
+  "unlock": {
+   "quest": "q-jumelle"
+  },
+  "hint": "Termine la quête « La jumelle »."
+ },
+ {
+  "id": "a-sel",
+  "name": "Barre de sel du désert",
+  "art": "sel",
+  "rarity": "rare",
+  "desc": "Une plaque de sel gemme cerclée de cordes.",
+  "story": "Taillé dans les mines du Sahara, le sel descendait vers le Sahel à dos de dromadaire et s'y échangeait contre de l'or. La moitié de la fortune de Marrakech a commencé par cette marchandise sans éclat.",
+  "unlock": {
+   "quest": "q-fondouk"
+  },
+  "hint": "Termine la quête secrète « L'auberge des caravanes »."
+ },
+ {
+  "id": "a-dinar",
+  "name": "Dinar almoravide",
+  "art": "dinar",
+  "rarity": "rare",
+  "desc": "Une pièce d'or fin couverte d'écriture, sans aucune image.",
+  "story": "Frappé avec l'or venu du Sahel, le dinar des Almoravides était si réputé qu'on l'imita en Europe chrétienne sous le nom de « marabotin » : le nom même de la dynastie devenu monnaie.",
+  "unlock": {
+   "quest": "q-ksar"
+  },
+  "hint": "Termine la quête secrète « La pierre avant la terre »."
+ },
+ {
+  "id": "a-compas",
+  "name": "Compas de l'urbaniste",
+  "art": "compas",
+  "rarity": "rare",
+  "desc": "Un compas de laiton, pointe sèche plantée dans un plan.",
+  "story": "En 1913, une ville entière est tracée sur le papier avant d'exister : avenues, places rondes, perspectives. La pointe du compas, elle, vise un minaret du XIIe siècle.",
+  "unlock": {
+   "quest": "q-axe"
+  },
+  "hint": "Termine la quête secrète « L'axe »."
+ },
+ {
+  "id": "a-caravane",
+  "name": "Miniature de caravane",
+  "art": "caravane",
+  "rarity": "rare",
+  "desc": "Un dromadaire bâté, taillé dans le bois.",
+  "story": "Près de deux mois de marche séparaient le Sahel de l'Atlas. La caravane était une ville en mouvement — et Marrakech, le port où elle accostait.",
+  "unlock": {
+   "chain": "s-commerce"
+  },
+  "hint": "Réussis la synthèse « La route de l'or »."
+ },
+ {
+  "id": "a-khettara",
+  "name": "Regard de khettara",
+  "art": "khettara",
+  "rarity": "rare",
+  "desc": "La margelle d'un puits ouvert sur une galerie.",
+  "story": "Sous la plaine, des kilomètres de galeries creusées à la main amenaient l'eau de la nappe. Ceux qui les entretenaient descendaient par ces puits, un à un, comme les grains d'un chapelet.",
+  "unlock": {
+   "chain": "s-eau"
+  },
+  "hint": "Réussis la synthèse « L'eau cachée »."
+ },
+ {
+  "id": "a-marbre",
+  "name": "Éclat de marbre du Badi",
+  "art": "marbre",
+  "rarity": "rare",
+  "desc": "Un fragment de colonne veiné de gris.",
+  "story": "Importé d'Italie pour un sultan, démonté par un autre, remployé dans d'autres villes : à Marrakech, les matériaux survivent aux dynasties et changent de camp.",
+  "unlock": {
+   "chain": "s-dynasties"
+  },
+  "hint": "Réussis la synthèse « Quatre dynasties, une capitale »."
+ },
+ {
+  "id": "a-manuscrit",
+  "name": "Feuillet du conteur",
+  "art": "manuscrit",
+  "rarity": "rare",
+  "desc": "Une page couverte d'écriture, cornée par l'usage.",
+  "story": "Les conteurs de la place apprenaient par cœur des cycles entiers — Antar, les Mille et Une Nuits, les gestes des saints. Le feuillet ne servait qu'en cas de doute : le livre, c'était eux.",
+  "unlock": {
+   "chain": "s-place"
+  },
+  "hint": "Réussis la synthèse « La place et la parole »."
+ },
+ {
+  "id": "a-heurtoir",
+  "name": "Heurtoir de derb",
+  "art": "heurtoir",
+  "rarity": "rare",
+  "desc": "Un anneau de fer forgé sur sa platine cloutée.",
+  "story": "Sur la rue, la maison ne montre qu'une porte. Tout ce qu'elle a de précieux est derrière — et le heurtoir est la seule politesse qu'elle concède au passant.",
+  "unlock": {
+   "chain": "s-interieur"
+  },
+  "hint": "Réussis la synthèse « La ville intérieure »."
+ },
+ {
+  "id": "a-carreau",
+  "name": "Carreau de ciment Art déco",
+  "art": "carreau",
+  "rarity": "rare",
+  "desc": "Un carreau à motif géométrique noir et ocre.",
+  "story": "Produit en série, posé dans les halls de Guéliz : la modernité des années 1930 tient dans ce carré, qui regarde pourtant du côté du zellige.",
+  "unlock": {
+   "chain": "s-double"
+  },
+  "hint": "Réussis la synthèse « La ville double »."
+ },
+ {
+  "id": "a-atlas",
+  "name": "Page retrouvée de l'Atlas",
+  "art": "atlas",
+  "rarity": "légendaire",
+  "desc": "Une feuille de parchemin où la ville réapparaît, trait après trait.",
+  "story": "Récit fictif du jeu : l'atlas qu'on t'a confié retrouve ici sa première page complète. Tout ce qui y figure, en revanche, est vrai — tu l'as vérifié toi-même, sur place.",
+  "unlock": {
+   "count": "chains",
+   "min": 3
+  },
+  "hint": "Réussis trois synthèses."
+ },
+ {
+  "id": "a-lentille",
+  "name": "Lentille d'arpenteur",
+  "art": "lentille",
+  "rarity": "rare",
+  "desc": "Un verre poli cerclé de laiton.",
+  "story": "Objet symbolique : il rappelle le jour où tu as trouvé, sans qu'on te le montre, un détail que la ville gardait pour qui lève les yeux.",
+  "unlock": {
+   "photo": 1
+  },
+  "hint": "Révèle un secret par la photographie."
+ }
+]

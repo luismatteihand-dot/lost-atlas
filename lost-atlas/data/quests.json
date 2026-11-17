@@ -1,0 +1,1744 @@
+[
+ {
+  "id": "q-seuil",
+  "cat": "exploration",
+  "t": "t1",
+  "diff": 1,
+  "title": "Le seuil",
+  "intro": "Trois repères suffisent pour ne plus jamais se perdre : la place, le minaret, l'entrée des souks. Pose-les sur ton atlas avant toute chose.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t1-x-place"
+   },
+   {
+    "type": "visit",
+    "place": "t1-x-koutoubia"
+   },
+   {
+    "type": "visit",
+    "place": "t1-37"
+   }
+  ],
+  "hints": [
+   "La place est le point de départ de ta carte n° I.",
+   "Le minaret se voit de presque partout : marche vers lui, à l'ouest de la place.",
+   "Le souk Semmarine s'ouvre au nord de la place, après la place Bab Fteuh (n° 37 de ta carte)."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-balade-83",
+  "cat": "exploration",
+  "t": "t1",
+  "diff": 2,
+  "title": "La boucle des Ferblantiers",
+  "intro": "Ton guide propose une promenade de 1,3 km au sud de la médina (p. 83). Fais-en les étapes culturelles, dans l'ordre que tu veux.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t4-07"
+   },
+   {
+    "type": "visit",
+    "place": "t1-01"
+   },
+   {
+    "type": "visit",
+    "place": "t1-05"
+   },
+   {
+    "type": "visit",
+    "place": "t4-02"
+   }
+  ],
+  "hints": [
+   "Départ et arrivée : la place des Ferblantiers.",
+   "On monte par la rue Riad Zitoun el-Kedim, on redescend par Riad Zitoun el-Jedid.",
+   "Dar Si Saïd, le musée de l'Art culinaire et la Bahia se suivent le long de Riad Zitoun el-Jedid."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 80,
+    "histoire": 20
+   },
+   "artifact": "a-lanterne"
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-balade-92",
+  "cat": "exploration",
+  "t": "t2",
+  "diff": 2,
+  "title": "Des souks aux monuments",
+  "intro": "La balade de la page 92 relie Mouassine à Kaat Benahid par les ruelles des métiers. Cinq étapes à retrouver.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t2-05"
+   },
+   {
+    "type": "visit",
+    "place": "t2-10"
+   },
+   {
+    "type": "visit",
+    "place": "t3-03"
+   },
+   {
+    "type": "visit",
+    "place": "t3-05"
+   },
+   {
+    "type": "visit",
+    "place": "t3-01"
+   }
+  ],
+  "hints": [
+   "Départ et arrivée : Le Jardin Secret, rue Mouassine.",
+   "Après les teinturiers, on traverse les souks vers le nord-est jusqu'à la Koubba.",
+   "Koubba, musée de Marrakech et médersa sont à moins de cent mètres les uns des autres."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 100,
+    "architecture": 20
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-balade-123",
+  "cat": "exploration",
+  "t": "t6",
+  "diff": 2,
+  "title": "Art et Art déco à Guéliz",
+  "intro": "850 m et deux heures, dit ton guide (p. 123) : du passage Ghandouri au Grand Café de la Poste, en levant les yeux vers les façades.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t6-08"
+   },
+   {
+    "type": "visit",
+    "place": "t6-20"
+   },
+   {
+    "type": "visit",
+    "place": "t6-01"
+   },
+   {
+    "type": "visit",
+    "place": "t6-21"
+   }
+  ],
+  "hints": [
+   "Départ au passage Ghandouri, rue Yougoslavie.",
+   "Le Café Atlas est au rond-point, à 150 m ; le Comptoir des Mines, rue Yougoslavie.",
+   "L'arrivée est au bout du boulevard El Mansour Eddahbi."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 80,
+    "architecture": 30
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-cercle",
+  "cat": "observation",
+  "t": "t1",
+  "diff": 1,
+  "title": "Le cercle",
+  "intro": "Sur la place, le spectacle n'a ni scène ni horaire. Apprends à le lire comme le font les habitués.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t1-x-place"
+   },
+   {
+    "type": "challenge",
+    "label": "Rester cinq minutes dans un cercle",
+    "ch": {
+     "kind": "observe",
+     "skill": "culture",
+     "q": "Choisis un cercle et restes-y cinq minutes, téléphone en poche. À quel moment l'artiste s'interrompt-il pour la quête ? Qui donne, et combien de personnes s'en vont ?",
+     "reveal": "L'interruption tombe presque toujours au moment où l'on veut connaître la suite : c'est le principe du feuilleton. Le premier rang paie le plus facilement — il s'est engagé en s'asseyant ou en s'avançant. Ceux qui filment de loin partent les premiers. Si tu photographies un artiste, la règle de la place est simple : tu lui dois quelque chose."
+    }
+   }
+  ],
+  "hints": [
+   "Viens en fin d'après-midi, quand les cercles se forment.",
+   "Cherche un attroupement compact plutôt qu'un étal.",
+   "Le cercle porte un nom arabe : halqa."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 60
+   },
+   "artifact": "a-bendir"
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-registres",
+  "cat": "observation",
+  "t": "t3",
+  "diff": 2,
+  "title": "Du sol au ciel",
+  "intro": "Un même ordre gouverne le décor de presque tous les monuments de la ville. Trouve-le une fois ; reconnais-le ailleurs.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t3-01"
+   },
+   {
+    "type": "anyvisit",
+    "places": [
+     "t4-02",
+     "t1-01",
+     "t4-08",
+     "t2-08",
+     "t5-02"
+    ],
+    "label": "Retrouver cet ordre dans un second monument (Bahia, Dar Si Saïd, tombeaux saadiens, Dar el-Bacha ou fontaine Chrob ou Chouf)"
+   },
+   {
+    "type": "challenge",
+    "label": "Nommer la matière du bas",
+    "ch": {
+     "kind": "enigma",
+     "skill": "architecture",
+     "q": "Dans ce second monument, quelle matière occupe le bas des murs ?",
+     "a": [
+      "zellige",
+      "zelliges",
+      "zellij",
+      "le zellige",
+      "mosaique",
+      "faience",
+      "ceramique",
+      "carreaux",
+      "carrelage",
+      "pierre",
+      "la pierre",
+      "marbre"
+     ],
+     "hints": [
+      "Elle supporte l'eau et les chocs.",
+      "De petits éléments émaillés assemblés en motifs géométriques.",
+      "Z-E-L-L-…"
+     ],
+     "explain": "Le zellige (ou, pour une fontaine, la pierre nue) : en bas, toujours le matériau qui résiste."
+    }
+   }
+  ],
+  "hints": [
+   "Commence dans la cour de la médersa Ben Youssef.",
+   "Regarde le mur par bandes horizontales, de bas en haut.",
+   "Céramique, puis plâtre, puis bois."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 90
+   },
+   "artifact": "a-zellige"
+  },
+  "mech": "observation",
+  "lvl": 2
+ },
+ {
+  "id": "q-trous",
+  "cat": "observation",
+  "t": "t5",
+  "diff": 1,
+  "title": "Les murs troués",
+  "intro": "Les remparts sont criblés de trous alignés. Des générations de visiteurs y ont vu des meurtrières ou des nids. Qu'y vois-tu ?",
+  "steps": [
+   {
+    "type": "challenge",
+    "label": "Examiner un pan de rempart",
+    "ch": {
+     "kind": "enigma",
+     "skill": "architecture",
+     "q": "Approche-toi d'un rempart de terre, n'importe où autour de la médina. À quoi servaient les trous alignés en rangées ?",
+     "a": [
+      "echafaudage",
+      "echafaudages",
+      "coffrage",
+      "coffrages",
+      "boulin",
+      "boulins",
+      "banche",
+      "banches",
+      "traverse",
+      "traverses",
+      "construction",
+      "poutre",
+      "poutres",
+      "madrier",
+      "madriers",
+      "a construire le mur",
+      "trous de boulin",
+      "a l'echafaudage",
+      "au coffrage"
+     ],
+     "hints": [
+      "Ils datent du jour où le mur a été bâti.",
+      "Le pisé se dame entre deux planches. Il faut bien les tenir.",
+      "Des traverses de bois passaient à travers le mur pour porter le coffrage."
+     ],
+     "explain": "Ce sont des trous de boulin : les logements des traverses qui portaient coffrage et échafaudage pendant qu'on damait la terre."
+    }
+   }
+  ],
+  "hints": [
+   "Les remparts longent toute la médina : Bab Doukkala, Bab Agnaou, Bab Debbagh…",
+   "Regarde à trois ou quatre mètres de haut.",
+   "Les rangées sont espacées de la hauteur d'une levée de terre."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 50
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-jumelle",
+  "cat": "reflexion",
+  "t": "t1",
+  "diff": 2,
+  "title": "La jumelle",
+  "intro": "Au pied du grand minaret, quelque chose manque. Les pierres au sol en gardent le plan.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t1-x-koutoubia"
+   },
+   {
+    "type": "challenge",
+    "label": "Lire les vestiges de l'esplanade",
+    "ch": {
+     "kind": "enigma",
+     "skill": "histoire",
+     "q": "Sur l'esplanade, des bases de piliers dessinent une salle disparue. Quel bâtiment se dressait là ?",
+     "a": [
+      "mosquee",
+      "une mosquee",
+      "premiere mosquee",
+      "la premiere mosquee",
+      "premiere koutoubia",
+      "la premiere koutoubia",
+      "ancienne mosquee",
+      "salle de priere",
+      "une salle de priere",
+      "koutoubia"
+     ],
+     "hints": [
+      "Regarde l'alignement des bases : c'est une forêt de piliers.",
+      "Le mur nord de la mosquée actuelle garde la trace d'une niche de prière.",
+      "La Koutoubia que tu vois est la seconde."
+     ],
+     "explain": "La première Koutoubia, fondée en 1147 ; la seconde a été bâtie contre elle vers 1158."
+    }
+   },
+   {
+    "type": "challenge",
+    "label": "Formuler ton hypothèse",
+    "ch": {
+     "kind": "observe",
+     "skill": "histoire",
+     "q": "Pourquoi construire une seconde mosquée collée à la première, à peine dix ans plus tard ? Propose ton hypothèse avant de lire la suite.",
+     "reveal": "La réponse traditionnelle : la première était mal orientée vers La Mecque, et le calife la fit refaire. Mais la seconde n'est pas beaucoup mieux alignée, et les deux ont peut-être fonctionné ensemble un temps. D'où d'autres hypothèses : une ville en pleine croissance qui manque de place, la volonté de relier la mosquée au palais voisin, ou le prestige d'un chantier neuf. Les historiens n'ont pas tranché — c'est un vrai problème ouvert."
+    }
+   }
+  ],
+  "hints": [
+   "Les vestiges sont à l'air libre, côté nord de la mosquée.",
+   "Cherche des socles carrés alignés.",
+   "Relis la fiche du lieu : deux dates de fondation y figurent."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 100
+   },
+   "artifact": "a-jamour"
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-nom",
+  "cat": "reflexion",
+  "t": "t1",
+  "diff": 2,
+  "title": "Fait, hypothèse ou légende ?",
+  "requires": {
+   "codex": "c-jemaa"
+  },
+  "intro": "Sur le nom de la place, tout le monde a une histoire. L'explorateur sérieux sait dire ce qui est établi, ce qui est supposé et ce qui est raconté.",
+  "steps": [
+   {
+    "type": "challenge",
+    "label": "Classer quatre affirmations",
+    "ch": {
+     "kind": "classify",
+     "skill": "histoire",
+     "q": "Range chaque affirmation dans la bonne catégorie.",
+     "items": [
+      {
+       "t": "L'UNESCO a proclamé l'espace culturel de la place en 2001 et l'a inscrit en 2008.",
+       "k": "fait"
+      },
+      {
+       "t": "Le nom vient d'une mosquée qu'Ahmad al-Mansour laissa inachevée sur la place.",
+       "k": "hyp"
+      },
+      {
+       "t": "La flèche de la Koutoubia fut fondue dans l'or des bijoux d'une épouse du calife.",
+       "k": "trad"
+      },
+      {
+       "t": "La place est protégée par la loi depuis 1922.",
+       "k": "fait"
+      }
+     ],
+     "explain": "Les deux dates sont établies par des textes. L'origine du nom reste une hypothèse — la plus solide, mais une hypothèse. L'or des bijoux est une légende : belle, invérifiable. Savoir faire ce tri est la première compétence d'un historien."
+    }
+   }
+  ],
+  "hints": [
+   "Une date officielle se vérifie dans un document.",
+   "« Peut-être », « selon », « probablement » signalent une hypothèse.",
+   "Une histoire trop belle pour être sourcée est souvent une tradition."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 70
+   }
+  },
+  "mech": "enquete",
+  "lvl": 3
+ },
+ {
+  "id": "q-vizirs",
+  "cat": "reflexion",
+  "t": "t4",
+  "diff": 2,
+  "title": "Une famille, deux palais",
+  "intro": "Dar Si Saïd et la Bahia se regardent à quelques rues d'écart. Derrière les deux, une seule famille de grands commis.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t1-01"
+   },
+   {
+    "type": "visit",
+    "place": "t4-02"
+   },
+   {
+    "type": "challenge",
+    "label": "Retrouver le père",
+    "ch": {
+     "kind": "enigma",
+     "skill": "histoire",
+     "q": "Ba Ahmed a agrandi la Bahia, Si Saïd a bâti le palais qui porte son nom. Comment s'appelait leur père, grand vizir, qui commença la Bahia ?",
+     "a": [
+      "si moussa",
+      "si musa",
+      "moussa",
+      "musa",
+      "sidi moussa",
+      "si moussa ben ahmed"
+     ],
+     "hints": [
+      "La réponse est dans la fiche de la Bahia.",
+      "Il fut grand vizir dans les années 1860.",
+      "Si M…"
+     ],
+     "explain": "Si Moussa. Trois hommes, deux générations, deux palais : au XIXe siècle, c'est la haute administration qui bâtit à Marrakech."
+    }
+   }
+  ],
+  "hints": [
+   "Les deux palais longent la rue Riad Zitoun el-Jedid.",
+   "Lis les fiches des deux lieux après les avoir découverts.",
+   "Cherche un nom qui revient dans les deux."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 90
+   }
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-ksar",
+  "cat": "secret",
+  "t": "t1",
+  "diff": 3,
+  "title": "La pierre avant la terre",
+  "intro": "Avant les remparts, avant le minaret, la ville tenait dans une forteresse. Il en reste un pan de mur et une porte, que presque personne ne regarde.",
+  "steps": [
+   {
+    "type": "challenge",
+    "label": "Trouver le vestige",
+    "ch": {
+     "kind": "confirm",
+     "q": "Trouve les restes du premier château de Marrakech.",
+     "button": "Je l'ai trouvé"
+    }
+   },
+   {
+    "type": "challenge",
+    "label": "Comprendre son nom",
+    "ch": {
+     "kind": "observe",
+     "skill": "histoire",
+     "q": "Cette forteresse s'appelait Ksar el-Hajar, « le château de pierre ». Pourquoi ce nom banal était-il, ici, remarquable ?",
+     "reveal": "Parce que tout le reste était en terre. Dans une plaine sans carrière proche, bâtir en pierre était un luxe et un message : le premier noyau du pouvoir almoravide se distinguait par son matériau. La porte que tu as trouvée, Bab Ali, fut ajoutée en 1126 par Ali ibn Youssef. Quand les Almohades prennent la ville, ils bâtissent leur mosquée contre l'ancien palais : on efface un pouvoir en s'installant à sa place."
+    }
+   }
+  ],
+  "hints": [
+   "Cherche près du plus haut minaret de la ville.",
+   "Au nord de la mosquée, parmi les vestiges, tout n'est pas almohade.",
+   "Un pan de mur et une porte en pierre, à côté des bases de piliers de la première Koutoubia."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 120,
+    "exploration": 40
+   },
+   "artifact": "a-dinar"
+  },
+  "mech": "secret",
+  "lvl": 2
+ },
+ {
+  "id": "q-axe",
+  "cat": "secret",
+  "t": "t6",
+  "diff": 3,
+  "title": "L'axe",
+  "intro": "Quelque part dans la ville nouvelle, une avenue a été tracée pour qu'un monument de la médina lui serve de point de mire. Trouve l'endroit d'où tu le vois dans l'axe.",
+  "steps": [
+   {
+    "type": "challenge",
+    "label": "Se placer dans l'axe",
+    "ch": {
+     "kind": "enigma",
+     "skill": "architecture",
+     "q": "Quel monument vois-tu au bout de l'avenue ?",
+     "a": [
+      "koutoubia",
+      "la koutoubia",
+      "minaret",
+      "le minaret",
+      "minaret de la koutoubia",
+      "mosquee koutoubia",
+      "mosquee de la koutoubia",
+      "le minaret de la koutoubia"
+     ],
+     "hints": [
+      "C'est l'avenue principale de Guéliz.",
+      "Elle porte le nom d'un roi et relie Guéliz à la médina.",
+      "Place-toi sur l'avenue Mohammed V, dos à Guéliz, et regarde au loin."
+     ],
+     "explain": "La Koutoubia. L'urbaniste Henri Prost a calé l'avenue sur le minaret : la ville nouvelle se donne pour horizon le monument de l'ancienne."
+    }
+   }
+  ],
+  "hints": [
+   "Cherche une perspective, pas un bâtiment.",
+   "Les urbanistes français aimaient les avenues qui visent un clocher… ou ce qui en tient lieu.",
+   "Avenue Mohammed V, en regardant vers le sud-est."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 100,
+    "exploration": 40
+   },
+   "artifact": "a-compas"
+  },
+  "mech": "secret",
+  "lvl": 2
+ },
+ {
+  "id": "q-derb",
+  "cat": "secret",
+  "t": "t5",
+  "diff": 1,
+  "title": "La rue qui se referme",
+  "intro": "Aucune carte ne te dira lequel choisir. Trouve un derb — une impasse d'habitation — fais-y quelques pas, puis ressors.",
+  "steps": [
+   {
+    "type": "challenge",
+    "label": "Entrer dans un derb",
+    "ch": {
+     "kind": "confirm",
+     "q": "Avance d'une vingtaine de mètres dans une impasse résidentielle, sans photographier les habitants.",
+     "button": "J'y suis allé"
+    }
+   },
+   {
+    "type": "challenge",
+    "label": "Dire ce que tu as ressenti",
+    "ch": {
+     "kind": "observe",
+     "skill": "culture",
+     "q": "Qu'est-ce qui a changé entre la rue et l'impasse : le bruit, la largeur, les regards, les portes ?",
+     "reveal": "Le bruit tombe, la rue se resserre, les boutiques disparaissent, les portes se font face de biais pour ne pas ouvrir l'une sur l'autre — et l'on te regarde. Tu viens de franchir un seuil sans porte : le derb appartient à ses riverains. Autrefois, il se fermait la nuit. Le plan en impasses de la médina n'est pas un désordre, c'est une hiérarchie du public vers le privé."
+    }
+   }
+  ],
+  "hints": [
+   "Sur tes cartes, cherche les noms qui commencent par « Derb ».",
+   "Quitte une rue commerçante par une ruelle sans boutique.",
+   "Si la ruelle finit en cul-de-sac entre des portes cloutées, tu y es."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 60,
+    "exploration": 20
+   }
+  },
+  "mech": "secret",
+  "lvl": 2
+ },
+ {
+  "id": "q-fondouk",
+  "cat": "secret",
+  "t": "t2",
+  "diff": 2,
+  "title": "L'auberge des caravanes",
+  "intro": "Les caravanes ne viennent plus, mais leurs auberges sont toujours là, derrière de grandes portes que l'on croit fermées. Pousses-en une.",
+  "steps": [
+   {
+    "type": "challenge",
+    "label": "Entrer dans un fondouk",
+    "ch": {
+     "kind": "confirm",
+     "q": "Trouve un fondouk en activité et entre dans sa cour.",
+     "button": "Je suis dans la cour"
+    }
+   },
+   {
+    "type": "challenge",
+    "label": "Lire le bâtiment",
+    "ch": {
+     "kind": "observe",
+     "skill": "histoire",
+     "q": "Regarde les deux niveaux. Qui logeait en bas, qui logeait en haut — et qu'y trouve-t-on aujourd'hui ?",
+     "reveal": "En bas, les bêtes et les ballots ; en haut, sur la galerie, les marchands. Aujourd'hui, les cellules sont des ateliers : dinandiers, menuisiers, maroquiniers, peintres sur bois. Le bâtiment a changé de locataires sans changer de logique : un lieu de travail fermé par une seule porte, où tout le monde se connaît."
+    }
+   }
+  ],
+  "hints": [
+   "Cherche le long de la rue Mouassine, de la rue Dar el-Bacha ou vers Bab Doukkala.",
+   "Une porte en bois plus haute qu'un cavalier, ouverte sur une cour à galeries.",
+   "Ta carte Mouassine en signale deux : les n° 12 et 13."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 70,
+    "exploration": 30
+   },
+   "artifact": "a-sel"
+  },
+  "mech": "secret",
+  "lvl": 2
+ },
+ {
+  "id": "q-t1-nuit",
+  "cat": "observation",
+  "t": "t1",
+  "diff": 1,
+  "title": "La place à deux visages",
+  "intro": "La même place, à quelques heures d'écart, n'est plus le même lieu. Viens voir le changement se faire.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t1-17"
+   },
+   {
+    "type": "visit",
+    "place": "t1-22"
+   }
+  ],
+  "hints": [
+   "Passe une première fois en plein après-midi, puis reviens à la tombée du jour.",
+   "Les étals numérotés occupent le centre de la place à la nuit.",
+   "L'allée des Méchouis s'ouvre juste au nord de la place : on y vient plutôt en fin de matinée."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t1-cote",
+  "cat": "observation",
+  "t": "t1",
+  "diff": 1,
+  "title": "Côte à côte",
+  "intro": "Dans les souks, les concurrents s'installent porte à porte. Ce n'est pas un hasard, et ta carte en garde la trace.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t1-37"
+   },
+   {
+    "type": "challenge",
+    "label": "Lire les noms sur la carte",
+    "ch": {
+     "kind": "observe",
+     "skill": "culture",
+     "q": "Ouvre la carte et zoome au nord de la place. Relève trois noms de souks. Que désignent-ils, à ton avis ?",
+     "reveal": "Ce sont des noms de métiers : haddadine, les forgerons ; cherratine, les maroquiniers ; nejjarine, les menuisiers ; attarine, les marchands d'épices et de parfums. Chaque métier formait une corporation, avec son représentant, et un magistrat du marché contrôlait poids, mesures et qualité. Ce que vend aujourd'hui une ruelle ne correspond plus toujours à son nom : à toi de le constater."
+    }
+   }
+  ],
+  "hints": [
+   "Le souk Semmarine s'ouvre au nord de la place, sous un treillage.",
+   "Note ce que vendent trois boutiques voisines.",
+   "Sur la carte, cherche les noms qui commencent par « Souk »."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 70
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t1-maisons",
+  "cat": "exploration",
+  "t": "t1",
+  "diff": 2,
+  "title": "Trois maisons, trois mémoires",
+  "intro": "Un palais de ministre, une ancienne banque, la maison d'un collectionneur : trois musées, trois façons de garder ce qui disparaît. Trouver la porte suffit ; entrer est ton choix.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t1-01"
+   },
+   {
+    "type": "visit",
+    "place": "t1-02"
+   },
+   {
+    "type": "visit",
+    "place": "t1-03"
+   }
+  ],
+  "hints": [
+   "Le musée du Patrimoine immatériel donne sur la place elle-même.",
+   "Dar Si Said et Tiskiwin sont au sud-est, vers le quartier de la Bahia.",
+   "Les deux derniers sont à quelques pas l'un de l'autre."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 70
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-t1-dedans",
+  "cat": "reflexion",
+  "t": "t1",
+  "diff": 2,
+  "title": "Dedans, dehors",
+  "intro": "La rue ne montre rien, la cour montre tout. Deux maisons-musées pour comprendre une ville tournée vers l'intérieur. L'entrée est payante : cette quête n'est jamais nécessaire au reste.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t1-01"
+   },
+   {
+    "type": "place-observe",
+    "place": "t1-03"
+   }
+  ],
+  "hints": [
+   "À Dar Si Said, regarde où donnent les pièces.",
+   "À Tiskiwin, suis les salles dans l'ordre : elles tracent une route.",
+   "Demande-toi ce qui change d'une salle à l'autre, et ce qui reste."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 40,
+    "histoire": 40
+   }
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-t2-eau",
+  "cat": "observation",
+  "t": "t2",
+  "diff": 1,
+  "title": "Suivre l'eau",
+  "intro": "Dans une ville sèche, l'eau ne va nulle part par hasard. Deux endroits du quartier la montrent à l'œuvre.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t2-x-mouassine"
+   },
+   {
+    "type": "place-observe",
+    "place": "t2-05"
+   }
+  ],
+  "hints": [
+   "Commence par la fontaine, sur la placette de la mosquée Mouassine.",
+   "Le Jardin Secret se cache derrière un long mur de la rue Mouassine ; son entrée est payante.",
+   "Dans le jardin, cherche par où l'eau arrive et par quoi elle circule."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 70
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t2-ici",
+  "cat": "observation",
+  "t": "t2",
+  "diff": 2,
+  "title": "Pourquoi ici ?",
+  "intro": "Les teinturiers dans une ruelle, les herboristes sur une place. Regarde ce qu'il en reste aujourd'hui, et demande-toi ce qui a pu les fixer là.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t2-10"
+   },
+   {
+    "type": "place-observe",
+    "place": "t2-09"
+   }
+  ],
+  "hints": [
+   "Le souk des teinturiers est tout près de la fontaine Mouassine.",
+   "La place Rahba Kedima est triangulaire, au cœur des souks.",
+   "Aucune des deux réponses n'est certaine : c'est le sujet du donjon de Mouassine."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 70
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t2-geste",
+  "cat": "exploration",
+  "t": "t2",
+  "diff": 2,
+  "title": "Un quartier offert d'un seul geste",
+  "intro": "Entre 1562 et 1573, un sultan fait bâtir ici une mosquée, une fontaine, un bain, une école, une bibliothèque. Retrouve trois pièces de cet ensemble, depuis la rue.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t2-x-mouassine"
+   },
+   {
+    "type": "visit",
+    "place": "t2-03"
+   },
+   {
+    "type": "visit",
+    "place": "t2-07"
+   }
+  ],
+  "hints": [
+   "La mosquée est réservée aux musulmans : reste sur la placette.",
+   "Le hammam n'est pas sur ta carte : quand tu trouves ses deux entrées, pose-le toi-même.",
+   "D'après ton guide, le musée de la Musique est près du hammam."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60,
+    "histoire": 30
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-t2-pacha",
+  "cat": "reflexion",
+  "t": "t2",
+  "diff": 2,
+  "title": "Le palais de l'homme qui tenait le Sud",
+  "intro": "Un pacha n'est pas un sultan. Alors pourquoi un tel palais ? L'entrée est payante : cette quête n'est jamais nécessaire au reste.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t2-08"
+   }
+  ],
+  "hints": [
+   "Dar el-Bacha est au nord-ouest du quartier, vers Bab Doukkala.",
+   "Dans la cour, cherche ce qui est fait pour impressionner un invité.",
+   "Pense à ceux qu'il recevait."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 60
+   }
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-t2-murs",
+  "cat": "exploration",
+  "t": "t2",
+  "diff": 1,
+  "title": "Derrière les murs",
+  "intro": "Une maison à patio, un jardin clos, une cour de caravansérail : trois intérieurs que la rue ne laisse pas deviner. N'entre que là où le lieu est ouvert au public.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t2-01"
+   },
+   {
+    "type": "visit",
+    "place": "t2-05"
+   },
+   {
+    "type": "anyvisit",
+    "places": [
+     "t2-12",
+     "t2-13"
+    ]
+   }
+  ],
+  "hints": [
+   "Dar Cherifa est une maison ancienne devenue café littéraire.",
+   "Le Jardin Secret est derrière un mur aveugle de la rue Mouassine.",
+   "Un fondouk se reconnaît à sa porte plus haute que les autres. Ceux de ton guide ne sont pas sur la carte : pose celui que tu trouves."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 70
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-t3-autour",
+  "cat": "exploration",
+  "t": "t3",
+  "diff": 1,
+  "title": "Autour de Ben Youssef",
+  "intro": "Trois monuments à quelques pas les uns des autres, et neuf siècles entre le plus ancien et le plus récent.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t3-01"
+   },
+   {
+    "type": "visit",
+    "place": "t3-03"
+   },
+   {
+    "type": "visit",
+    "place": "t3-05"
+   }
+  ],
+  "hints": [
+   "La médersa est le repère du quartier.",
+   "La koubba est en contrebas de la rue, tout près.",
+   "Le musée de Marrakech occupe un palais voisin."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-t3-enfoui",
+  "cat": "observation",
+  "t": "t3",
+  "diff": 2,
+  "title": "La ville sous la ville",
+  "intro": "Un édifice de 1125 ne se trouve pas au niveau où tu marches. Va voir à quelle profondeur dort la ville d'origine.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t3-03"
+   }
+  ],
+  "hints": [
+   "Cherche la koubba près de la mosquée Ben Youssef.",
+   "Compare le niveau de la rue et celui du monument avant de descendre.",
+   "Demande-toi ce qui s'est accumulé en neuf siècles."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t3-oiseau",
+  "cat": "secret",
+  "t": "t3",
+  "diff": 1,
+  "title": "La maison de l'oiseau",
+  "intro": "Une demeure du quartier porte le nom d'un oiseau que personne ne chasse des toits.",
+  "steps": [
+   {
+    "type": "place-enigma",
+    "place": "t3-02"
+   }
+  ],
+  "hints": [
+   "Elle est près de la médersa.",
+   "C'est aujourd'hui un centre culturel.",
+   "Son nom commence par « Dar »."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 50
+   }
+  },
+  "mech": "secret",
+  "lvl": 2
+ },
+ {
+  "id": "q-t3-porte",
+  "cat": "reflexion",
+  "t": "t3",
+  "diff": 2,
+  "title": "Le métier qu'on met à la porte",
+  "intro": "Marche jusqu'au bout de la médina. Reste dans la rue : rien ne t'oblige à entrer dans une tannerie ni à suivre qui te le propose.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t3-x-debbagh"
+   },
+   {
+    "type": "place-observe",
+    "place": "t3-x-debbagh"
+   }
+  ],
+  "hints": [
+   "Bab Debbagh est la porte de l'est, la « porte des tanneurs ».",
+   "Tu sauras que tu approches avant de voir quoi que ce soit.",
+   "Demande-toi pourquoi ce métier est ici plutôt qu'au centre."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 50,
+    "culture": 30
+   }
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-t3-avant",
+  "cat": "observation",
+  "t": "t3",
+  "diff": 1,
+  "title": "Avant, après",
+  "intro": "Une photographie ancienne et une cour couverte : deux façons de mesurer ce qu'un siècle change. Entrées payantes : cette quête n'est jamais nécessaire au reste.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t3-04"
+   },
+   {
+    "type": "place-observe",
+    "place": "t3-05"
+   }
+  ],
+  "hints": [
+   "La Maison de la Photographie est une maison de la médina, avec une terrasse.",
+   "Choisis la photo d'un lieu que tu connais déjà.",
+   "Au musée de Marrakech, imagine la cour à ciel ouvert."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t4-pierre",
+  "cat": "observation",
+  "t": "t4",
+  "diff": 1,
+  "title": "La pierre et la terre",
+  "intro": "Une porte de pierre dans une enceinte de terre. Va voir ce qu'on a voulu dire en changeant de matière.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t4-x-agnaou"
+   }
+  ],
+  "hints": [
+   "Bab Agnaou est la porte d'apparat de la casbah, au sud de la médina.",
+   "Regarde le rempart de part et d'autre de la porte.",
+   "Compare la matière, la couleur et le décor."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t4-saadiens",
+  "cat": "exploration",
+  "t": "t4",
+  "diff": 2,
+  "title": "Le siècle des Saadiens",
+  "intro": "Un palais de réception et une nécropole, voulus par la même dynastie à quelques rues d'écart. Trouver les deux portes suffit ; les entrées sont payantes.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t4-01"
+   },
+   {
+    "type": "visit",
+    "place": "t4-08"
+   }
+  ],
+  "hints": [
+   "Le palais El-Badi est au sud de la place des Ferblantiers.",
+   "Les tombeaux sont adossés à la mosquée de la Casbah.",
+   "On y entre aujourd'hui par un passage étroit."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60,
+    "histoire": 20
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 1
+ },
+ {
+  "id": "q-t4-disparue",
+  "cat": "observation",
+  "t": "t4",
+  "diff": 2,
+  "title": "La nécropole disparue",
+  "intro": "Une nécropole royale est restée invisible pendant deux siècles. Sur place, demande-toi comment c'est possible. Entrée payante : cette quête n'est jamais nécessaire au reste.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t4-08"
+   }
+  ],
+  "hints": [
+   "Repère par où tu es entré.",
+   "Demande-toi par où l'on entrait à l'origine.",
+   "Pense à ce contre quoi la nécropole est adossée."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t4-vizir",
+  "cat": "reflexion",
+  "t": "t4",
+  "diff": 2,
+  "title": "Un palais par ajouts",
+  "intro": "Le palais d'un vizir plus puissant que son sultan. A-t-il été dessiné d'un seul jet ? Entrée payante : cette quête n'est jamais nécessaire au reste.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t4-02"
+   }
+  ],
+  "hints": [
+   "Promène-toi sans plan.",
+   "Cherche les changements de niveau, les couloirs coudés, les cours qui ne s'alignent pas.",
+   "Deux générations y ont bâti : le père, puis le fils."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 40,
+    "histoire": 30
+   }
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-t4-mellah",
+  "cat": "exploration",
+  "t": "t4",
+  "diff": 2,
+  "title": "Dans l'ombre du palais",
+  "intro": "L'ancien quartier juif, créé au XVIe siècle contre la casbah. Trois repères : une place d'artisans, une synagogue cachée dans une maison, un cimetière au pied du rempart. Ce sont des lieux de culte et de mémoire : entre seulement s'ils sont ouverts aux visiteurs, et reste discret.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t4-07"
+   },
+   {
+    "type": "visit",
+    "place": "t4-03"
+   },
+   {
+    "type": "visit",
+    "place": "t4-04"
+   }
+  ],
+  "hints": [
+   "La place des Ferblantiers est l'ancienne entrée du quartier.",
+   "De la rue, rien n'annonce la synagogue.",
+   "Le cimetière s'étend à l'est du quartier."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 70,
+    "culture": 20
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-t5-coude",
+  "cat": "observation",
+  "t": "t5",
+  "diff": 1,
+  "title": "La porte où l'on ne passe pas tout droit",
+  "intro": "Une porte de 1126. Traverse-la à pied et compte tes changements de direction.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t5-01"
+   }
+  ],
+  "hints": [
+   "Bab Doukkala est la grande porte du nord-ouest.",
+   "Prends l'ancien passage, pas la percée moderne d'à côté.",
+   "Demande-toi ce qu'un passage droit aurait permis."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t5-mere",
+  "cat": "reflexion",
+  "t": "t5",
+  "diff": 2,
+  "title": "Le quartier offert par une mère",
+  "intro": "Une mosquée et ses annexes, fondées par la mère d'un sultan. Fais-en le tour depuis la rue : la mosquée est réservée aux musulmans.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t5-x-mosquee"
+   }
+  ],
+  "hints": [
+   "La mosquée Bab Doukkala est à l'intérieur des murs, près de la porte.",
+   "Dresse la liste de ce que l'ensemble offre au quartier, en dehors de la prière.",
+   "Si tu connais Mouassine, compare."
+  ],
+  "reward": {
+   "xp": {
+    "histoire": 40,
+    "architecture": 30
+   }
+  },
+  "mech": "enquete",
+  "lvl": 2
+ },
+ {
+  "id": "q-t5-ordre",
+  "cat": "secret",
+  "t": "t5",
+  "diff": 2,
+  "title": "Un nom qui donne un ordre",
+  "intro": "Une fontaine dont le nom tient en deux verbes. Le premier désaltère ; trouve le second.",
+  "steps": [
+   {
+    "type": "place-enigma",
+    "place": "t5-02"
+   }
+  ],
+  "hints": [
+   "Elle est près de la médersa Ben Youssef.",
+   "C'est un simple renfoncement dans un mur, sous un auvent.",
+   "Lève la tête : la réponse est au-dessus de toi."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 50
+   }
+  },
+  "mech": "secret",
+  "lvl": 2
+ },
+ {
+  "id": "q-t5-nord",
+  "cat": "exploration",
+  "t": "t5",
+  "diff": 2,
+  "title": "Jusqu'au saint du nord",
+  "intro": "De la porte au tombeau du saint patron de la ville. La zaouïa est un lieu de dévotion : reste à l'extérieur si l'on ne t'invite pas.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t5-01"
+   },
+   {
+    "type": "visit",
+    "place": "t5-x-mosquee"
+   },
+   {
+    "type": "visit",
+    "place": "t5-x-belabbes"
+   }
+  ],
+  "hints": [
+   "Pars de Bab Doukkala.",
+   "La mosquée du quartier est toute proche, à l'intérieur des murs.",
+   "Ton guide signale la zaouïa de Sidi Bel Abbès à 250 m au nord de sa carte."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 70
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-t6-tableau",
+  "cat": "observation",
+  "t": "t6",
+  "diff": 1,
+  "title": "Un jardin comme un tableau",
+  "intro": "Ce jardin ne ressemble à aucun de ceux de la médina. Cherche ce qui en fait l'œuvre d'un peintre. Entrée payante : cette quête n'est jamais nécessaire au reste.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t6-02"
+   }
+  ],
+  "hints": [
+   "Le Jardin Majorelle est au nord de Guéliz.",
+   "Regarde les couleurs avant les plantes.",
+   "Compare avec un jardin à quatre parterres, si tu en as vu un dans la médina."
+  ],
+  "reward": {
+   "xp": {
+    "culture": 60
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t6-deux",
+  "cat": "exploration",
+  "t": "t6",
+  "diff": 1,
+  "title": "Le peintre et le couturier",
+  "intro": "Un jardin créé par un peintre, racheté par un couturier, et le musée ouvert à côté. Trouver les deux portes suffit.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t6-02"
+   },
+   {
+    "type": "visit",
+    "place": "t6-03"
+   }
+  ],
+  "hints": [
+   "Les deux lieux sont voisins.",
+   "Le musée a ouvert en 2017.",
+   "Le jardin, lui, a commencé en 1923."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 50
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 1
+ },
+ {
+  "id": "q-t6-1930",
+  "cat": "observation",
+  "t": "t6",
+  "diff": 2,
+  "title": "Signé 1930",
+  "intro": "L'ancien siège d'une compagnie minière, devenu galerie. Cherche trois détails qui signent son époque.",
+  "steps": [
+   {
+    "type": "place-observe",
+    "place": "t6-01"
+   }
+  ],
+  "hints": [
+   "Le Comptoir des Mines n'est pas sur ta carte : quand tu le trouves, pose-le toi-même.",
+   "Commence par la façade, puis regarde l'intérieur s'il est ouvert.",
+   "Lignes, ferronneries, lettrages : tout peut être un indice."
+  ],
+  "reward": {
+   "xp": {
+    "architecture": 70
+   }
+  },
+  "mech": "observation",
+  "lvl": 1
+ },
+ {
+  "id": "q-t6-nouvelle",
+  "cat": "exploration",
+  "t": "t6",
+  "diff": 1,
+  "title": "La ville dessinée",
+  "intro": "Un café, une église, un passage de galeries : trois repères de la ville nouvelle, hors des remparts.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t6-21"
+   },
+   {
+    "type": "visit",
+    "place": "t6-x-martyrs"
+   },
+   {
+    "type": "visit",
+    "place": "t6-08"
+   }
+  ],
+  "hints": [
+   "Le Grand Café de la Poste est l'arrivée de la balade « Art et Art déco » de ton guide.",
+   "Ton guide situe l'église des Saints-Martyrs rue Imam Ali.",
+   "Le passage Ghandouri est au 61 rue Yougoslavie, d'après ton guide ; il n'est pas sur ta carte."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "mech": "decouverte",
+  "lvl": 2
+ },
+ {
+  "id": "q-x-portes",
+  "cat": "exploration",
+  "mech": "collection",
+  "lvl": 2,
+  "t": null,
+  "diff": 2,
+  "title": "Trois façons d'entrer",
+  "intro": "Une porte d'apparat en pierre, une porte où l'on ne passe pas tout droit, une porte qui porte le nom d'un métier. Trois portes, trois idées de ce qu'est une ville. Trouve-les, dans l'ordre que tu veux, le jour que tu veux.",
+  "steps": [
+   {
+    "type": "collect",
+    "places": [
+     "t4-x-agnaou",
+     "t5-01",
+     "t3-x-debbagh"
+    ],
+    "n": 3,
+    "label": "Trouver trois portes de la ville"
+   }
+  ],
+  "hints": [
+   "L'une est au sud, à l'entrée de la casbah.",
+   "Une autre au nord-ouest, près d'une gare routière.",
+   "La dernière à l'est, là où travaillent les tanneurs."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   },
+   "card": "c-q-portes"
+  },
+  "deeper": "Devant chacune, pose-toi la même question : cette porte a-t-elle été faite pour défendre, pour impressionner ou pour travailler ? Tes réponses ont leur place dans ton carnet."
+ },
+ {
+  "id": "q-x-fontaines",
+  "cat": "observation",
+  "mech": "comparaison",
+  "lvl": 2,
+  "t": null,
+  "diff": 2,
+  "title": "Fontaines sœurs",
+  "intro": "Deux fontaines de rue, dans deux quartiers. Elles ne se ressemblent pas tout à fait, et pourtant elles sont de la même famille. Va voir la seconde en ayant la première en tête.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t2-x-mouassine"
+   },
+   {
+    "type": "visit",
+    "place": "t5-02"
+   }
+  ],
+  "hints": [
+   "La première est sur une placette de Mouassine.",
+   "La seconde est un renfoncement dans un mur, près de la médersa Ben Youssef.",
+   "L'une a des abreuvoirs, l'autre un auvent : regarde ce que chacune protège."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "deeper": "Quand tu auras vu les deux, ton carnet les posera côte à côte. À toi d'écrire ce qui les relie."
+ },
+ {
+  "id": "q-x-saadien",
+  "cat": "exploration",
+  "mech": "collection",
+  "lvl": 2,
+  "t": null,
+  "diff": 2,
+  "title": "Un siècle bâtisseur",
+  "intro": "Une même dynastie a laissé dans la ville une fontaine, une école, un palais, une nécropole, une mosquée de quartier. Trois de ces lieux suffisent pour sentir la main.",
+  "steps": [
+   {
+    "type": "collect",
+    "places": [
+     "t2-x-mouassine",
+     "t3-01",
+     "t4-01",
+     "t4-08",
+     "t5-x-mosquee",
+     "t5-02"
+    ],
+    "n": 3,
+    "label": "Trouver trois chantiers saadiens"
+   }
+  ],
+  "hints": [
+   "Il y en a dans quatre territoires différents.",
+   "Deux sont des fontaines, un autre est un palais en ruine.",
+   "La médersa Ben Youssef et les tombeaux de la casbah en font partie."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   },
+   "card": "c-q-saadien"
+  },
+  "deeper": "Qu'ont-ils en commun, à l'œil ? Matières, couleurs, façon de décorer : note ce qui revient."
+ },
+ {
+  "id": "q-x-yeux",
+  "cat": "observation",
+  "mech": "photographie",
+  "lvl": 2,
+  "t": null,
+  "diff": 2,
+  "title": "Lever les yeux",
+  "intro": "La ville garde des détails pour ceux qui regardent plus haut que les étals. Un signal particulier t'avertit quand tu passes près de l'un d'eux. Photographies-en deux.",
+  "steps": [
+   {
+    "type": "photo",
+    "n": 2,
+    "label": "Révéler deux secrets par la photographie"
+   }
+  ],
+  "hints": [
+   "Les secrets ne sont sur aucune liste : active le mode exploration et écoute.",
+   "Ils sont près de lieux que tu connais peut-être déjà : une fontaine, une porte, un minaret.",
+   "Le signal d'un secret est plus grave et plus lent que les autres."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  }
+ },
+ {
+  "id": "q-x-garde",
+  "cat": "exploration",
+  "mech": "collection",
+  "lvl": 1,
+  "t": null,
+  "diff": 1,
+  "title": "Ce que la ville te laisse",
+  "intro": "Pas de lieu à trouver, pas de question. Garde cinq choses qui t'arrêtent, dans deux quartiers au moins : une lumière, une porte, un nom de rue, une main au travail vue de loin.",
+  "steps": [
+   {
+    "type": "keep",
+    "n": 5,
+    "terr": 2,
+    "label": "Garder cinq choses, dans deux territoires"
+   }
+  ],
+  "hints": [
+   "Le bouton « Garder » est sur la carte.",
+   "Trois mots suffisent ; la photo est facultative.",
+   "Sans GPS, pose ta note sur la carte depuis le carnet pour qu'elle soit située."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  }
+ },
+ {
+  "id": "q-x-places",
+  "cat": "exploration",
+  "mech": "comparaison",
+  "lvl": 1,
+  "t": null,
+  "diff": 1,
+  "title": "Deux places",
+  "intro": "Deux places à dix minutes de marche l'une de l'autre. Assieds-toi cinq minutes sur chacune, téléphone rangé. Elles ne servent pas à la même chose, et cela se voit sans rien lire.",
+  "steps": [
+   {
+    "type": "visit",
+    "place": "t1-x-place"
+   },
+   {
+    "type": "visit",
+    "place": "t2-09"
+   }
+  ],
+  "hints": [
+   "La première est la plus grande place de la médina.",
+   "La seconde est au cœur des souks, de forme triangulaire.",
+   "On y vend des épices, des racines, des paniers."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "deeper": "Qui s'y arrête, qui la traverse ? À quelle heure chacune se remplit-elle ? Ce sont de bonnes lignes pour ton carnet."
+ },
+ {
+  "id": "q-x-eau",
+  "cat": "reflexion",
+  "mech": "enquete",
+  "lvl": 3,
+  "t": null,
+  "diff": 3,
+  "title": "Suivre l'eau",
+  "intro": "Dans une ville au bord du désert, l'eau ne va nulle part par hasard. Trouve-la en deux endroits au moins, et demande-toi d'où elle vient.",
+  "steps": [
+   {
+    "type": "collect",
+    "places": [
+     "t2-05",
+     "t2-x-mouassine",
+     "t5-02"
+    ],
+    "n": 2,
+    "label": "Voir l'eau en deux endroits"
+   }
+  ],
+  "hints": [
+   "Un jardin caché derrière un mur de la rue Mouassine.",
+   "Une fontaine de quartier sur une placette.",
+   "Une autre fontaine, près de la médersa Ben Youssef."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "deeper": "Le cœur du Dédale de Mouassine reprend la question : l'eau explique-t-elle où s'installent les métiers ? Ta réponse peut changer en chemin."
+ },
+ {
+  "id": "q-x-deux-villes",
+  "cat": "exploration",
+  "mech": "comparaison",
+  "lvl": 1,
+  "t": null,
+  "diff": 1,
+  "title": "Dedans, dehors",
+  "intro": "Une ville ancienne derrière ses remparts, une ville dessinée au XXe siècle juste à côté. Pose le pied dans les deux le même jour, et regarde ce qui change : largeur des rues, hauteur des façades, bruit.",
+  "steps": [
+   {
+    "type": "anyvisit",
+    "places": [
+     "t6-02",
+     "t6-03",
+     "t6-21",
+     "t6-x-martyrs",
+     "t6-08",
+     "t6-01"
+    ],
+    "label": "Trouver un lieu de Guéliz"
+   },
+   {
+    "type": "anyvisit",
+    "places": [
+     "t1-x-place",
+     "t2-x-mouassine",
+     "t3-01",
+     "t4-01",
+     "t5-01"
+    ],
+    "label": "Trouver un lieu de la médina"
+   }
+  ],
+  "hints": [
+   "Guéliz est au nord-ouest des remparts.",
+   "Le Jardin Majorelle et le Grand Café de la Poste sont de bons points d'entrée.",
+   "Dans la médina, n'importe quel lieu majeur convient."
+  ],
+  "reward": {
+   "xp": {
+    "exploration": 60
+   }
+  },
+  "deeper": "Trois mots pour chaque ville, gardés au même endroit de ton carnet : le contraste se lira tout seul."
+ }
+]

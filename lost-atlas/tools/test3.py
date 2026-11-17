@@ -1,0 +1,73 @@
+import asyncio, json, subprocess, time, sys
+from playwright.async_api import async_playwright
+srv = subprocess.Popen([sys.executable, '-m', 'http.server', '8766', '--directory', 'lost-atlas'], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+time.sleep(1)
+async def main():
+    errs = []
+    async with async_playwright() as p:
+        b = await p.chromium.launch(channel='chrome', args=['--no-sandbox'])
+        ctx = await b.new_context(viewport={'width': 390, 'height': 844}, device_scale_factor=2, is_mobile=True, has_touch=True,
+                                  geolocation={'latitude': 31.6312, 'longitude': -7.9893, 'accuracy': 15}, permissions=['geolocation'], service_workers='block')
+        pg = await ctx.new_page()
+        pg.on('console', lambda m: errs.append(m.text) if m.type == 'error' and 'tile.openstreetmap' not in m.text and 'ERR_' not in m.text else None)
+        pg.on('pageerror', lambda e: errs.append('PAGEERROR ' + str(e)))
+        await pg.goto('http://localhost:8766/index.html'); await pg.wait_for_timeout(1500)
+        await pg.screenshot(path='v1.png')
+        await pg.click('[data-act="intro-go"]'); await pg.wait_for_timeout(800); await pg.screenshot(path='v2.png')
+        # découverte -> carte
+        await pg.evaluate("UI.openPlace('t2-x-mouassine')"); await pg.click('[data-act="here"]'); await pg.wait_for_timeout(1500)
+        if await pg.locator('[data-act="here-manual"]').count(): await pg.click('[data-act="here-manual"]')
+        await pg.wait_for_timeout(1300); print('fx on', await pg.locator('#cardfx.on').count()); await pg.screenshot(path='v3.png')
+        await pg.click('#cardfx'); await pg.wait_for_timeout(300); print('fx closed', await pg.locator('#cardfx.on').count() == 0)
+        await pg.click('#sh-close')
+        # garder (avant le donjon)
+        await pg.click('#keepfab'); await pg.fill('#keep-txt', 'porte bleue cloutée'); await pg.click('[data-act="keep-go"]'); await pg.wait_for_timeout(300)
+        print('kept', await pg.evaluate("Game.S.v3.kept.length"), 'markers kmk', await pg.locator('.kmk').count())
+        # aventures
+        await pg.click('#tabbar [data-v="quetes"]'); await pg.wait_for_timeout(200); await pg.screenshot(path='v4.png')
+        d1 = await pg.locator('.derive .hand').inner_text(); await pg.click('[data-act="derive-next"]'); print('derive change', d1 != await pg.locator('.derive .hand').inner_text())
+        await pg.click('[data-act="open-adv"]'); await pg.click('[data-act="adv-start"]'); await pg.wait_for_timeout(200)
+        await pg.click('[data-act="room-hint"]'); await pg.click('[data-act="room-found"]'); await pg.wait_for_timeout(200)
+        await pg.click('.room [data-act="push-place"][data-id="t2-x-mouassine"]')
+        await pg.click('[data-act="obs-go"]'); await pg.wait_for_timeout(300); await pg.click('[data-act="sheet-back"]')
+        print('rooms', await pg.locator('.room.ok').count(), 'heart shut', await pg.locator('.heart.shut').count())
+        await pg.screenshot(path='v5.png')
+        await pg.click('.room [data-act="keep"]'); await pg.fill('#keep-txt', 'écheveaux rouges'); await pg.click('[data-act="keep-go"]'); await pg.wait_for_timeout(300)
+        print('free room', await pg.evaluate("!!Game.S.v3.adv['d-mouassine'].rooms['r-libre']"))
+        await pg.click('[data-act="open-adv"]'); await pg.fill('#heart-1', 'Ils se mettent là où il y a de l eau'); await pg.click('[data-act="heart-1"]'); await pg.wait_for_timeout(200)
+        print('pistes', await pg.locator('.piste').count()); await pg.screenshot(path='v6.png')
+        await pg.fill('#heart-2', 'L eau compte, mais pas seule : les nuisances aussi'); await pg.click('[data-act="heart-2"]'); await pg.wait_for_timeout(1300)
+        print('done', await pg.evaluate("!!Game.S.v3.adv['d-mouassine'].done"), 'card', await pg.evaluate("!!Game.S.v3.cards['c-dedale']"), 'fx', await pg.locator('#cardfx.on').count())
+        await pg.screenshot(path='v7.png'); await pg.click('#cardfx'); await pg.wait_for_timeout(300)
+        while await pg.locator('#cardfx.on').count(): await pg.click('#cardfx'); await pg.wait_for_timeout(200)
+        await pg.click('#sh-close')
+        # carnet + écho
+        await pg.click('#tabbar [data-v="carnet"]'); await pg.wait_for_timeout(200); await pg.screenshot(path='v8.png', full_page=False)
+        print('echo shown', await pg.locator('.eco textarea').count())
+        await pg.fill('.eco textarea', 'les mêmes ânes'); await pg.click('[data-act="eco-go"]'); await pg.wait_for_timeout(1200)
+        while await pg.locator('#cardfx.on').count(): await pg.click('#cardfx'); await pg.wait_for_timeout(200)
+        print('echo card', await pg.evaluate("!!Game.S.v3.cards['c-echo']"), 'daypages', await pg.locator('.daypage').count())
+        await pg.click('[data-act="tab"][data-v="codex"]'); await pg.wait_for_timeout(200); print('codex view', await pg.locator('#v-codex.on').count())
+        # sac
+        await pg.click('#tabbar [data-v="collection"]'); await pg.wait_for_timeout(200); await pg.screenshot(path='v9.png')
+        print('cards owned', await pg.locator('#v-collection .tc:not(.back)').count())
+        await pg.click('#v-collection .tc:not(.back) >> nth=0'); await pg.wait_for_timeout(200); await pg.screenshot(path='v10.png'); await pg.click('#sh-close')
+        await pg.click('[data-act="sac-tab"][data-v="objets"]'); print('artefacts', await pg.locator('.art').count())
+        await pg.click('[data-act="sac-tab"][data-v="tenues"]'); await pg.click('[data-act="wear"][data-id="o-burnous"]'); await pg.wait_for_timeout(200); await pg.screenshot(path='v11.png')
+        print('wear', await pg.evaluate("Game.S.v3.hero.tenue"))
+        # héros
+        await pg.click('#tabbar [data-v="profil"]'); await pg.fill('.hero-name', 'Luis'); await pg.dispatch_event('.hero-name', 'change'); await pg.wait_for_timeout(200); await pg.screenshot(path='v12.png')
+        print('name', await pg.evaluate("Game.S.v3.hero.name"), 'xp text visible', await pg.locator('text=/\\bXP\\b/').count())
+        # compat v2 : sauvegarde sans bloc v3
+        r = await pg.evaluate("""(() => { const s = JSON.parse(Store.stringify(Game.S)); delete s.v3; try { Game.importSave(JSON.stringify(s)); UI.after(); return 'ok ' + JSON.stringify(Game.S.v3.hero) + ' cards=' + document.querySelectorAll('x').length; } catch (e) { return 'ERR ' + e.message; } })()""")
+        print('v2 import', r)
+        await pg.click('#tabbar [data-v="collection"]'); await pg.click('[data-act="sac-tab"][data-v="cartes"]'); print('cards after v2 import', await pg.locator('#v-collection .tc:not(.back)').count())
+        await pg.reload(); await pg.wait_for_timeout(1200)
+        print('persist kept', await pg.evaluate("Game.S.v3.kept.length"), 'overflowX', await pg.evaluate('document.documentElement.scrollWidth > innerWidth'))
+        for v in ['quetes', 'carnet', 'collection', 'profil']:
+            await pg.click(f'#tabbar [data-v="{v}"]'); await pg.wait_for_timeout(150)
+            print(v, 'overflow', await pg.evaluate(f"(() => {{ const e = document.querySelector('#v-{v}'); return e.scrollWidth > e.clientWidth; }})()"))
+        await b.close()
+    print('ERRORS:', errs)
+try: asyncio.run(main())
+finally: srv.terminate()

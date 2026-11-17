@@ -1,0 +1,2695 @@
+[
+{
+"id":"t1-01",
+"t":"t1",
+"n":1,
+"cat":"inc",
+"name":"Dar Si Said",
+"page":75,
+"paper":{
+"page":75,
+"n":1,
+"px":[
+1329,
+1253
+],
+"est":[
+31.62323,
+-7.98392
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62333,
+-7.983806
+],
+"q":"v",
+"src":"Wikipedia « Dar Si Said »"
+},
+{
+"id":"t1-02",
+"t":"t1",
+"n":2,
+"cat":"inc",
+"name":"Musée du Patrimoine Immatériel",
+"page":75,
+"paper":{
+"page":75,
+"n":2,
+"px":[
+322,
+818
+],
+"est":[
+31.6248,
+-7.98953
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.625085,
+-7.989183
+],
+"q":"v",
+"src":"OpenStreetMap, « Musée Jamaâ el-Fna du patrimoine immatériel » (tourism=museum)"
+},
+{
+"id":"t1-03",
+"t":"t1",
+"n":3,
+"cat":"inc",
+"name":"Musée Tiskiwin",
+"page":75,
+"paper":{
+"page":75,
+"n":3,
+"px":[
+1306,
+1483
+],
+"est":[
+31.62216,
+-7.98393
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.6222,
+-7.984
+],
+"q":"v",
+"src":"Around Us / Wikidata « Tiskiwin Museum »"
+},
+{
+"id":"t1-04",
+"t":"t1",
+"n":4,
+"cat":"voir",
+"name":"Palais de la Bahia",
+"page":75,
+"same":"t4-02"
+},
+{
+"id":"t1-05",
+"t":"t1",
+"n":5,
+"cat":"voir",
+"name":"Musée de l'Art culinaire marocain",
+"page":75,
+"paper":{
+"page":75,
+"n":5,
+"px":[
+1261,
+1567
+],
+"est":[
+31.62176,
+-7.98413
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62176,
+-7.98413
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-06",
+"t":"t1",
+"n":6,
+"cat":"act",
+"name":"Moroccan Food Adventures",
+"page":75,
+"paper":{
+"page":75,
+"n":6,
+"px":[
+345,
+765
+],
+"est":[
+31.62505,
+-7.98944
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62505,
+-7.98944
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-07",
+"t":"t1",
+"n":7,
+"cat":"loger",
+"name":"Hotel Sherazade",
+"page":75,
+"paper":{
+"page":75,
+"n":7,
+"px":[
+762,
+1044
+],
+"est":[
+31.62395,
+-7.98706
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.624105,
+-7.986917
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Hotel Sherazade » (tourism=hotel)"
+},
+{
+"id":"t1-08",
+"t":"t1",
+"n":8,
+"cat":"loger",
+"name":"Le Gallia",
+"page":75,
+"paper":{
+"page":75,
+"n":8,
+"px":[
+398,
+1236
+],
+"est":[
+31.62291,
+-7.98892
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.623333,
+-7.988536
+],
+"q":"v",
+"src":"OpenStreetMap, « Gallia » (tourism=hotel)"
+},
+{
+"id":"t1-09",
+"t":"t1",
+"n":9,
+"cat":"loger",
+"name":"Riad Le Clos des Arts",
+"page":75,
+"paper":{
+"page":75,
+"n":9,
+"px":[
+1264,
+1120
+],
+"est":[
+31.62381,
+-7.98433
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62381,
+-7.98433
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-10",
+"t":"t1",
+"n":10,
+"cat":"loger",
+"name":"Riad Linda",
+"page":75,
+"paper":{
+"page":75,
+"n":10,
+"px":[
+1238,
+623
+],
+"est":[
+31.62608,
+-7.98472
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62608,
+-7.98472
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-11",
+"t":"t1",
+"n":11,
+"cat":"loger",
+"name":"Riad UP",
+"page":75,
+"paper":{
+"page":75,
+"n":11,
+"px":[
+1288,
+944
+],
+"est":[
+31.62462,
+-7.98429
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62462,
+-7.98429
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-12",
+"t":"t1",
+"n":12,
+"cat":"manger",
+"name":"Argana Café",
+"page":75,
+"paper":{
+"page":75,
+"n":12,
+"px":[
+354,
+485
+],
+"est":[
+31.62634,
+-7.98953
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.626625,
+-7.988946
+],
+"q":"v",
+"src":"OpenStreetMap, « Café Argana » (amenity=restaurant)"
+},
+{
+"id":"t1-13",
+"t":"t1",
+"n":13,
+"cat":"manger",
+"name":"BlackChich",
+"page":75,
+"paper":{
+"page":75,
+"n":13,
+"px":[
+1199,
+1173
+],
+"est":[
+31.62354,
+-7.98466
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.623266,
+-7.984838
+],
+"q":"v",
+"src":"OpenStreetMap, « Black&Chich » (amenity=restaurant)"
+},
+{
+"id":"t1-14",
+"t":"t1",
+"n":14,
+"cat":"manger",
+"name":"Cantine des Gazelles",
+"page":75,
+"paper":{
+"page":75,
+"n":14,
+"px":[
+907,
+632
+],
+"est":[
+31.6259,
+-7.98649
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.625926,
+-7.986203
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Cantine Des Gazelles » (amenity=cafe)"
+},
+{
+"id":"t1-15",
+"t":"t1",
+"n":15,
+"cat":"manger",
+"name":"Chez Lamine Hadj Mustapha",
+"page":75,
+"paper":{
+"page":75,
+"n":15,
+"px":[
+614,
+425
+],
+"est":[
+31.62672,
+-7.98816
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.626972,
+-7.987707
+],
+"q":"v",
+"src":"OpenStreetMap, « Chez Lamine Hadj » (amenity=restaurant)"
+},
+{
+"id":"t1-16",
+"t":"t1",
+"n":16,
+"cat":"manger",
+"name":"DaDa Marrakech",
+"page":75,
+"paper":{
+"page":75,
+"n":16,
+"px":[
+110,
+672
+],
+"est":[
+31.62538,
+-7.99074
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62538,
+-7.99074
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-17",
+"t":"t1",
+"n":17,
+"cat":"manger",
+"name":"Stands culinaires de Jemaa el-Fna",
+"page":75,
+"paper":{
+"page":75,
+"n":17,
+"px":[
+356,
+565
+],
+"est":[
+31.62597,
+-7.98948
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62597,
+-7.98948
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-18",
+"t":"t1",
+"n":18,
+"cat":"manger",
+"name":"La Famille",
+"page":75,
+"paper":{
+"page":75,
+"n":18,
+"px":[
+1196,
+1298
+],
+"est":[
+31.62296,
+-7.98461
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62296,
+-7.98461
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-19",
+"t":"t1",
+"n":19,
+"cat":"manger",
+"name":"L'Adresse",
+"page":75,
+"paper":{
+"page":75,
+"n":19,
+"px":[
+288,
+447
+],
+"est":[
+31.62648,
+-7.9899
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62648,
+-7.9899
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-20",
+"t":"t1",
+"n":20,
+"cat":"manger",
+"name":"Mandala Society",
+"page":75,
+"paper":{
+"page":75,
+"n":20,
+"px":[
+1104,
+1065
+],
+"est":[
+31.62399,
+-7.98522
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62399,
+-7.98522
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-21",
+"t":"t1",
+"n":21,
+"cat":"manger",
+"name":"Marrakech Henna Art Café",
+"page":75,
+"paper":{
+"page":75,
+"n":21,
+"px":[
+690,
+1087
+],
+"est":[
+31.62372,
+-7.98743
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.623731,
+-7.987083
+],
+"q":"v",
+"src":"OpenStreetMap, « Henna Art Cafe » (amenity=cafe)"
+},
+{
+"id":"t1-22",
+"t":"t1",
+"n":22,
+"cat":"manger",
+"name":"Allée des Méchouis",
+"page":75,
+"paper":{
+"page":75,
+"n":22,
+"px":[
+630,
+375
+],
+"est":[
+31.62696,
+-7.9881
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.627028,
+-7.987693
+],
+"q":"v",
+"src":"OpenStreetMap, « Mechoui Alley » (amenity=restaurant)"
+},
+{
+"id":"t1-23",
+"t":"t1",
+"n":23,
+"cat":"manger",
+"name":"Naranj",
+"page":75,
+"paper":{
+"page":75,
+"n":23,
+"px":[
+1096,
+975
+],
+"est":[
+31.6244,
+-7.98531
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.624537,
+-7.985213
+],
+"q":"v",
+"src":"OpenStreetMap, « Naranj Libanese » (amenity=restaurant)"
+},
+{
+"id":"t1-24",
+"t":"t1",
+"n":24,
+"cat":"manger",
+"name":"Oriental Legend",
+"page":75,
+"paper":{
+"page":75,
+"n":24,
+"px":[
+414,
+776
+],
+"est":[
+31.62503,
+-7.98906
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62503,
+-7.98906
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-25",
+"t":"t1",
+"n":25,
+"cat":"manger",
+"name":"Pâtisserie des Princes",
+"page":75,
+"paper":{
+"page":75,
+"n":25,
+"px":[
+321,
+1064
+],
+"est":[
+31.62367,
+-7.98942
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.624041,
+-7.989158
+],
+"q":"v",
+"src":"OpenStreetMap, « Patisserie des Princes » (shop=pastry)"
+},
+{
+"id":"t1-26",
+"t":"t1",
+"n":26,
+"cat":"manger",
+"name":"Taj'in Darna",
+"page":75,
+"paper":{
+"page":75,
+"n":26,
+"px":[
+608,
+751
+],
+"est":[
+31.62522,
+-7.98803
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.625463,
+-7.987768
+],
+"q":"v",
+"src":"OpenStreetMap, « Taj'in Darna » (amenity=restaurant)"
+},
+{
+"id":"t1-27",
+"t":"t1",
+"n":27,
+"cat":"manger",
+"name":"Zeitoun Café",
+"page":75,
+"paper":{
+"page":75,
+"n":27,
+"px":[
+639,
+473
+],
+"est":[
+31.62651,
+-7.988
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.626773,
+-7.987673
+],
+"q":"v",
+"src":"OpenStreetMap, « Zeitoun Cafè » (amenity=cafe)"
+},
+{
+"id":"t1-28",
+"t":"t1",
+"n":28,
+"cat":"verre",
+"name":"Café de France",
+"page":75,
+"paper":{
+"page":75,
+"n":28,
+"px":[
+674,
+529
+],
+"est":[
+31.62627,
+-7.98779
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.626338,
+-7.987307
+],
+"q":"v",
+"src":"OpenStreetMap, « Café de France » (amenity=cafe)"
+},
+{
+"id":"t1-29",
+"t":"t1",
+"n":29,
+"cat":"verre",
+"name":"Grand Balcon du Café Glacier",
+"page":75,
+"paper":{
+"page":75,
+"n":29,
+"px":[
+474,
+732
+],
+"est":[
+31.62526,
+-7.98876
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.625338,
+-7.988307
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Grand Balcon du Café Glacier » (amenity=cafe)"
+},
+{
+"id":"t1-30",
+"t":"t1",
+"n":30,
+"cat":"verre",
+"name":"La Pergola",
+"page":75,
+"paper":{
+"page":75,
+"n":30,
+"px":[
+762,
+936
+],
+"est":[
+31.62444,
+-7.98712
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.624421,
+-7.986911
+],
+"q":"v",
+"src":"OpenStreetMap, « La Pergola rooftop jazz bar » (amenity=restaurant)"
+},
+{
+"id":"t1-31",
+"t":"t1",
+"n":31,
+"cat":"verre",
+"name":"Le Salama Skybar",
+"page":75,
+"paper":{
+"page":75,
+"n":31,
+"px":[
+740,
+510
+],
+"est":[
+31.62638,
+-7.98744
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.626268,
+-7.98675
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Salama » (amenity=restaurant)"
+},
+{
+"id":"t1-32",
+"t":"t1",
+"n":32,
+"cat":"shop",
+"name":"Aromatimri",
+"page":75,
+"paper":{
+"page":75,
+"n":32,
+"px":[
+872,
+662
+],
+"est":[
+31.62574,
+-7.98666
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.625814,
+-7.98627
+],
+"q":"v",
+"src":"OpenStreetMap, « Aromatimri » (shop=cosmetics)"
+},
+{
+"id":"t1-33",
+"t":"t1",
+"n":33,
+"cat":"shop",
+"name":"Herboristerie Firdaous",
+"page":75,
+"paper":{
+"page":75,
+"n":33,
+"px":[
+255,
+1337
+],
+"est":[
+31.62239,
+-7.98964
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62239,
+-7.98964
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-34",
+"t":"t1",
+"n":34,
+"cat":"shop",
+"name":"Jad Bain et Beauté",
+"page":75,
+"paper":{
+"page":75,
+"n":34,
+"px":[
+956,
+1780
+],
+"est":[
+31.62065,
+-7.98566
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62065,
+-7.98566
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-35",
+"t":"t1",
+"n":35,
+"cat":"shop",
+"name":"Naturom",
+"page":75,
+"paper":{
+"page":75,
+"n":35,
+"px":[
+1146,
+1289
+],
+"est":[
+31.62298,
+-7.98488
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62298,
+-7.98488
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t1-36",
+"t":"t1",
+"n":36,
+"cat":"shop",
+"name":"Souk Ableuh",
+"page":75,
+"paper":{
+"page":75,
+"n":36,
+"px":[
+544,
+417
+],
+"est":[
+31.62673,
+-7.98854
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.627029,
+-7.987805
+],
+"q":"v",
+"src":"OpenStreetMap, « Souk Ableuh » (amenity=marketplace)"
+},
+{
+"id":"t1-37",
+"t":"t1",
+"n":37,
+"cat":"shop",
+"name":"Souk Semmarine",
+"page":75,
+"paper":{
+"page":75,
+"n":37,
+"px":[
+551,
+190
+],
+"est":[
+31.62777,
+-7.98861
+],
+"method":"similitude (échelle, rotation, translation) ajustée sur 4 repères"
+},
+"pos":[
+31.62777,
+-7.98861
+],
+"q":"e",
+"src":"calculée depuis la carte du guide p. 75 (écart médian constaté : 46 m)"
+},
+{
+"id":"t2-01",
+"t":"t2",
+"n":1,
+"cat":"inc",
+"name":"Dar Cherifa",
+"page":98,
+"pos":[
+31.629188,
+-7.990286
+],
+"q":"v",
+"src":"OpenStreetMap, « Dar Cherifa » (tourism=gallery)"
+},
+{
+"id":"t2-02",
+"t":"t2",
+"n":2,
+"cat":"inc",
+"name":"Hammam de la Rose",
+"page":98,
+"pos":[
+31.631655,
+-7.991533
+],
+"q":"v",
+"src":"OpenStreetMap, « Hammam de la Rose » (shop=massage)"
+},
+{
+"id":"t2-03",
+"t":"t2",
+"n":3,
+"cat":"inc",
+"name":"Hammam Mouassine",
+"page":98
+},
+{
+"id":"t2-04",
+"t":"t2",
+"n":4,
+"cat":"inc",
+"name":"Le Bain Bleu",
+"page":98
+},
+{
+"id":"t2-05",
+"t":"t2",
+"n":5,
+"cat":"inc",
+"name":"Le Jardin Secret",
+"page":98,
+"pos":[
+31.6309,
+-7.9901
+],
+"q":"v",
+"src":"Around Us / Wikidata « Le Jardin Secret »"
+},
+{
+"id":"t2-06",
+"t":"t2",
+"n":6,
+"cat":"inc",
+"name":"Musée de la Femme",
+"page":98
+},
+{
+"id":"t2-07",
+"t":"t2",
+"n":7,
+"cat":"inc",
+"name":"Musée de la Musique",
+"page":98,
+"pos":[
+31.629359,
+-7.988779
+],
+"q":"v",
+"src":"OpenStreetMap, « Musée de la Musique » (tourism=museum)"
+},
+{
+"id":"t2-08",
+"t":"t2",
+"n":8,
+"cat":"inc",
+"name":"Musée des Confluences Dar el-Bacha",
+"page":98,
+"pos":[
+31.631573,
+-7.992403
+],
+"q":"v",
+"src":"Wikipedia « Dar el Bacha »"
+},
+{
+"id":"t2-09",
+"t":"t2",
+"n":9,
+"cat":"inc",
+"name":"Place Rahba Kedima",
+"page":98,
+"pos":[
+31.628937,
+-7.987081
+],
+"q":"v",
+"src":"OpenStreetMap, « Rahba Kedima Square » (tourism=attraction)"
+},
+{
+"id":"t2-10",
+"t":"t2",
+"n":10,
+"cat":"inc",
+"name":"Souk des teinturiers",
+"page":98,
+"pos":[
+31.630366,
+-7.988577
+],
+"q":"v",
+"src":"OpenStreetMap, « Souk des teinturiers » (tourism=attraction)"
+},
+{
+"id":"t2-11",
+"t":"t2",
+"n":11,
+"cat":"inc",
+"name":"Zwaq Art",
+"page":98
+},
+{
+"id":"t2-12",
+"t":"t2",
+"n":12,
+"cat":"voir",
+"name":"Fondouk El-Amri",
+"page":98
+},
+{
+"id":"t2-13",
+"t":"t2",
+"n":13,
+"cat":"voir",
+"name":"Fondouk El-Mizen",
+"page":98
+},
+{
+"id":"t2-14",
+"t":"t2",
+"n":14,
+"cat":"loger",
+"name":"Equity Point Hostel",
+"page":98,
+"pos":[
+31.629431,
+-7.988202
+],
+"q":"v",
+"src":"OpenStreetMap, « Equity Point » (tourism=hostel)"
+},
+{
+"id":"t2-15",
+"t":"t2",
+"n":15,
+"cat":"loger",
+"name":"Riad El Zohar",
+"page":98
+},
+{
+"id":"t2-16",
+"t":"t2",
+"n":16,
+"cat":"loger",
+"name":"Riad Le J",
+"page":98,
+"pos":[
+31.629186,
+-7.988046
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Le J » (tourism=hotel)"
+},
+{
+"id":"t2-17",
+"t":"t2",
+"n":17,
+"cat":"loger",
+"name":"Riad L'Orangeraie",
+"page":98,
+"pos":[
+31.629784,
+-7.989861
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad l’orangeraie » (tourism=hotel)"
+},
+{
+"id":"t2-18",
+"t":"t2",
+"n":18,
+"cat":"loger",
+"name":"Riad Magellan",
+"page":98
+},
+{
+"id":"t2-19",
+"t":"t2",
+"n":19,
+"cat":"manger",
+"name":"Ayaso",
+"page":98,
+"pos":[
+31.628849,
+-7.986969
+],
+"q":"v",
+"src":"OpenStreetMap, « Ayaso » (amenity=restaurant)"
+},
+{
+"id":"t2-20",
+"t":"t2",
+"n":20,
+"cat":"manger",
+"name":"Ksar Essaoussane",
+"page":98,
+"pos":[
+31.628115,
+-7.991835
+],
+"q":"v",
+"src":"OpenStreetMap, « Ksar Essaoussan » (amenity=restaurant)"
+},
+{
+"id":"t2-21",
+"t":"t2",
+"n":21,
+"cat":"manger",
+"name":"Le Jardin",
+"page":98,
+"pos":[
+31.632048,
+-7.988764
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Jardin » (amenity=restaurant)"
+},
+{
+"id":"t2-22",
+"t":"t2",
+"n":22,
+"cat":"manger",
+"name":"Nomad",
+"page":98,
+"pos":[
+31.628678,
+-7.987438
+],
+"q":"v",
+"src":"OpenStreetMap, « Nomad » (amenity=restaurant)"
+},
+{
+"id":"t2-23",
+"t":"t2",
+"n":23,
+"cat":"manger",
+"name":"Shtatto",
+"page":98
+},
+{
+"id":"t2-24",
+"t":"t2",
+"n":24,
+"cat":"manger",
+"name":"Soul Food",
+"page":98,
+"pos":[
+31.632304,
+-7.988567
+],
+"q":"v",
+"src":"OpenStreetMap, « Soul Food » (amenity=restaurant)"
+},
+{
+"id":"t2-25",
+"t":"t2",
+"n":25,
+"cat":"manger",
+"name":"Terrasse des Épices",
+"page":98,
+"pos":[
+31.631067,
+-7.988876
+],
+"q":"v",
+"src":"OpenStreetMap, « La Terrasse Des Epices » (amenity=restaurant)"
+},
+{
+"id":"t2-26",
+"t":"t2",
+"n":26,
+"cat":"verre",
+"name":"1112 Marrakech",
+"page":98,
+"pos":[
+31.631149,
+-7.986548
+],
+"q":"v",
+"src":"OpenStreetMap, « 1112 » (amenity=cafe)"
+},
+{
+"id":"t2-27",
+"t":"t2",
+"n":27,
+"cat":"verre",
+"name":"Bacha Coffee",
+"page":98
+},
+{
+"id":"t2-28",
+"t":"t2",
+"n":28,
+"cat":"verre",
+"name":"Café Arabe",
+"page":98,
+"pos":[
+31.630788,
+-7.989348
+],
+"q":"v",
+"src":"OpenStreetMap, « Café Arabe » (amenity=restaurant)"
+},
+{
+"id":"t2-29",
+"t":"t2",
+"n":29,
+"cat":"verre",
+"name":"Café Chez Maazouz",
+"page":98,
+"pos":[
+31.628937,
+-7.986637
+],
+"q":"v",
+"src":"OpenStreetMap, « Maazouz » (amenity=cafe)"
+},
+{
+"id":"t2-30",
+"t":"t2",
+"n":30,
+"cat":"verre",
+"name":"Café des Épices",
+"page":98,
+"pos":[
+31.629053,
+-7.987332
+],
+"q":"v",
+"src":"OpenStreetMap, « Café des épices » (amenity=cafe)"
+},
+{
+"id":"t2-31",
+"t":"t2",
+"n":31,
+"cat":"verre",
+"name":"Le Jardin Ben Youssef",
+"page":98,
+"pos":[
+31.632832,
+-7.98874
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Jardin Ben Youssef » (amenity=restaurant)"
+},
+{
+"id":"t2-32",
+"t":"t2",
+"n":32,
+"cat":"shop",
+"name":"Arganino",
+"page":98,
+"pos":[
+31.631017,
+-7.988871
+],
+"q":"v",
+"src":"OpenStreetMap, « Arganino » (shop=cosmetics)"
+},
+{
+"id":"t2-33",
+"t":"t2",
+"n":33,
+"cat":"shop",
+"name":"Assouss Argane",
+"page":98
+},
+{
+"id":"t2-34",
+"t":"t2",
+"n":34,
+"cat":"shop",
+"name":"Bibi Art",
+"page":98
+},
+{
+"id":"t2-35",
+"t":"t2",
+"n":35,
+"cat":"shop",
+"name":"Centre de la Femme Artisane",
+"page":98,
+"pos":[
+31.63254,
+-7.988562
+],
+"q":"v",
+"src":"OpenStreetMap, « Centre de la femme artisane » (craft=handicraft)"
+},
+{
+"id":"t2-36",
+"t":"t2",
+"n":36,
+"cat":"shop",
+"name":"Different.",
+"page":98
+},
+{
+"id":"t2-37",
+"t":"t2",
+"n":37,
+"cat":"shop",
+"name":"Funky Cool Medina",
+"page":98,
+"pos":[
+31.629638,
+-7.990067
+],
+"q":"v",
+"src":"OpenStreetMap, « Funky cool Medina » (shop=clothes)"
+},
+{
+"id":"t2-38",
+"t":"t2",
+"n":38,
+"cat":"shop",
+"name":"Moroccan Botanist",
+"page":98
+},
+{
+"id":"t2-39",
+"t":"t2",
+"n":39,
+"cat":"shop",
+"name":"Sarah Maj",
+"page":98
+},
+{
+"id":"t2-40",
+"t":"t2",
+"n":40,
+"cat":"shop",
+"name":"Souk Cherifia",
+"page":98
+},
+{
+"id":"t2-41",
+"t":"t2",
+"n":41,
+"cat":"shop",
+"name":"Souk de tapis",
+"page":98
+},
+{
+"id":"t2-42",
+"t":"t2",
+"n":42,
+"cat":"shop",
+"name":"Souk Haddadine",
+"page":98
+},
+{
+"id":"t2-43",
+"t":"t2",
+"n":43,
+"cat":"shop",
+"name":"Stand de poterie de Tamegroute",
+"page":98
+},
+{
+"id":"t3-01",
+"t":"t3",
+"n":1,
+"cat":"inc",
+"name":"Médersa Ben Youssef",
+"page":96,
+"pos":[
+31.63194,
+-7.986194
+],
+"q":"v",
+"src":"Wikipedia « Ben Youssef Madrasa »"
+},
+{
+"id":"t3-02",
+"t":"t3",
+"n":2,
+"cat":"inc",
+"name":"Dar Bellarj",
+"page":96,
+"pos":[
+31.632183,
+-7.986557
+],
+"q":"v",
+"src":"OpenStreetMap, « Dar Bellarj دار بلارج » (tourism=museum)"
+},
+{
+"id":"t3-03",
+"t":"t3",
+"n":3,
+"cat":"inc",
+"name":"Koubba Ba'Adiyn",
+"page":96,
+"pos":[
+31.6315,
+-7.9872
+],
+"q":"v",
+"src":"Wikipedia « Almoravid Qubba »"
+},
+{
+"id":"t3-04",
+"t":"t3",
+"n":4,
+"cat":"inc",
+"name":"Maison de la Photographie",
+"page":96,
+"pos":[
+31.631986,
+-7.984367
+],
+"q":"v",
+"src":"OpenStreetMap, « Maison de la Photographie » (tourism=gallery)"
+},
+{
+"id":"t3-05",
+"t":"t3",
+"n":5,
+"cat":"inc",
+"name":"Musée de Marrakech",
+"page":96,
+"pos":[
+31.6312,
+-7.9868
+],
+"q":"v",
+"src":"Wikipedia « Marrakech Museum »"
+},
+{
+"id":"t3-06",
+"t":"t3",
+"n":6,
+"cat":"inc",
+"name":"World Storytelling Café",
+"page":96,
+"pos":[
+31.631857,
+-7.984907
+],
+"q":"v",
+"src":"OpenStreetMap, « Storytelling Cafe » (amenity=restaurant)"
+},
+{
+"id":"t3-07",
+"t":"t3",
+"n":7,
+"cat":"loger",
+"name":"Le Farnatchi",
+"page":96,
+"pos":[
+31.631913,
+-7.985074
+],
+"q":"v",
+"src":"OpenStreetMap, « Farnatchi Spa » (shop=beauty)"
+},
+{
+"id":"t3-08",
+"t":"t3",
+"n":8,
+"cat":"loger",
+"name":"Riad Berbère",
+"page":96
+},
+{
+"id":"t3-09",
+"t":"t3",
+"n":9,
+"cat":"loger",
+"name":"Riad Ecila",
+"page":96,
+"pos":[
+31.629137,
+-7.986102
+],
+"q":"v",
+"src":"OpenStreetMap, « Rhiad Ecila » (tourism=hotel)"
+},
+{
+"id":"t3-10",
+"t":"t3",
+"n":10,
+"cat":"loger",
+"name":"Riad Star",
+"page":96,
+"pos":[
+31.631461,
+-7.985278
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Star » (tourism=guest_house)"
+},
+{
+"id":"t3-11",
+"t":"t3",
+"n":11,
+"cat":"manger",
+"name":"Le Trou Au Mur",
+"page":96,
+"pos":[
+31.632097,
+-7.985518
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Trou au Mur » (amenity=restaurant)"
+},
+{
+"id":"t3-12",
+"t":"t3",
+"n":12,
+"cat":"manger",
+"name":"L'Mida",
+"page":96,
+"pos":[
+31.629215,
+-7.986435
+],
+"q":"v",
+"src":"OpenStreetMap, « L'Mida » (amenity=restaurant)"
+},
+{
+"id":"t3-13",
+"t":"t3",
+"n":13,
+"cat":"manger",
+"name":"Naima",
+"page":96,
+"pos":[
+31.630067,
+-7.98508
+],
+"q":"v",
+"src":"OpenStreetMap, « Naima » (amenity=restaurant)"
+},
+{
+"id":"t3-14",
+"t":"t3",
+"n":14,
+"cat":"shop",
+"name":"By Faissal",
+"page":96,
+"pos":[
+31.632036,
+-7.985852
+],
+"q":"v",
+"src":"OpenStreetMap, « Tradititonal Weaving by Faissal » (shop=clothes)"
+},
+{
+"id":"t3-15",
+"t":"t3",
+"n":15,
+"cat":"shop",
+"name":"Fiber Trip",
+"page":96
+},
+{
+"id":"t3-16",
+"t":"t3",
+"n":16,
+"cat":"shop",
+"name":"La Qoubba Galerie d'Art",
+"page":96
+},
+{
+"id":"t4-01",
+"t":"t4",
+"n":1,
+"cat":"inc",
+"name":"Palais El-Badi",
+"page":103,
+"pos":[
+31.6183,
+-7.9858
+],
+"q":"v",
+"src":"Wikipedia « El Badi Palace »"
+},
+{
+"id":"t4-02",
+"t":"t4",
+"n":2,
+"cat":"inc",
+"name":"Palais de la Bahia",
+"page":103,
+"pos":[
+31.6215917,
+-7.9822306
+],
+"q":"v",
+"src":"Wikipedia « Bahia Palace » (centre du palais)"
+},
+{
+"id":"t4-03",
+"t":"t4",
+"n":3,
+"cat":"inc",
+"name":"Synagogue El-Azama",
+"page":103,
+"pos":[
+31.620111,
+-7.982333
+],
+"q":"v",
+"src":"Wikipedia « Slat al-Azama Synagogue »"
+},
+{
+"id":"t4-04",
+"t":"t4",
+"n":4,
+"cat":"inc",
+"name":"Miaara (cimetière juif)",
+"page":103,
+"pos":[
+31.620134,
+-7.979372
+],
+"q":"v",
+"src":"OpenStreetMap, « Cimetière Juif Miaara » (tourism=attraction)"
+},
+{
+"id":"t4-05",
+"t":"t4",
+"n":5,
+"cat":"inc",
+"name":"Mosquée de la Casbah",
+"page":103,
+"pos":[
+31.6178,
+-7.9889
+],
+"q":"i",
+"src":"estimation : contre les tombeaux saadiens, côté nord"
+},
+{
+"id":"t4-06",
+"t":"t4",
+"n":6,
+"cat":"inc",
+"name":"Monde des Arts de la Parure",
+"page":103,
+"pos":[
+31.618669,
+-7.987973
+],
+"q":"v",
+"src":"OpenStreetMap, « Monde des Arts de la Parure (MAP) » (tourism=museum)"
+},
+{
+"id":"t4-07",
+"t":"t4",
+"n":7,
+"cat":"inc",
+"name":"Place des Ferblantiers",
+"page":103,
+"pos":[
+31.61984,
+-7.984769
+],
+"q":"v",
+"src":"OpenStreetMap, « Place des Ferblantiers » (place=square)"
+},
+{
+"id":"t4-08",
+"t":"t4",
+"n":8,
+"cat":"inc",
+"name":"Tombeaux saadiens",
+"page":103,
+"pos":[
+31.6173,
+-7.988702
+],
+"q":"v",
+"src":"Wikipedia « Saadian Tombs »"
+},
+{
+"id":"t4-09",
+"t":"t4",
+"n":9,
+"cat":"act",
+"name":"Café Clock",
+"page":103,
+"pos":[
+31.613028,
+-7.987289
+],
+"q":"v",
+"src":"OpenStreetMap, « Café Clock » (amenity=restaurant)"
+},
+{
+"id":"t4-10",
+"t":"t4",
+"n":10,
+"cat":"act",
+"name":"Hammam Ziani",
+"page":103,
+"pos":[
+31.622102,
+-7.984404
+],
+"q":"v",
+"src":"OpenStreetMap, « Hammam Ziani » (shop=cosmetics)"
+},
+{
+"id":"t4-11",
+"t":"t4",
+"n":11,
+"cat":"act",
+"name":"La Sultana",
+"page":103
+},
+{
+"id":"t4-12",
+"t":"t4",
+"n":12,
+"cat":"act",
+"name":"Les Jardins de la Medina (spa)",
+"page":103,
+"pos":[
+31.61197,
+-7.987269
+],
+"q":"v",
+"src":"OpenStreetMap, « Les Jardins de la Medina Restaurant » (amenity=restaurant)"
+},
+{
+"id":"t4-13",
+"t":"t4",
+"n":13,
+"cat":"act",
+"name":"Marrakech Green Wheels",
+"page":103,
+"pos":[
+31.613337,
+-7.986419
+],
+"q":"v",
+"src":"OpenStreetMap, « Marrakech green wheels » (amenity=bicycle_rental)"
+},
+{
+"id":"t4-14",
+"t":"t4",
+"n":14,
+"cat":"loger",
+"name":"Les Jardins de la Medina",
+"page":103,
+"pos":[
+31.61197,
+-7.987269
+],
+"q":"v",
+"src":"OpenStreetMap, « Les Jardins de la Medina Restaurant » (amenity=restaurant)"
+},
+{
+"id":"t4-15",
+"t":"t4",
+"n":15,
+"cat":"loger",
+"name":"Riad Azoulay",
+"page":103,
+"pos":[
+31.619564,
+-7.983144
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Azoulay » (tourism=guest_house)"
+},
+{
+"id":"t4-16",
+"t":"t4",
+"n":16,
+"cat":"loger",
+"name":"Riad La Badia",
+"page":103
+},
+{
+"id":"t4-17",
+"t":"t4",
+"n":17,
+"cat":"loger",
+"name":"Riad Noos Noos",
+"page":103
+},
+{
+"id":"t4-18",
+"t":"t4",
+"n":18,
+"cat":"loger",
+"name":"Zoraida Riad & Spa",
+"page":103
+},
+{
+"id":"t4-19",
+"t":"t4",
+"n":19,
+"cat":"manger",
+"name":"Beldi Fusion Kitchen",
+"page":103
+},
+{
+"id":"t4-20",
+"t":"t4",
+"n":20,
+"cat":"manger",
+"name":"Chez Kamal & Brahim",
+"page":103
+},
+{
+"id":"t4-21",
+"t":"t4",
+"n":21,
+"cat":"manger",
+"name":"Kasbah Café",
+"page":103,
+"pos":[
+31.617125,
+-7.989508
+],
+"q":"v",
+"src":"OpenStreetMap, « Kasbah Cafe » (amenity=cafe)"
+},
+{
+"id":"t4-22",
+"t":"t4",
+"n":22,
+"cat":"manger",
+"name":"La Table de la Kasbah",
+"page":103,
+"pos":[
+31.617394,
+-7.990067
+],
+"q":"v",
+"src":"OpenStreetMap, « La Table de la Kasbah » (amenity=restaurant)"
+},
+{
+"id":"t4-23",
+"t":"t4",
+"n":23,
+"cat":"manger",
+"name":"La Table de la Sultana",
+"page":103
+},
+{
+"id":"t4-24",
+"t":"t4",
+"n":24,
+"cat":"manger",
+"name":"Mazel Streetfood Coffee",
+"page":103,
+"pos":[
+31.619659,
+-7.985019
+],
+"q":"v",
+"src":"OpenStreetMap, « Mazel Cafe » (amenity=restaurant)"
+},
+{
+"id":"t4-25",
+"t":"t4",
+"n":25,
+"cat":"verre",
+"name":"Kosybar",
+"page":103
+},
+{
+"id":"t5-01",
+"t":"t5",
+"n":1,
+"cat":"inc",
+"name":"Bab Doukkala",
+"page":112,
+"pos":[
+31.633944,
+-7.999
+],
+"q":"v",
+"src":"Wikipedia « Bab Doukkala »"
+},
+{
+"id":"t5-02",
+"t":"t5",
+"n":2,
+"cat":"inc",
+"name":"Fontaine Chrob ou Chouf",
+"page":112,
+"pos":[
+31.6335,
+-7.987694
+],
+"q":"v",
+"src":"Wikipedia « Shrob ou Shouf Fountain »"
+},
+{
+"id":"t5-03",
+"t":"t5",
+"n":3,
+"cat":"inc",
+"name":"Remparts",
+"page":112
+},
+{
+"id":"t5-04",
+"t":"t5",
+"n":4,
+"cat":"inc",
+"name":"Les Terrasses des Arts",
+"page":112
+},
+{
+"id":"t5-05",
+"t":"t5",
+"n":5,
+"cat":"inc",
+"name":"Musée du Parfum",
+"page":112,
+"pos":[
+31.633933,
+-7.988143
+],
+"q":"v",
+"src":"OpenStreetMap, « Musée du Parfum » (tourism=museum)"
+},
+{
+"id":"t5-06",
+"t":"t5",
+"n":6,
+"cat":"act",
+"name":"Dar Anis Yoga Studio",
+"page":112,
+"pos":[
+31.628967,
+-7.99451
+],
+"q":"v",
+"src":"OpenStreetMap, « Dar Anis Yoga Studio » (leisure=sports_centre)"
+},
+{
+"id":"t5-07",
+"t":"t5",
+"n":7,
+"cat":"act",
+"name":"Flow Yoga Studio",
+"page":112
+},
+{
+"id":"t5-08",
+"t":"t5",
+"n":8,
+"cat":"act",
+"name":"Pikala Bikes",
+"page":112,
+"pos":[
+31.633711,
+-7.992135
+],
+"q":"v",
+"src":"OpenStreetMap, « Pikala Bikes » (amenity=bicycle_rental)"
+},
+{
+"id":"t5-09",
+"t":"t5",
+"n":9,
+"cat":"loger",
+"name":"Dar Baraka & Karam",
+"page":112,
+"pos":[
+31.632275,
+-7.99311
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Dar Baraka and Karam » (tourism=guest_house)"
+},
+{
+"id":"t5-10",
+"t":"t5",
+"n":10,
+"cat":"loger",
+"name":"Izza",
+"page":112
+},
+{
+"id":"t5-11",
+"t":"t5",
+"n":11,
+"cat":"loger",
+"name":"Riad Al Massarah",
+"page":112,
+"pos":[
+31.633426,
+-7.996191
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Massarah » (tourism=guest_house)"
+},
+{
+"id":"t5-12",
+"t":"t5",
+"n":12,
+"cat":"loger",
+"name":"Riad BE Marrakech",
+"page":112
+},
+{
+"id":"t5-13",
+"t":"t5",
+"n":13,
+"cat":"loger",
+"name":"Riad Jardin Secret",
+"page":112,
+"pos":[
+31.630898,
+-7.994828
+],
+"q":"v",
+"src":"OpenStreetMap, « Riad Jardin Secret » (tourism=guest_house)"
+},
+{
+"id":"t5-14",
+"t":"t5",
+"n":14,
+"cat":"loger",
+"name":"Riad Tizwa",
+"page":112
+},
+{
+"id":"t5-15",
+"t":"t5",
+"n":15,
+"cat":"loger",
+"name":"The Central House",
+"page":112
+},
+{
+"id":"t5-16",
+"t":"t5",
+"n":16,
+"cat":"manger",
+"name":"Henna Café",
+"page":112,
+"pos":[
+31.631592,
+-7.994254
+],
+"q":"v",
+"src":"OpenStreetMap, « Henna Cafe » (amenity=cafe)"
+},
+{
+"id":"t5-17",
+"t":"t5",
+"n":17,
+"cat":"manger",
+"name":"La Maison Arabe",
+"page":112,
+"pos":[
+31.630574,
+-7.996126
+],
+"q":"v",
+"src":"OpenStreetMap, « La Maison Arabe » (tourism=hotel)"
+},
+{
+"id":"t5-18",
+"t":"t5",
+"n":18,
+"cat":"manger",
+"name":"Les Jardins du Lotus",
+"page":112
+},
+{
+"id":"t5-19",
+"t":"t5",
+"n":19,
+"cat":"manger",
+"name":"Naama",
+"page":112
+},
+{
+"id":"t5-20",
+"t":"t5",
+"n":20,
+"cat":"manger",
+"name":"Pikala Café",
+"page":112,
+"pos":[
+31.631559,
+-7.995
+],
+"q":"v",
+"src":"OpenStreetMap, « Pikala Café » (amenity=cafe)"
+},
+{
+"id":"t5-21",
+"t":"t5",
+"n":21,
+"cat":"manger",
+"name":"Regue Jamaa",
+"page":112,
+"pos":[
+31.631393,
+-7.99632
+],
+"q":"v",
+"src":"OpenStreetMap, « Regue Jamaa » (amenity=cafe)"
+},
+{
+"id":"t5-22",
+"t":"t5",
+"n":22,
+"cat":"manger",
+"name":"Zaman Food",
+"page":112
+},
+{
+"id":"t5-23",
+"t":"t5",
+"n":23,
+"cat":"shop",
+"name":"Akéwa Tribes Gallery",
+"page":112
+},
+{
+"id":"t5-24",
+"t":"t5",
+"n":24,
+"cat":"shop",
+"name":"Al Kawtar",
+"page":112,
+"pos":[
+31.631159,
+-7.989344
+],
+"q":"v",
+"src":"OpenStreetMap, « Al Kawtar » (shop=gift)"
+},
+{
+"id":"t5-25",
+"t":"t5",
+"n":25,
+"cat":"shop",
+"name":"Mustapha Blaoui",
+"page":112,
+"pos":[
+31.631672,
+-7.994347
+],
+"q":"v",
+"src":"OpenStreetMap, « Mustapha Blaoui » (shop=furniture)"
+},
+{
+"id":"t5-26",
+"t":"t5",
+"n":26,
+"cat":"shop",
+"name":"Soufiane Zarib",
+"page":112
+},
+{
+"id":"t5-27",
+"t":"t5",
+"n":27,
+"cat":"shop",
+"name":"V. Barkowski",
+"page":112
+},
+{
+"id":"t6-01",
+"t":"t6",
+"n":1,
+"cat":"inc",
+"name":"Comptoir des Mines",
+"page":121
+},
+{
+"id":"t6-02",
+"t":"t6",
+"n":2,
+"cat":"inc",
+"name":"Jardin Majorelle",
+"page":121,
+"pos":[
+31.64278,
+-8.00306
+],
+"q":"v",
+"src":"Wikipedia « Majorelle Garden »"
+},
+{
+"id":"t6-03",
+"t":"t6",
+"n":3,
+"cat":"inc",
+"name":"Musée Yves Saint-Laurent",
+"page":121,
+"pos":[
+31.642583,
+-8.003244
+],
+"q":"v",
+"src":"OpenStreetMap, « Musée Yves Saint Laurent » (tourism=museum)"
+},
+{
+"id":"t6-04",
+"t":"t6",
+"n":4,
+"cat":"voir",
+"name":"Art Space Aziz Lkhattaf",
+"page":121
+},
+{
+"id":"t6-05",
+"t":"t6",
+"n":5,
+"cat":"voir",
+"name":"Ciné Théâtre Palace",
+"page":121
+},
+{
+"id":"t6-06",
+"t":"t6",
+"n":6,
+"cat":"voir",
+"name":"MACMA",
+"page":121,
+"pos":[
+31.634708,
+-8.014144
+],
+"q":"v",
+"src":"OpenStreetMap, « MACMA - Musée de l'art et la culture de Marrakech » (tourism=museum)"
+},
+{
+"id":"t6-07",
+"t":"t6",
+"n":7,
+"cat":"voir",
+"name":"Matisse Art Gallery",
+"page":121
+},
+{
+"id":"t6-08",
+"t":"t6",
+"n":8,
+"cat":"voir",
+"name":"Galeries du passage Ghandouri",
+"page":121
+},
+{
+"id":"t6-09",
+"t":"t6",
+"n":9,
+"cat":"act",
+"name":"Palmetto Architecture & Coffee",
+"page":121
+},
+{
+"id":"t6-10",
+"t":"t6",
+"n":10,
+"cat":"loger",
+"name":"Moro Boutique Hotel",
+"page":121
+},
+{
+"id":"t6-11",
+"t":"t6",
+"n":11,
+"cat":"manger",
+"name":"+61",
+"page":121,
+"pos":[
+31.635162,
+-8.015502
+],
+"q":"v",
+"src":"OpenStreetMap, « +61 » (amenity=restaurant)"
+},
+{
+"id":"t6-12",
+"t":"t6",
+"n":12,
+"cat":"manger",
+"name":"Amal Center",
+"page":121,
+"pos":[
+31.639072,
+-8.013772
+],
+"q":"v",
+"src":"OpenStreetMap, « Association Amal - Women Training Center and Moroccan Restaurant » (amenity=restaurant)"
+},
+{
+"id":"t6-13",
+"t":"t6",
+"n":13,
+"cat":"manger",
+"name":"Blue Ribbon",
+"page":121
+},
+{
+"id":"t6-14",
+"t":"t6",
+"n":14,
+"cat":"manger",
+"name":"Café 16",
+"page":121,
+"pos":[
+31.632767,
+-8.007503
+],
+"q":"v",
+"src":"OpenStreetMap, « 16 cafe » (amenity=cafe)"
+},
+{
+"id":"t6-15",
+"t":"t6",
+"n":15,
+"cat":"manger",
+"name":"Farmers",
+"page":121
+},
+{
+"id":"t6-16",
+"t":"t6",
+"n":16,
+"cat":"manger",
+"name":"Le Colisée",
+"page":121,
+"pos":[
+31.635786,
+-8.015242
+],
+"q":"v",
+"src":"OpenStreetMap, « Le Colisee » (amenity=cinema)"
+},
+{
+"id":"t6-17",
+"t":"t6",
+"n":17,
+"cat":"manger",
+"name":"Mizaan",
+"page":121
+},
+{
+"id":"t6-18",
+"t":"t6",
+"n":18,
+"cat":"manger",
+"name":"Sahbi Sahbi",
+"page":121
+},
+{
+"id":"t6-19",
+"t":"t6",
+"n":19,
+"cat":"verre",
+"name":"Barometre Marrakech",
+"page":121,
+"pos":[
+31.637083,
+-8.014039
+],
+"q":"v",
+"src":"OpenStreetMap, « Baromètre Marrakech » (amenity=restaurant)"
+},
+{
+"id":"t6-20",
+"t":"t6",
+"n":20,
+"cat":"verre",
+"name":"Café Atlas",
+"page":121,
+"pos":[
+31.635753,
+-8.014521
+],
+"q":"v",
+"src":"OpenStreetMap, « Café Atlas » (amenity=cafe)"
+},
+{
+"id":"t6-21",
+"t":"t6",
+"n":21,
+"cat":"verre",
+"name":"Grand Café de la Poste",
+"page":121,
+"pos":[
+31.63312,
+-8.010006
+],
+"q":"v",
+"src":"OpenStreetMap, « Grand Café de la Poste » (amenity=restaurant)"
+},
+{
+"id":"t6-22",
+"t":"t6",
+"n":22,
+"cat":"verre",
+"name":"Pétanque Social Club",
+"page":121
+},
+{
+"id":"t6-23",
+"t":"t6",
+"n":23,
+"cat":"verre",
+"name":"Thirty5ive",
+"page":121
+},
+{
+"id":"t6-24",
+"t":"t6",
+"n":24,
+"cat":"shop",
+"name":"33 Rue Majorelle",
+"page":121,
+"pos":[
+31.641048,
+-8.001804
+],
+"q":"v",
+"src":"OpenStreetMap, « 33 rue majorelle » (shop=clothes)"
+},
+{
+"id":"t6-25",
+"t":"t6",
+"n":25,
+"cat":"shop",
+"name":"Atelier 44",
+"page":121
+},
+{
+"id":"t6-26",
+"t":"t6",
+"n":26,
+"cat":"shop",
+"name":"Fadila El Gadi",
+"page":121
+},
+{
+"id":"t6-27",
+"t":"t6",
+"n":27,
+"cat":"shop",
+"name":"Galerie des Tanneurs",
+"page":121,
+"pos":[
+31.632711,
+-8.014413
+],
+"q":"v",
+"src":"OpenStreetMap, « Galerie des Tanneurs » (shop=clothes)"
+},
+{
+"id":"t6-28",
+"t":"t6",
+"n":28,
+"cat":"shop",
+"name":"Lalla",
+"page":121
+},
+{
+"id":"t6-29",
+"t":"t6",
+"n":29,
+"cat":"shop",
+"name":"Norya Ayron",
+"page":121
+},
+{
+"id":"t6-30",
+"t":"t6",
+"n":30,
+"cat":"shop",
+"name":"Yahya",
+"page":121
+},
+{
+"id":"t1-x-place",
+"t":"t1",
+"n":null,
+"cat":"extra",
+"name":"Place Jemaa el-Fna",
+"pos":[
+31.62583,
+-7.98944
+],
+"q":"v",
+"src":"Wikipedia « Jemaa el-Fnaa »"
+},
+{
+"id":"t1-x-koutoubia",
+"t":"t1",
+"n":null,
+"cat":"extra",
+"name":"Mosquée de la Koutoubia",
+"pos":[
+31.624124,
+-7.993541
+],
+"q":"v",
+"src":"Wikipedia « Kutubiyya Mosque »"
+},
+{
+"id":"t2-x-mouassine",
+"t":"t2",
+"n":null,
+"cat":"extra",
+"name":"Mosquée et fontaine Mouassine",
+"pos":[
+31.62944,
+-7.98944
+],
+"q":"v",
+"src":"Wikipedia « Mouassine Mosque »"
+},
+{
+"id":"t3-x-debbagh",
+"t":"t3",
+"n":null,
+"cat":"extra",
+"name":"Bab Debbagh et les tanneries",
+"pos":[
+31.634103,
+-7.978592
+],
+"q":"v",
+"src":"OpenStreetMap, « Bab Debbagh » (historic=city_gate)"
+},
+{
+"id":"t4-x-agnaou",
+"t":"t4",
+"n":null,
+"cat":"extra",
+"name":"Bab Agnaou",
+"pos":[
+31.6175,
+-7.9907
+],
+"q":"v",
+"src":"Wikipedia « Bab Agnaou »"
+},
+{
+"id":"t5-x-mosquee",
+"t":"t5",
+"n":null,
+"cat":"extra",
+"name":"Mosquée Bab Doukkala",
+"pos":[
+31.63111,
+-7.99575
+],
+"q":"v",
+"src":"Wikipedia « Bab Doukkala Mosque »"
+},
+{
+"id":"t5-x-belabbes",
+"t":"t5",
+"n":null,
+"cat":"extra",
+"name":"Zaouïa de Sidi Bel Abbès",
+"pos":[
+31.639097,
+-7.990818
+],
+"q":"v",
+"src":"OpenStreetMap, « Zaouia de Sidi Bel Abbès زاوية أبو العباس السبتي » (amenity=place_of_worship)"
+},
+{
+"id":"t6-x-martyrs",
+"t":"t6",
+"n":null,
+"cat":"extra",
+"name":"Église des Saints-Martyrs",
+"pos":[
+31.629652,
+-8.00672
+],
+"q":"v",
+"src":"OpenStreetMap, « Eglise des Saints Martyrs » (amenity=place_of_worship)"
+}
+]
